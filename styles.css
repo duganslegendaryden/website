@@ -1,0 +1,297 @@
+/* =========================================
+   Dugan's Legendary Den — Brand Stylesheet
+   Color Palette:
+     Burnt Umber:  #8B4513
+     Dark Brown:   #3E2723
+     Medium Brown:  #5D4037
+     Cream:        #FFF8F0
+     Gold Accent:  #C9A84C
+   ========================================= */
+
+/* ---- Reset & Base ---- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #3E2723;
+    color: #FFF8F0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* ---- Background texture overlay ---- */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(ellipse at 20% 50%, rgba(139, 69, 19, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 50%, rgba(139, 69, 19, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 0%, rgba(201, 168, 76, 0.05) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ---- Page Wrapper ---- */
+.page-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 600px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+/* ---- Top Accent Bar ---- */
+.top-accent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #8B4513, #C9A84C, #8B4513);
+    z-index: 100;
+}
+
+/* ---- Hero Section ---- */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* ---- Logo ---- */
+.logo-container {
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 1s ease-out;
+}
+
+.logo {
+    width: 280px;
+    max-width: 80vw;
+    height: auto;
+    filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.03);
+}
+
+/* ---- Tagline ---- */
+.tagline {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #C9A84C;
+    margin-bottom: 2rem;
+    animation: fadeIn 1.2s ease-out 0.3s both;
+}
+
+/* ---- Divider ---- */
+.divider {
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #8B4513, transparent);
+    position: relative;
+    margin-bottom: 2.5rem;
+    animation: fadeIn 1.2s ease-out 0.5s both;
+}
+
+.divider-diamond {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    background-color: #C9A84C;
+}
+
+/* ---- Social Buttons ---- */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 320px;
+    animation: fadeInUp 1s ease-out 0.7s both;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.social-btn:hover::before {
+    left: 100%;
+}
+
+.social-icon {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+/* TikTok Button */
+.social-btn.tiktok {
+    background-color: #8B4513;
+    color: #FFF8F0;
+    border: 2px solid #8B4513;
+}
+
+.social-btn.tiktok:hover {
+    background-color: transparent;
+    border-color: #C9A84C;
+    color: #C9A84C;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+}
+
+/* Instagram Button */
+.social-btn.instagram {
+    background-color: transparent;
+    color: #FFF8F0;
+    border: 2px solid #8B4513;
+}
+
+.social-btn.instagram:hover {
+    background-color: #8B4513;
+    border-color: #8B4513;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+}
+
+/* Email Button */
+.social-btn.email {
+    background-color: transparent;
+    color: #C9A84C;
+    border: 2px solid #5D4037;
+}
+
+.social-btn.email:hover {
+    background-color: #5D4037;
+    color: #FFF8F0;
+    border-color: #5D4037;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(93, 64, 55, 0.4);
+}
+
+/* ---- Footer ---- */
+.footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(139, 69, 19, 0.3);
+    text-align: center;
+    animation: fadeIn 1.2s ease-out 1s both;
+}
+
+.footer p {
+    font-size: 0.75rem;
+    color: #8B7355;
+    letter-spacing: 0.05em;
+}
+
+/* ---- Animations ---- */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 480px) {
+    .logo {
+        width: 220px;
+    }
+
+    .tagline {
+        font-size: 0.8rem;
+        letter-spacing: 0.2em;
+    }
+
+    .social-links {
+        max-width: 280px;
+    }
+
+    .social-btn {
+        padding: 0.8rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 340px;
+    }
+
+    .tagline {
+        font-size: 1.1rem;
+    }
+}
