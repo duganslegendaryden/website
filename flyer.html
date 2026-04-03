@@ -7,18 +7,18 @@
     <title>Dugan's Legendary Den — Card Show Flyer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         @page { size: letter portrait; margin: 0; }
 
         body {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Inter', sans-serif;
             width: 8.5in;
             height: 11in;
             margin: 0 auto;
-            background: #FFF8F0;
-            color: #3E2723;
+            background: #111118;
+            color: #FFFFFF;
             overflow: hidden;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
@@ -29,237 +29,254 @@
             height: 100%;
             display: flex;
             flex-direction: column;
+            position: relative;
         }
 
         /* ---- Header ---- */
-        .top-banner {
-            background: linear-gradient(135deg, #3E2723 0%, #5D4037 100%);
-            padding: 0.25in 0.5in;
+        .header {
+            padding: 0.3in 0.45in 0.2in;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
         }
 
-        .banner-left {
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0.45in;
+            right: 0.45in;
+            height: 3px;
+            background: linear-gradient(90deg, #F97316, #EF4444, #F97316);
+            border-radius: 2px;
+        }
+
+        .header-left {
             display: flex;
             align-items: center;
-            gap: 0.25in;
+            gap: 0.2in;
         }
 
-        .banner-logo {
-            width: 1.25in;
+        .header-logo {
+            width: 1.3in;
             height: auto;
-            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+            filter: drop-shadow(0 0 12px rgba(249, 115, 22, 0.3));
         }
 
-        .banner-title {
-            font-family: 'Cinzel', serif;
-            font-size: 26pt;
-            font-weight: 900;
-            color: #C9A84C;
-            line-height: 1.1;
+        .header-text h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 38pt;
+            color: #FFFFFF;
+            line-height: 0.9;
+            letter-spacing: 0.02em;
         }
 
-        .banner-subtitle {
-            font-family: 'Cinzel', serif;
+        .header-text h1 span {
+            color: #F97316;
+        }
+
+        .header-text p {
             font-size: 10pt;
-            letter-spacing: 0.25em;
-            color: #FFF8F0;
-            margin-top: 3px;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.5);
+            margin-top: 2px;
         }
 
-        .banner-qr {
+        .header-qr {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 4px;
+            gap: 5px;
         }
 
-        .banner-qr img {
-            width: 0.85in;
-            height: 0.85in;
-            border: 3px solid #C9A84C;
-            border-radius: 6px;
+        .header-qr img {
+            width: 1.15in;
+            height: 1.15in;
+            border-radius: 10px;
+            border: 3px solid #F97316;
             background: white;
-            padding: 4px;
+            padding: 5px;
         }
 
-        .banner-qr span {
-            font-size: 7pt;
-            color: #C9A84C;
+        .header-qr span {
+            font-size: 7.5pt;
             font-weight: 700;
-            letter-spacing: 0.1em;
+            color: #F97316;
+            letter-spacing: 0.12em;
             text-transform: uppercase;
         }
 
-        .accent-line {
-            height: 5px;
-            background: linear-gradient(90deg, #8B4513, #C9A84C, #8B4513);
-        }
-
         /* ---- Main ---- */
-        .main-content {
+        .main {
             flex: 1;
-            padding: 0.2in 0.5in 0.15in;
+            padding: 0.2in 0.45in 0.12in;
             display: flex;
             flex-direction: column;
-            gap: 0.15in;
+            gap: 0.16in;
         }
 
         /* ---- Hero ---- */
-        .hero-section {
-            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
-            border-radius: 12px;
-            padding: 0.18in 0.35in;
+        .hero {
+            background: linear-gradient(135deg, #F97316 0%, #EA580C 50%, #DC2626 100%);
+            border-radius: 14px;
+            padding: 0.2in 0.4in;
             text-align: center;
             position: relative;
-            border: 2px solid #C9A84C;
         }
 
         .hero-badge {
             position: absolute;
-            top: -11px;
+            top: -10px;
             left: 50%;
             transform: translateX(-50%);
-            background: #C9A84C;
-            color: #3E2723;
-            font-family: 'Cinzel', serif;
+            background: #FFFFFF;
+            color: #EA580C;
+            font-family: 'Inter', sans-serif;
             font-size: 7.5pt;
-            font-weight: 700;
-            letter-spacing: 0.2em;
+            font-weight: 900;
+            letter-spacing: 0.15em;
             text-transform: uppercase;
-            padding: 3px 18px;
+            padding: 3px 16px;
             border-radius: 20px;
             white-space: nowrap;
         }
 
-        .hero-heading {
-            font-family: 'Cinzel', serif;
-            font-size: 19pt;
-            font-weight: 700;
-            color: #FFF8F0;
+        .hero h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 24pt;
+            color: #FFFFFF;
+            letter-spacing: 0.04em;
             margin-bottom: 4px;
         }
 
         .hero-rates {
             display: flex;
             justify-content: center;
-            gap: 0.8in;
+            gap: 1in;
             margin-bottom: 4px;
         }
 
         .rate-item { display: flex; flex-direction: column; align-items: center; }
-        .rate-percent { font-size: 32pt; font-weight: 900; color: #C9A84C; line-height: 1; }
-        .rate-label { font-size: 10pt; font-weight: 700; color: #FFF8F0; text-transform: uppercase; letter-spacing: 0.15em; }
-        .hero-disclaimer { font-size: 7pt; color: rgba(255,248,240,0.7); font-style: italic; }
 
-        /* ---- Section Headers ---- */
-        .section-header {
-            font-family: 'Cinzel', serif;
-            font-size: 13pt;
+        .rate-percent {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 44pt;
+            color: #FFFFFF;
+            line-height: 1;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .rate-label {
+            font-size: 10pt;
             font-weight: 700;
-            color: #8B4513;
+            color: rgba(255,255,255,0.85);
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+        }
+
+        .hero-note {
+            font-size: 7pt;
+            color: rgba(255,255,255,0.6);
+            font-style: italic;
+        }
+
+        /* ---- Section Label ---- */
+        .section-label {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 16pt;
+            color: #F97316;
+            letter-spacing: 0.08em;
+            text-align: center;
+            margin-bottom: 0.04in;
+        }
+
+        /* ---- Payment ---- */
+        .pay-preferred {
             text-align: center;
             margin-bottom: 0.06in;
         }
 
-        .section-header::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 2px;
-            background: #C9A84C;
-            margin: 4px auto 0;
-        }
-
-        /* ---- Payment ---- */
-        .preferred-row {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-            margin-bottom: 0.06in;
-        }
-
-        .preferred-badge {
-            background: #FFF8F0;
-            border: 1.5px solid #C9A84C;
-            color: #8B4513;
-            font-family: 'Cinzel', serif;
-            font-size: 7pt;
+        .pay-preferred span {
+            display: inline-block;
+            background: rgba(249, 115, 22, 0.12);
+            border: 1.5px solid rgba(249, 115, 22, 0.4);
+            color: #F97316;
+            font-size: 7.5pt;
             font-weight: 700;
             letter-spacing: 0.12em;
             text-transform: uppercase;
-            padding: 2px 12px;
+            padding: 3px 14px;
             border-radius: 20px;
         }
 
         .payment-cards {
             display: flex;
             justify-content: center;
-            gap: 0.3in;
+            gap: 0.25in;
         }
 
-        .payment-card {
+        .pay-card {
             flex: 1;
             max-width: 2.2in;
-            background: #FFFFFF;
-            border-radius: 10px;
-            padding: 10px 12px 8px;
+            background: #1C1C26;
+            border-radius: 12px;
+            padding: 12px 10px 10px;
             text-align: center;
-            border: 2px solid #E8DDD0;
+            border: 1.5px solid #2A2A38;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(62, 39, 35, 0.08);
         }
 
-        .payment-card::before {
+        .pay-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
-            height: 4px;
+            height: 3px;
         }
 
-        .payment-card.venmo::before { background: #3D95CE; }
-        .payment-card.cashapp::before { background: #00D632; }
-        .payment-card.zelle::before { background: #6D1ED4; }
+        .pay-card.venmo::before { background: #3D95CE; }
+        .pay-card.cashapp::before { background: #00D632; }
+        .pay-card.zelle::before { background: #6D1ED4; }
 
-        .payment-card img {
+        .pay-card img {
             width: 1.5in;
             height: 1.5in;
-            border-radius: 6px;
-            margin-bottom: 4px;
+            border-radius: 8px;
+            margin-bottom: 5px;
         }
 
-        .payment-label {
+        .pay-card .pay-name {
             font-size: 11pt;
             font-weight: 900;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.06em;
         }
 
-        .payment-label.venmo-c { color: #3D95CE; }
-        .payment-label.cashapp-c { color: #00A632; }
-        .payment-label.zelle-c { color: #6D1ED4; }
+        .pay-name.v-c { color: #3D95CE; }
+        .pay-name.ca-c { color: #00D632; }
+        .pay-name.z-c { color: #A78BFA; }
 
-        .payment-tag {
+        .pay-card .pay-tag {
             font-size: 8pt;
-            color: #8B7355;
+            color: rgba(255,255,255,0.4);
             margin-top: 1px;
         }
 
-        .payment-extras {
+        .pay-extras {
             display: flex;
             justify-content: center;
-            gap: 0.35in;
+            gap: 0.4in;
             align-items: center;
-            margin-top: 0.06in;
+            margin-top: 0.07in;
         }
 
         .cash-note {
             font-size: 9.5pt;
             font-weight: 700;
-            color: #8B4513;
+            color: #FFFFFF;
             display: flex;
             align-items: center;
             gap: 5px;
@@ -269,12 +286,12 @@
 
         .fee-note {
             font-size: 8.5pt;
-            color: #8B7355;
-            border-left: 2px solid #E8DDD0;
+            color: rgba(255,255,255,0.4);
+            border-left: 2px solid #2A2A38;
             padding-left: 0.15in;
         }
 
-        .fee-note strong { color: #5D4037; }
+        .fee-note strong { color: rgba(255,255,255,0.7); }
 
         /* ---- Connect ---- */
         .connect-row {
@@ -283,48 +300,47 @@
             align-items: stretch;
         }
 
-        .social-cards {
+        .social-list {
             display: flex;
             flex-direction: column;
             gap: 7px;
             flex: 1;
         }
 
-        .social-card {
+        .soc-card {
             display: flex;
             align-items: center;
             gap: 10px;
-            padding: 7px 14px;
-            background: #FFFFFF;
-            border-radius: 8px;
-            border: 2px solid #E8DDD0;
+            padding: 8px 14px;
+            background: #1C1C26;
+            border-radius: 10px;
+            border: 1.5px solid #2A2A38;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 1px 4px rgba(62, 39, 35, 0.06);
         }
 
-        .social-card::before {
+        .soc-card::before {
             content: '';
             position: absolute;
             left: 0; top: 0; bottom: 0;
             width: 4px;
         }
 
-        .social-card.ig::before { background: linear-gradient(180deg, #F58529, #DD2A7B, #8134AF); }
-        .social-card.tt::before { background: #000000; }
-        .social-card.em::before { background: #8B4513; }
+        .soc-card.ig::before { background: linear-gradient(180deg, #F58529, #DD2A7B, #8134AF); }
+        .soc-card.tt::before { background: #FFFFFF; }
+        .soc-card.em::before { background: #F97316; }
 
-        .social-card svg { width: 22px; height: 22px; flex-shrink: 0; }
+        .soc-card svg { width: 22px; height: 22px; flex-shrink: 0; }
 
-        .s-info { display: flex; flex-direction: column; }
-        .s-platform { font-size: 7pt; font-weight: 700; color: #8B7355; text-transform: uppercase; letter-spacing: 0.1em; }
-        .s-handle { font-size: 10pt; font-weight: 600; color: #3E2723; }
+        .soc-info { display: flex; flex-direction: column; }
+        .soc-plat { font-size: 7pt; font-weight: 700; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.1em; }
+        .soc-handle { font-size: 10pt; font-weight: 600; color: #FFFFFF; }
 
         /* ---- CTA ---- */
-        .cta-box {
-            background: linear-gradient(135deg, #C9A84C 0%, #D4AF61 100%);
-            border-radius: 10px;
-            padding: 12px 20px;
+        .cta {
+            background: linear-gradient(135deg, #F97316 0%, #EF4444 100%);
+            border-radius: 12px;
+            padding: 14px 20px;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -333,55 +349,54 @@
         }
 
         .cta-text {
-            font-family: 'Cinzel', serif;
-            font-size: 15pt;
-            font-weight: 700;
-            color: #3E2723;
-            line-height: 1.2;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 18pt;
+            color: #FFFFFF;
+            line-height: 1.15;
+            letter-spacing: 0.04em;
         }
 
-        .cta-subtext {
+        .cta-sub {
             font-size: 8.5pt;
-            color: #5D4037;
-            margin-top: 2px;
+            color: rgba(255,255,255,0.8);
+            margin-top: 3px;
         }
 
         /* ---- Footer ---- */
-        .bottom-banner {
-            background: #3E2723;
-            padding: 6px 0.5in;
+        .footer {
+            padding: 6px 0.45in;
             text-align: center;
+            border-top: 1px solid #2A2A38;
         }
 
-        .bottom-banner p { font-size: 7pt; color: #8B7355; letter-spacing: 0.05em; }
+        .footer p { font-size: 7pt; color: rgba(255,255,255,0.25); letter-spacing: 0.05em; }
 
-        @media screen { body { margin: 0.5in auto; box-shadow: 0 4px 30px rgba(0,0,0,0.2); border-radius: 4px; } }
+        @media screen { body { margin: 0.5in auto; box-shadow: 0 8px 40px rgba(0,0,0,0.5); border-radius: 4px; } }
         @media print { body { margin: 0; box-shadow: none; } }
     </style>
 </head>
 <body>
     <div class="flyer">
         <!-- Header -->
-        <header class="top-banner">
-            <div class="banner-left">
-                <img src="logo.png" alt="Dugan's Legendary Den Logo" class="banner-logo">
-                <div>
-                    <h1 class="banner-title">Dugan's<br>Legendary Den</h1>
-                    <p class="banner-subtitle">Card Shop</p>
+        <header class="header">
+            <div class="header-left">
+                <img src="logo.png" alt="Dugan's Legendary Den Logo" class="header-logo">
+                <div class="header-text">
+                    <h1>Dugan's<br><span>Legendary</span> Den</h1>
+                    <p>Card Shop</p>
                 </div>
             </div>
-            <div class="banner-qr">
+            <div class="header-qr">
                 <img src="website_QRcode.png" alt="QR Code to Website">
                 <span>Visit Our Website</span>
             </div>
         </header>
-        <div class="accent-line"></div>
 
-        <div class="main-content">
-            <!-- Buy/Trade Hero -->
-            <section class="hero-section">
+        <div class="main">
+            <!-- Buy/Trade -->
+            <section class="hero">
                 <div class="hero-badge">We Want Your Cards!</div>
-                <h2 class="hero-heading">Will Buy or Trade Your Cards</h2>
+                <h2>Will Buy or Trade Your Cards</h2>
                 <div class="hero-rates">
                     <div class="rate-item">
                         <span class="rate-percent">70%</span>
@@ -392,34 +407,34 @@
                         <span class="rate-label">Trading</span>
                     </div>
                 </div>
-                <p class="hero-disclaimer">*Final rates are at owner's sole discretion.</p>
+                <p class="hero-note">*Final rates are at owner's sole discretion.</p>
             </section>
 
             <!-- Payment -->
             <section>
-                <h3 class="section-header">Payment Options</h3>
-                <div class="preferred-row">
-                    <span class="preferred-badge">&#9733; Preferred &mdash; No Fees</span>
+                <div class="section-label">Payment Options</div>
+                <div class="pay-preferred">
+                    <span>&#9733; Preferred &mdash; No Fees</span>
                 </div>
                 <div class="payment-cards">
-                    <div class="payment-card venmo">
+                    <div class="pay-card venmo">
                         <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://venmo.com/code?user_id=1840252993929216265%26created=1775189872&bgcolor=FFFFFF&color=3D95CE" alt="Venmo QR">
-                        <div class="payment-label venmo-c">Venmo</div>
+                        <div class="pay-name v-c">Venmo</div>
                     </div>
-                    <div class="payment-card cashapp">
+                    <div class="pay-card cashapp">
                         <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://cash.app/$DuganD22&bgcolor=FFFFFF&color=00A632" alt="Cash App QR">
-                        <div class="payment-label cashapp-c">Cash App</div>
-                        <div class="payment-tag">$DuganD22</div>
+                        <div class="pay-name ca-c">Cash App</div>
+                        <div class="pay-tag">$DuganD22</div>
                     </div>
-                    <div class="payment-card zelle">
+                    <div class="pay-card zelle">
                         <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=dugansden&bgcolor=FFFFFF&color=6D1ED4" alt="Zelle QR">
-                        <div class="payment-label zelle-c">Zelle</div>
-                        <div class="payment-tag">Tag: dugansden</div>
+                        <div class="pay-name z-c">Zelle</div>
+                        <div class="pay-tag">Tag: dugansden</div>
                     </div>
                 </div>
-                <div class="payment-extras">
+                <div class="pay-extras">
                     <div class="cash-note">
-                        <svg viewBox="0 0 24 24" fill="#8B4513"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.94s4.18 1.36 4.18 3.85c0 1.89-1.44 2.98-3.12 3.19z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#F97316"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.94s4.18 1.36 4.18 3.85c0 1.89-1.44 2.98-3.12 3.19z"/></svg>
                         Cash always welcome!
                     </div>
                     <div class="fee-note">
@@ -431,38 +446,38 @@
 
             <!-- Connect + CTA -->
             <section class="connect-row">
-                <div class="social-cards">
-                    <h3 class="section-header" style="text-align:left;">Connect With Us</h3>
-                    <div class="social-card ig">
+                <div class="social-list">
+                    <div class="section-label" style="text-align:left;">Connect With Us</div>
+                    <div class="soc-card ig">
                         <svg viewBox="0 0 24 24" fill="#DD2A7B"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        <div class="s-info">
-                            <span class="s-platform">Instagram</span>
-                            <span class="s-handle">@duganslegendaryden</span>
+                        <div class="soc-info">
+                            <span class="soc-plat">Instagram</span>
+                            <span class="soc-handle">@duganslegendaryden</span>
                         </div>
                     </div>
-                    <div class="social-card tt">
-                        <svg viewBox="0 0 24 24" fill="#000000"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/></svg>
-                        <div class="s-info">
-                            <span class="s-platform">TikTok</span>
-                            <span class="s-handle">@duganslegendaryden</span>
+                    <div class="soc-card tt">
+                        <svg viewBox="0 0 24 24" fill="#FFFFFF"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/></svg>
+                        <div class="soc-info">
+                            <span class="soc-plat">TikTok</span>
+                            <span class="soc-handle">@duganslegendaryden</span>
                         </div>
                     </div>
-                    <div class="social-card em">
-                        <svg viewBox="0 0 24 24" fill="#8B4513"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                        <div class="s-info">
-                            <span class="s-platform">Email</span>
-                            <span class="s-handle">duganslegendaryden@gmail.com</span>
+                    <div class="soc-card em">
+                        <svg viewBox="0 0 24 24" fill="#F97316"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <div class="soc-info">
+                            <span class="soc-plat">Email</span>
+                            <span class="soc-handle">duganslegendaryden@gmail.com</span>
                         </div>
                     </div>
                 </div>
-                <div class="cta-box">
+                <div class="cta">
                     <p class="cta-text">Show Us What<br>You've Got!</p>
-                    <p class="cta-subtext">We'd love to see your collection.</p>
+                    <p class="cta-sub">We'd love to see your collection.</p>
                 </div>
             </section>
         </div>
 
-        <footer class="bottom-banner">
+        <footer class="footer">
             <p>&copy; 2026 Dugan's Legendary Den LLC. All rights reserved.</p>
         </footer>
     </div>
