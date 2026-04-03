@@ -276,8 +276,8 @@ body::before {
 
 /* Zelle Button */
 .social-btn.zelle {
-    background-color: transparent;
-    color: #6D1ED4;
+    background-color: #6D1ED4;
+    color: #FFF8F0;
     border: 2px solid #6D1ED4;
     cursor: default;
 }
