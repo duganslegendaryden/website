@@ -17,8 +17,8 @@
             width: 8.5in;
             height: 11in;
             margin: 0 auto;
-            background: #111118;
-            color: #FFFFFF;
+            background: #FFFFFF;
+            color: #1A1A2E;
             overflow: hidden;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
@@ -39,17 +39,17 @@
             align-items: center;
             justify-content: space-between;
             position: relative;
+            background: #1A1A2E;
         }
 
         .header::after {
             content: '';
             position: absolute;
             bottom: 0;
-            left: 0.45in;
-            right: 0.45in;
-            height: 3px;
+            left: 0;
+            right: 0;
+            height: 4px;
             background: linear-gradient(90deg, #F97316, #EF4444, #F97316);
-            border-radius: 2px;
         }
 
         .header-left {
@@ -61,7 +61,7 @@
         .header-logo {
             width: 1.3in;
             height: auto;
-            filter: drop-shadow(0 0 12px rgba(249, 115, 22, 0.3));
+            filter: drop-shadow(0 0 10px rgba(249, 115, 22, 0.3));
         }
 
         .header-text h1 {
@@ -187,7 +187,7 @@
         .section-label {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 16pt;
-            color: #F97316;
+            color: #1A1A2E;
             letter-spacing: 0.08em;
             text-align: center;
             margin-bottom: 0.04in;
@@ -201,9 +201,9 @@
 
         .pay-preferred span {
             display: inline-block;
-            background: rgba(249, 115, 22, 0.12);
-            border: 1.5px solid rgba(249, 115, 22, 0.4);
-            color: #F97316;
+            background: rgba(249, 115, 22, 0.08);
+            border: 1.5px solid rgba(249, 115, 22, 0.35);
+            color: #EA580C;
             font-size: 7.5pt;
             font-weight: 700;
             letter-spacing: 0.12em;
@@ -221,11 +221,11 @@
         .pay-card {
             flex: 1;
             max-width: 2.2in;
-            background: #1C1C26;
+            background: #F8F8FA;
             border-radius: 12px;
             padding: 12px 10px 10px;
             text-align: center;
-            border: 1.5px solid #2A2A38;
+            border: 1.5px solid #E5E5EA;
             position: relative;
             overflow: hidden;
         }
@@ -261,7 +261,7 @@
 
         .pay-card .pay-tag {
             font-size: 8pt;
-            color: rgba(255,255,255,0.4);
+            color: #888;
             margin-top: 1px;
         }
 
@@ -276,7 +276,7 @@
         .cash-note {
             font-size: 9.5pt;
             font-weight: 700;
-            color: #FFFFFF;
+            color: #1A1A2E;
             display: flex;
             align-items: center;
             gap: 5px;
@@ -286,12 +286,12 @@
 
         .fee-note {
             font-size: 8.5pt;
-            color: rgba(255,255,255,0.4);
-            border-left: 2px solid #2A2A38;
+            color: #888;
+            border-left: 2px solid #E5E5EA;
             padding-left: 0.15in;
         }
 
-        .fee-note strong { color: rgba(255,255,255,0.7); }
+        .fee-note strong { color: #555; }
 
         /* ---- Connect ---- */
         .connect-row {
@@ -312,9 +312,9 @@
             align-items: center;
             gap: 10px;
             padding: 8px 14px;
-            background: #1C1C26;
+            background: #F8F8FA;
             border-radius: 10px;
-            border: 1.5px solid #2A2A38;
+            border: 1.5px solid #E5E5EA;
             position: relative;
             overflow: hidden;
         }
@@ -327,14 +327,14 @@
         }
 
         .soc-card.ig::before { background: linear-gradient(180deg, #F58529, #DD2A7B, #8134AF); }
-        .soc-card.tt::before { background: #FFFFFF; }
+        .soc-card.tt::before { background: #1A1A2E; }
         .soc-card.em::before { background: #F97316; }
 
         .soc-card svg { width: 22px; height: 22px; flex-shrink: 0; }
 
         .soc-info { display: flex; flex-direction: column; }
-        .soc-plat { font-size: 7pt; font-weight: 700; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.1em; }
-        .soc-handle { font-size: 10pt; font-weight: 600; color: #FFFFFF; }
+        .soc-plat { font-size: 7pt; font-weight: 700; color: #999; text-transform: uppercase; letter-spacing: 0.1em; }
+        .soc-handle { font-size: 10pt; font-weight: 600; color: #1A1A2E; }
 
         /* ---- CTA ---- */
         .cta {
@@ -366,12 +366,12 @@
         .footer {
             padding: 6px 0.45in;
             text-align: center;
-            border-top: 1px solid #2A2A38;
+            border-top: 1px solid #E5E5EA;
         }
 
-        .footer p { font-size: 7pt; color: rgba(255,255,255,0.25); letter-spacing: 0.05em; }
+        .footer p { font-size: 7pt; color: #BBB; letter-spacing: 0.05em; }
 
-        @media screen { body { margin: 0.5in auto; box-shadow: 0 8px 40px rgba(0,0,0,0.5); border-radius: 4px; } }
+        @media screen { body { margin: 0.5in auto; box-shadow: 0 4px 24px rgba(0,0,0,0.12); border-radius: 4px; } }
         @media print { body { margin: 0; box-shadow: none; } }
     </style>
 </head>
@@ -456,7 +456,7 @@
                         </div>
                     </div>
                     <div class="soc-card tt">
-                        <svg viewBox="0 0 24 24" fill="#FFFFFF"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#1A1A2E"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/></svg>
                         <div class="soc-info">
                             <span class="soc-plat">TikTok</span>
                             <span class="soc-handle">@duganslegendaryden</span>
