@@ -9,17 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
-        /* ---- Print-Optimized Reset ---- */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: letter portrait;
-            margin: 0;
-        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: letter portrait; margin: 0; }
 
         body {
             font-family: 'Lato', sans-serif;
@@ -38,52 +29,43 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            position: relative;
         }
 
-        /* ---- Top Banner ---- */
+        /* ---- Header ---- */
         .top-banner {
             background: linear-gradient(135deg, #3E2723 0%, #5D4037 100%);
-            padding: 0.35in 0.5in 0.3in;
+            padding: 0.25in 0.5in;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 0.4in;
         }
 
         .banner-left {
             display: flex;
             align-items: center;
-            gap: 0.3in;
+            gap: 0.25in;
         }
 
         .banner-logo {
-            width: 1.4in;
+            width: 1.25in;
             height: auto;
             filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
         }
 
-        .banner-text {
-            display: flex;
-            flex-direction: column;
-        }
-
         .banner-title {
             font-family: 'Cinzel', serif;
-            font-size: 28pt;
+            font-size: 26pt;
             font-weight: 900;
             color: #C9A84C;
             line-height: 1.1;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         .banner-subtitle {
             font-family: 'Cinzel', serif;
-            font-size: 11pt;
-            font-weight: 400;
+            font-size: 10pt;
             letter-spacing: 0.25em;
             color: #FFF8F0;
-            margin-top: 4px;
+            margin-top: 3px;
         }
 
         .banner-qr {
@@ -91,46 +73,44 @@
             flex-direction: column;
             align-items: center;
             gap: 4px;
-            flex-shrink: 0;
         }
 
         .banner-qr img {
-            width: 0.95in;
-            height: 0.95in;
+            width: 0.85in;
+            height: 0.85in;
             border: 3px solid #C9A84C;
             border-radius: 6px;
             background: white;
-            padding: 3px;
+            padding: 4px;
         }
 
         .banner-qr span {
-            font-size: 7.5pt;
+            font-size: 7pt;
             color: #C9A84C;
             font-weight: 700;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
         }
 
-        /* ---- Accent Line ---- */
         .accent-line {
             height: 5px;
             background: linear-gradient(90deg, #8B4513, #C9A84C, #8B4513);
         }
 
-        /* ---- Main Content ---- */
+        /* ---- Main ---- */
         .main-content {
             flex: 1;
-            padding: 0.3in 0.5in 0.2in;
+            padding: 0.2in 0.5in 0.15in;
             display: flex;
             flex-direction: column;
-            gap: 0.2in;
+            gap: 0.15in;
         }
 
-        /* ---- Hero Section: Buy/Trade ---- */
+        /* ---- Hero ---- */
         .hero-section {
             background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
             border-radius: 12px;
-            padding: 0.25in 0.35in;
+            padding: 0.18in 0.35in;
             text-align: center;
             position: relative;
             border: 2px solid #C9A84C;
@@ -138,74 +118,40 @@
 
         .hero-badge {
             position: absolute;
-            top: -12px;
+            top: -11px;
             left: 50%;
             transform: translateX(-50%);
             background: #C9A84C;
             color: #3E2723;
             font-family: 'Cinzel', serif;
-            font-size: 8pt;
+            font-size: 7.5pt;
             font-weight: 700;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            padding: 3px 20px;
+            padding: 3px 18px;
             border-radius: 20px;
+            white-space: nowrap;
         }
 
         .hero-heading {
             font-family: 'Cinzel', serif;
-            font-size: 22pt;
+            font-size: 19pt;
             font-weight: 700;
             color: #FFF8F0;
-            margin-bottom: 6px;
+            margin-bottom: 4px;
         }
 
         .hero-rates {
             display: flex;
             justify-content: center;
-            gap: 0.6in;
-            margin-bottom: 6px;
+            gap: 0.8in;
+            margin-bottom: 4px;
         }
 
-        .rate-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .rate-percent {
-            font-size: 36pt;
-            font-weight: 900;
-            color: #C9A84C;
-            line-height: 1;
-        }
-
-        .rate-label {
-            font-size: 11pt;
-            font-weight: 700;
-            color: #FFF8F0;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-        }
-
-        .hero-disclaimer {
-            font-size: 7pt;
-            color: rgba(255, 248, 240, 0.7);
-            font-style: italic;
-        }
-
-        /* ---- Two Column Layout ---- */
-        .two-columns {
-            display: flex;
-            gap: 0.35in;
-            flex: 1;
-        }
-
-        .col-left, .col-right {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
+        .rate-item { display: flex; flex-direction: column; align-items: center; }
+        .rate-percent { font-size: 32pt; font-weight: 900; color: #C9A84C; line-height: 1; }
+        .rate-label { font-size: 10pt; font-weight: 700; color: #FFF8F0; text-transform: uppercase; letter-spacing: 0.15em; }
+        .hero-disclaimer { font-size: 7pt; color: rgba(255,248,240,0.7); font-style: italic; }
 
         /* ---- Section Headers ---- */
         .section-header {
@@ -213,254 +159,226 @@
             font-size: 13pt;
             font-weight: 700;
             color: #8B4513;
-            border-bottom: 2px solid #C9A84C;
-            padding-bottom: 4px;
-            margin-bottom: 10px;
+            text-align: center;
+            margin-bottom: 0.06in;
         }
 
-        /* ---- Payment Grid ---- */
-        .payment-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            flex: 1;
+        .section-header::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: #C9A84C;
+            margin: 4px auto 0;
         }
 
-        .payment-row-preferred {
-            background: #3E2723;
-            border-radius: 10px;
-            padding: 12px 14px;
+        /* ---- Payment ---- */
+        .preferred-row {
             display: flex;
             align-items: center;
-            justify-content: space-around;
-            gap: 10px;
+            justify-content: center;
+            gap: 4px;
+            margin-bottom: 0.06in;
         }
 
-        .preferred-label {
-            writing-mode: vertical-rl;
-            text-orientation: mixed;
-            transform: rotate(180deg);
+        .preferred-badge {
+            background: #FFF8F0;
+            border: 1.5px solid #C9A84C;
+            color: #8B4513;
             font-family: 'Cinzel', serif;
-            font-size: 7.5pt;
+            font-size: 7pt;
             font-weight: 700;
-            color: #C9A84C;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.12em;
             text-transform: uppercase;
+            padding: 2px 12px;
+            border-radius: 20px;
         }
 
-        .payment-item {
+        .payment-cards {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 3px;
+            justify-content: center;
+            gap: 0.3in;
         }
 
-        .payment-item img {
-            width: 0.85in;
-            height: 0.85in;
-            border-radius: 6px;
-            background: white;
-            padding: 3px;
-        }
-
-        .payment-name {
-            font-size: 8pt;
-            font-weight: 700;
-            color: #FFF8F0;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-
-        .payment-name.venmo-color { color: #3D95CE; }
-        .payment-name.cashapp-color { color: #00D632; }
-        .payment-name.zelle-color { color: #6D1ED4; }
-
-        .payment-cash {
-            font-size: 8pt;
-            font-weight: 700;
-            color: #C9A84C;
-            text-align: center;
-            margin-top: 2px;
-        }
-
-        .payment-row-fee {
-            background: rgba(62, 39, 35, 0.08);
-            border: 2px dashed #8B4513;
+        .payment-card {
+            flex: 1;
+            max-width: 2.2in;
+            background: #FFFFFF;
             border-radius: 10px;
-            padding: 10px 14px;
+            padding: 10px 12px 8px;
             text-align: center;
+            border: 2px solid #E8DDD0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(62, 39, 35, 0.08);
         }
 
-        .fee-heading {
-            font-size: 9pt;
-            font-weight: 700;
-            color: #8B4513;
-            margin-bottom: 3px;
+        .payment-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
         }
 
-        .fee-methods {
-            font-size: 9pt;
-            color: #5D4037;
+        .payment-card.venmo::before { background: #3D95CE; }
+        .payment-card.cashapp::before { background: #00D632; }
+        .payment-card.zelle::before { background: #6D1ED4; }
+
+        .payment-card img {
+            width: 1.5in;
+            height: 1.5in;
+            border-radius: 6px;
+            margin-bottom: 4px;
         }
 
-        .fee-amount {
+        .payment-label {
+            font-size: 11pt;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .payment-label.venmo-c { color: #3D95CE; }
+        .payment-label.cashapp-c { color: #00A632; }
+        .payment-label.zelle-c { color: #6D1ED4; }
+
+        .payment-tag {
             font-size: 8pt;
-            font-weight: 700;
-            color: #8B4513;
+            color: #8B7355;
+            margin-top: 1px;
         }
 
-        /* ---- Social / Connect Section ---- */
-        .connect-section {
+        .payment-extras {
+            display: flex;
+            justify-content: center;
+            gap: 0.35in;
+            align-items: center;
+            margin-top: 0.06in;
+        }
+
+        .cash-note {
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: #8B4513;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .cash-note svg { width: 16px; height: 16px; }
+
+        .fee-note {
+            font-size: 8.5pt;
+            color: #8B7355;
+            border-left: 2px solid #E8DDD0;
+            padding-left: 0.15in;
+        }
+
+        .fee-note strong { color: #5D4037; }
+
+        /* ---- Connect ---- */
+        .connect-row {
+            display: flex;
+            gap: 0.2in;
+            align-items: stretch;
+        }
+
+        .social-cards {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 7px;
             flex: 1;
         }
 
-        .social-item {
+        .social-card {
             display: flex;
             align-items: center;
             gap: 10px;
-            padding: 8px 12px;
-            background: #3E2723;
+            padding: 7px 14px;
+            background: #FFFFFF;
             border-radius: 8px;
+            border: 2px solid #E8DDD0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 1px 4px rgba(62, 39, 35, 0.06);
         }
 
-        .social-icon-wrap {
-            width: 28px;
-            height: 28px;
-            flex-shrink: 0;
+        .social-card::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            width: 4px;
         }
 
-        .social-icon-wrap svg {
-            width: 100%;
-            height: 100%;
-        }
+        .social-card.ig::before { background: linear-gradient(180deg, #F58529, #DD2A7B, #8134AF); }
+        .social-card.tt::before { background: #000000; }
+        .social-card.em::before { background: #8B4513; }
 
-        .social-info {
-            display: flex;
-            flex-direction: column;
-        }
+        .social-card svg { width: 22px; height: 22px; flex-shrink: 0; }
 
-        .social-platform {
-            font-size: 8pt;
-            font-weight: 700;
-            color: #C9A84C;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
+        .s-info { display: flex; flex-direction: column; }
+        .s-platform { font-size: 7pt; font-weight: 700; color: #8B7355; text-transform: uppercase; letter-spacing: 0.1em; }
+        .s-handle { font-size: 10pt; font-weight: 600; color: #3E2723; }
 
-        .social-handle {
-            font-size: 10pt;
-            font-weight: 400;
-            color: #FFF8F0;
-        }
-
-        .email-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 8px 12px;
-            background: rgba(139, 69, 19, 0.1);
-            border-radius: 8px;
-            border: 1px solid #8B4513;
-        }
-
-        .email-info {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .email-label {
-            font-size: 8pt;
-            font-weight: 700;
-            color: #8B4513;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-
-        .email-address {
-            font-size: 9pt;
-            font-weight: 400;
-            color: #3E2723;
-        }
-
-        /* ---- CTA Banner ---- */
-        .cta-section {
+        /* ---- CTA ---- */
+        .cta-box {
             background: linear-gradient(135deg, #C9A84C 0%, #D4AF61 100%);
             border-radius: 10px;
             padding: 12px 20px;
             text-align: center;
-            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 2.4in;
         }
 
         .cta-text {
             font-family: 'Cinzel', serif;
-            font-size: 16pt;
+            font-size: 15pt;
             font-weight: 700;
             color: #3E2723;
+            line-height: 1.2;
         }
 
         .cta-subtext {
-            font-size: 9pt;
+            font-size: 8.5pt;
             color: #5D4037;
             margin-top: 2px;
         }
 
-        /* ---- Bottom Banner ---- */
+        /* ---- Footer ---- */
         .bottom-banner {
             background: #3E2723;
-            padding: 8px 0.5in;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 6px 0.5in;
+            text-align: center;
         }
 
-        .bottom-banner p {
-            font-size: 7.5pt;
-            color: #8B7355;
-            letter-spacing: 0.05em;
-        }
+        .bottom-banner p { font-size: 7pt; color: #8B7355; letter-spacing: 0.05em; }
 
-        /* ---- Screen Preview Styles ---- */
-        @media screen {
-            body {
-                margin: 0.5in auto;
-                box-shadow: 0 4px 30px rgba(0,0,0,0.2);
-                border-radius: 4px;
-            }
-        }
-
-        @media print {
-            body {
-                margin: 0;
-                box-shadow: none;
-            }
-        }
+        @media screen { body { margin: 0.5in auto; box-shadow: 0 4px 30px rgba(0,0,0,0.2); border-radius: 4px; } }
+        @media print { body { margin: 0; box-shadow: none; } }
     </style>
 </head>
 <body>
     <div class="flyer">
-        <!-- Top Banner -->
+        <!-- Header -->
         <header class="top-banner">
             <div class="banner-left">
                 <img src="logo.png" alt="Dugan's Legendary Den Logo" class="banner-logo">
-                <div class="banner-text">
+                <div>
                     <h1 class="banner-title">Dugan's<br>Legendary Den</h1>
                     <p class="banner-subtitle">Card Shop</p>
                 </div>
             </div>
             <div class="banner-qr">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://duganslegendaryden.github.io/website/&bgcolor=FFFFFF&color=3E2723" alt="QR Code to Website">
+                <img src="website_QRcode.png" alt="QR Code to Website">
                 <span>Visit Our Website</span>
             </div>
         </header>
-
         <div class="accent-line"></div>
 
-        <!-- Main Content -->
         <div class="main-content">
-            <!-- Hero: Buy/Trade Rates -->
+            <!-- Buy/Trade Hero -->
             <section class="hero-section">
                 <div class="hero-badge">We Want Your Cards!</div>
                 <h2 class="hero-heading">Will Buy or Trade Your Cards</h2>
@@ -477,89 +395,73 @@
                 <p class="hero-disclaimer">*Final rates are at owner's sole discretion.</p>
             </section>
 
-            <!-- Two Column Layout -->
-            <div class="two-columns">
-                <!-- Left: Payment -->
-                <div class="col-left">
-                    <h3 class="section-header">Payment Options</h3>
-                    <div class="payment-grid">
-                        <!-- Preferred: Venmo, CashApp, Zelle, Cash -->
-                        <div class="payment-row-preferred">
-                            <span class="preferred-label">Preferred</span>
-                            <div class="payment-item">
-                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://venmo.com/code?user_id=1840252993929216265%26created=1775189872&bgcolor=FFFFFF&color=3D95CE" alt="Venmo QR">
-                                <span class="payment-name venmo-color">Venmo</span>
-                            </div>
-                            <div class="payment-item">
-                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://cash.app/$DuganD22&bgcolor=FFFFFF&color=00A632" alt="Cash App QR">
-                                <span class="payment-name cashapp-color">Cash App</span>
-                            </div>
-                            <div class="payment-item">
-                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=dugansden&bgcolor=FFFFFF&color=6D1ED4" alt="Zelle QR">
-                                <span class="payment-name zelle-color">Zelle</span>
-                            </div>
-                        </div>
-                        <p class="payment-cash">Cash is always welcome!</p>
+            <!-- Payment -->
+            <section>
+                <h3 class="section-header">Payment Options</h3>
+                <div class="preferred-row">
+                    <span class="preferred-badge">&#9733; Preferred &mdash; No Fees</span>
+                </div>
+                <div class="payment-cards">
+                    <div class="payment-card venmo">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://venmo.com/code?user_id=1840252993929216265%26created=1775189872&bgcolor=FFFFFF&color=3D95CE" alt="Venmo QR">
+                        <div class="payment-label venmo-c">Venmo</div>
+                    </div>
+                    <div class="payment-card cashapp">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://cash.app/$DuganD22&bgcolor=FFFFFF&color=00A632" alt="Cash App QR">
+                        <div class="payment-label cashapp-c">Cash App</div>
+                        <div class="payment-tag">$DuganD22</div>
+                    </div>
+                    <div class="payment-card zelle">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=dugansden&bgcolor=FFFFFF&color=6D1ED4" alt="Zelle QR">
+                        <div class="payment-label zelle-c">Zelle</div>
+                        <div class="payment-tag">Tag: dugansden</div>
+                    </div>
+                </div>
+                <div class="payment-extras">
+                    <div class="cash-note">
+                        <svg viewBox="0 0 24 24" fill="#8B4513"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.94s4.18 1.36 4.18 3.85c0 1.89-1.44 2.98-3.12 3.19z"/></svg>
+                        Cash always welcome!
+                    </div>
+                    <div class="fee-note">
+                        <strong>Credit / Tap to Pay</strong> via Square<br>
+                        5% fee (min $0.50)
+                    </div>
+                </div>
+            </section>
 
-                        <!-- Fee-based -->
-                        <div class="payment-row-fee">
-                            <p class="fee-heading">Credit Card / Tap to Pay via Square</p>
-                            <p class="fee-amount">5% fee (minimum $0.50)</p>
+            <!-- Connect + CTA -->
+            <section class="connect-row">
+                <div class="social-cards">
+                    <h3 class="section-header" style="text-align:left;">Connect With Us</h3>
+                    <div class="social-card ig">
+                        <svg viewBox="0 0 24 24" fill="#DD2A7B"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <div class="s-info">
+                            <span class="s-platform">Instagram</span>
+                            <span class="s-handle">@duganslegendaryden</span>
+                        </div>
+                    </div>
+                    <div class="social-card tt">
+                        <svg viewBox="0 0 24 24" fill="#000000"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/></svg>
+                        <div class="s-info">
+                            <span class="s-platform">TikTok</span>
+                            <span class="s-handle">@duganslegendaryden</span>
+                        </div>
+                    </div>
+                    <div class="social-card em">
+                        <svg viewBox="0 0 24 24" fill="#8B4513"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <div class="s-info">
+                            <span class="s-platform">Email</span>
+                            <span class="s-handle">duganslegendaryden@gmail.com</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Right: Connect -->
-                <div class="col-right">
-                    <h3 class="section-header">Connect With Us</h3>
-                    <div class="connect-section">
-                        <div class="social-item">
-                            <div class="social-icon-wrap">
-                                <svg viewBox="0 0 24 24" fill="#FFF8F0">
-                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-platform">Instagram</span>
-                                <span class="social-handle">@duganslegendaryden</span>
-                            </div>
-                        </div>
-
-                        <div class="social-item">
-                            <div class="social-icon-wrap">
-                                <svg viewBox="0 0 24 24" fill="#FFF8F0">
-                                    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.98a8.2 8.2 0 004.76 1.52V7.05a4.84 4.84 0 01-1-.36z"/>
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-platform">TikTok</span>
-                                <span class="social-handle">@duganslegendaryden</span>
-                            </div>
-                        </div>
-
-                        <div class="email-item">
-                            <div class="social-icon-wrap">
-                                <svg viewBox="0 0 24 24" fill="#8B4513">
-                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                </svg>
-                            </div>
-                            <div class="email-info">
-                                <span class="email-label">Email</span>
-                                <span class="email-address">duganslegendaryden@gmail.com</span>
-                            </div>
-                        </div>
-
-                        <!-- CTA -->
-                        <div class="cta-section">
-                            <p class="cta-text">Show Us What You've Got!</p>
-                            <p class="cta-subtext">We'd love to see your collection.</p>
-                        </div>
-                    </div>
+                <div class="cta-box">
+                    <p class="cta-text">Show Us What<br>You've Got!</p>
+                    <p class="cta-subtext">We'd love to see your collection.</p>
                 </div>
-            </div>
+            </section>
         </div>
 
-        <!-- Bottom -->
         <footer class="bottom-banner">
             <p>&copy; 2026 Dugan's Legendary Den LLC. All rights reserved.</p>
         </footer>
