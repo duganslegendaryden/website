@@ -222,6 +222,70 @@ body::before {
     box-shadow: 0 6px 20px rgba(93, 64, 55, 0.4);
 }
 
+/* ---- Payment Section ---- */
+.divider-payment {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1.2s ease-out 0.9s both;
+}
+
+.section-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #C9A84C;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1.2s ease-out 1s both;
+}
+
+.payment-links {
+    animation: fadeInUp 1s ease-out 1.1s both;
+}
+
+/* Venmo Button */
+.social-btn.venmo {
+    background-color: #3D95CE;
+    color: #FFF8F0;
+    border: 2px solid #3D95CE;
+}
+
+.social-btn.venmo:hover {
+    background-color: transparent;
+    border-color: #3D95CE;
+    color: #3D95CE;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(61, 149, 206, 0.3);
+}
+
+/* Cash App Button */
+.social-btn.cashapp {
+    background-color: #00D632;
+    color: #FFF8F0;
+    border: 2px solid #00D632;
+}
+
+.social-btn.cashapp:hover {
+    background-color: transparent;
+    border-color: #00D632;
+    color: #00D632;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 214, 50, 0.3);
+}
+
+/* Zelle Button */
+.social-btn.zelle {
+    background-color: transparent;
+    color: #6D1ED4;
+    border: 2px solid #6D1ED4;
+    cursor: default;
+}
+
+.social-btn.zelle .btn-text {
+    user-select: all;
+}
+
 /* ---- Footer ---- */
 .footer {
     margin-top: 3rem;
