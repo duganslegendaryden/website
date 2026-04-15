@@ -11,25 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="page-wrapper">
-        <!-- Decorative top border -->
-        <div class="top-accent"></div>
+    <!-- Decorative top border -->
+    <div class="top-accent"></div>
 
-        <main class="hero">
-            <!-- Logo -->
+    <!-- ====== HERO ====== -->
+    <header class="hero">
+        <div class="hero-inner">
             <div class="logo-container">
-                <img src="logo.png" alt="Dugan's Legendary Den Logo" class="logo">
+                <img src="logo.png" alt="Dugan's Legendary Den Logo" class="logo" width="280" height="280">
             </div>
-
-            <!-- Tagline -->
             <p class="tagline">Cards &bull; Collectibles &bull; Community</p>
+            <p class="hero-subtitle">Serving collectors at shows and events across Texas and beyond</p>
 
-            <!-- Divider -->
             <div class="divider">
                 <span class="divider-diamond"></span>
             </div>
 
-            <!-- Social Links -->
             <div class="social-links">
                 <a href="https://www.tiktok.com/@duganslegendaryden" target="_blank" rel="noopener noreferrer" class="social-btn tiktok" aria-label="Follow us on TikTok">
                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -50,40 +47,87 @@
                     <span class="btn-text">Email</span>
                 </a>
             </div>
+        </div>
+    </header>
 
-            <!-- Payment Divider -->
-            <div class="divider divider-payment">
+    <!-- ====== ABOUT ====== -->
+    <section class="section about" id="about">
+        <div class="section-inner">
+            <h2 class="section-heading">About Dugan's Legendary Den</h2>
+            <div class="divider divider-section">
                 <span class="divider-diamond"></span>
             </div>
-            <p class="section-label">Pay With</p>
 
-            <!-- Payment Links -->
-            <div class="social-links payment-links">
-                <a href="https://venmo.com/code?user_id=1840252993929216265&created=1775189872" target="_blank" rel="noopener noreferrer" class="social-btn venmo" aria-label="Pay with Venmo">
+            <div class="about-top">
+                <div class="about-text">
+                    <p>Dugan's Legendary Den is a US-based Pok&eacute;mon TCG business based in Austin, TX. We're primarily operating at card shows in the Austin and the Dallas/Fort Worth areas, with plans to expand to other regions.</p>
+                    <p>Our setup is built around accessibility, variety, and real-time market movement, allowing us to serve both collectors and competitive buyers with strong inventory turnover and consistent demand at live events.</p>
+                </div>
+                <div class="about-booth">
+                    <img src="booth.jpg" alt="Dugan's Legendary Den vendor booth at a Texas card show" class="about-img" loading="lazy" width="800" height="600">
+                </div>
+            </div>
+
+            <div class="about-cases">
+                <div class="case-img-wrapper">
+                    <img src="display_case1.jpg" alt="Display case with Pokémon TCG inventory" class="about-img" loading="lazy" width="800" height="600">
+                </div>
+                <div class="case-img-wrapper">
+                    <img src="display_case2.jpg" alt="Display case with graded cards and singles" class="about-img" loading="lazy" width="800" height="600">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== UPCOMING SHOWS ====== -->
+    <section class="section shows" id="shows">
+        <div class="section-inner">
+            <h2 class="section-heading">Upcoming Shows</h2>
+            <div class="divider divider-section">
+                <span class="divider-diamond"></span>
+            </div>
+            <p class="shows-subtitle">Catch us at upcoming events with fresh inventory added regularly.</p>
+            <div class="shows-schedule">
+                <img src="show_schedule.png" alt="Upcoming show schedule for Dugan's Legendary Den" class="schedule-img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PAYMENTS ====== -->
+    <section class="section payments" id="payments">
+        <div class="section-inner">
+            <h2 class="section-heading">Payments</h2>
+            <div class="divider divider-section">
+                <span class="divider-diamond"></span>
+            </div>
+            <div class="payment-links">
+                <a href="https://venmo.com/code?user_id=1840252993929216265&created=1775189872" target="_blank" rel="noopener noreferrer" class="pay-btn venmo" aria-label="Pay with Venmo">
                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19.49 1c.89 1.47 1.3 2.99 1.3 4.93 0 6.14-5.24 11.22-5.24 11.22H9.01L6.47 1.05 12.4.5l1.42 11.42C15.4 9.65 17.11 6.67 17.11 4.58c0-1.17-.25-1.97-.56-2.61L19.49 1z"/>
                     </svg>
                     <span class="btn-text">Venmo</span>
                 </a>
-                <a href="https://cash.app/$DuganD22" target="_blank" rel="noopener noreferrer" class="social-btn cashapp" aria-label="Pay with Cash App">
+                <a href="https://cash.app/$DuganD22" target="_blank" rel="noopener noreferrer" class="pay-btn cashapp" aria-label="Pay with Cash App">
                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M23.59 3.47A5.1 5.1 0 0 0 20.55.42C19.55.07 18.17 0 16.41 0H7.59C5.83 0 4.46.07 3.45.42A5.1 5.1 0 0 0 .41 3.47C.07 4.47 0 5.84 0 7.59v8.82c0 1.76.07 3.13.42 4.13a5.1 5.1 0 0 0 3.04 3.04c1 .36 2.37.42 4.13.42h8.82c1.76 0 3.13-.07 4.13-.42a5.1 5.1 0 0 0 3.04-3.04c.36-1 .42-2.37.42-4.13V7.59c0-1.76-.07-3.13-.42-4.13zM17.42 16a3.29 3.29 0 0 1-2.31.96c-.82 0-1.63-.19-2.31-.55l-.5 2.34-2.83.6.68-3.2a8.93 8.93 0 0 1-1.9-1.51l1.72-1.84c.66.66 1.78 1.39 2.83 1.39.51 0 .96-.16.96-.67 0-1.07-4.78-1.22-4.78-4.88 0-2.67 1.88-4.12 4.42-4.42l.42-2 2.83-.59-.56 2.64c.7.15 1.42.41 2.08.78l-1.08 2.42c-.54-.3-1.37-.63-2.17-.63-.67 0-1.11.27-1.11.72 0 1.13 4.78 1.02 4.78 4.82 0 1.57-.74 3.07-2.16 3.62z"/>
                     </svg>
                     <span class="btn-text">Cash App</span>
                 </a>
-                <div class="social-btn zelle" aria-label="Zelle tag">
+                <div class="pay-btn zelle" aria-label="Zelle tag">
                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M13.559 24h-2.841a.483.483 0 0 1-.483-.483v-6.636H4.58a.517.517 0 0 1-.408-.833l9.178-11.86H4.343A.483.483 0 0 1 3.86 3.7V.483A.483.483 0 0 1 4.343 0h14.918a.517.517 0 0 1 .408.833L10.676 12.72h3.366a.483.483 0 0 1 .483.483v3.179a.483.483 0 0 1-.483.483h-.483v6.652a.483.483 0 0 1-.483.483h.483zm-2.358-.966h1.875v-6.652a.483.483 0 0 1 .483-.483h.483v-2.213h-3.366a.517.517 0 0 1-.408-.833L19.261.966H4.826V3.18h9.891a.517.517 0 0 1 .408.833L5.546 15.915h4.655a.483.483 0 0 1 .483.483v.483h.517v6.153z"/>
                     </svg>
                     <span class="btn-text">Zelle: dugansden</span>
                 </div>
             </div>
-        </main>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="footer">
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="section-inner">
             <p>&copy; 2026 Dugan's Legendary Den. All rights reserved.</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
