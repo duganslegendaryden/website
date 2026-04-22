@@ -1,13 +1,14 @@
 {
-  "generated": "Apr 22, 2026 10:18 AM",
+  "generated": "Apr 22, 2026 06:36 PM",
   "singles": [
     {
       "name": "Alolan Ninetales GX",
       "set": "Hidden Fates: Shiny Vault",
-      "number": "53",
+      "number": "SV53",
       "variant": "HIF:SV",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/197789/pokemon-hidden-fates-shiny-vault-alolan-ninetales-gx&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Amoonguss",
@@ -15,7 +16,8 @@
       "number": "096",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642545/pokemon-sv-black-bolt-amoonguss-096-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Appletun",
@@ -23,7 +25,8 @@
       "number": "211",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/589865/pokemon-sv08-surging-sparks-appletun-211-191?Condition=Near+Mint&Language=English"
     },
     {
       "name": "Armored Mewtwo",
@@ -31,7 +34,8 @@
       "number": "365",
       "variant": "SM-P",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/598442/pokemon-japan-sm-p-sun-and-moon-promos-armored-mewtwo-365-sm-p&Language=all&page=1?Condition=Near+Mint"
     },
     {
       "name": "Articuno",
@@ -39,7 +43,8 @@
       "number": "17",
       "variant": "17",
       "condition": "LP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/44425/pokemon-fossil-articuno-17?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Azurill",
@@ -47,31 +52,26 @@
       "number": "31",
       "variant": "Uncommon",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/83688/pokemon-sandstorm-azurill&page=1&Language=English&Printing=Reverse+Holofoil&Language=English&Printing=Reverse+Holofoil&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Black Kyurem",
       "set": "XY Promos",
-      "number": "80",
-      "variant": "",
+      "number": "XY80",
+      "variant": "Promo",
       "condition": "NM",
-      "price_band": "$20–$50"
-    },
-    {
-      "name": "Blastoise ex",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "200",
-      "variant": "Special Illustration Rare",
-      "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/108610/pokemon-xy-promos-black-kyurem-xy80&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Boltund V",
       "set": "SWSH09: Brilliant Stars Trainer Gallery",
-      "number": "13",
+      "number": "TG13",
       "variant": "SWSH09:TG",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/264202/pokemon-swsh09-brilliant-stars-trainer-gallery-boltund-v&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Bulbasaur",
@@ -79,7 +79,8 @@
       "number": "050",
       "variant": "svG",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/589024/pokemon-japan-sv-venusaur-charizard-and-blastoise-special-deck-set-bulbasaur-050-049&page=1&Language=all&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Bulbasaur",
@@ -87,7 +88,8 @@
       "number": "166",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/516997/pokemon-sv-scarlet-and-violet-151-bulbasaur-166-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Caitlyn",
@@ -95,7 +97,8 @@
       "number": "167",
       "variant": "Secret Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": null
     },
     {
       "name": "Carbink",
@@ -103,15 +106,17 @@
       "number": "242",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/676054/pokemon-me-ascended-heroes-carbink-242-217&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Celebi V",
       "set": "SWSH08: Fusion Strike",
-      "number": "245",
+      "number": "swsh08",
       "variant": "Alternate Full Art",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/253138/pokemon-swsh08-fusion-strike-celebi-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Ceruledge",
@@ -119,7 +124,8 @@
       "number": "",
       "variant": "",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": null
     },
     {
       "name": "Charcadet",
@@ -127,23 +133,17 @@
       "number": "022",
       "variant": "Pokemon Center Exclusive",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/665053/pokemon-me-mega-evolution-promo-charcadet-022-pokemon-center-exclusive&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard EX",
       "set": "XY Promos",
-      "number": "121",
-      "variant": "",
+      "number": "XY121",
+      "variant": "Promo",
       "condition": "NM",
-      "price_band": "$100–$250"
-    },
-    {
-      "name": "Charizard ex",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "199",
-      "variant": "Special Illustration Rare",
-      "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/117267/pokemon-xy-promos-charizard-ex-xy121&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard ex",
@@ -151,7 +151,8 @@
       "number": "134",
       "variant": "SV3",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/567088/pokemon-japan-sv3-ruler-of-the-black-flame-charizard-ex-134-108?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Charizard ex",
@@ -159,7 +160,8 @@
       "number": "183",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/517017/pokemon-sv-scarlet-and-violet-151-charizard-ex-183-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard EX",
@@ -167,7 +169,8 @@
       "number": "12",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/124024/pokemon-xy-evolutions-charizard-ex&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard ex",
@@ -175,7 +178,8 @@
       "number": "223",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/509980/pokemon-sv03-obsidian-flames-charizard-ex-223-197&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard ex",
@@ -183,15 +187,17 @@
       "number": "215",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/509963/pokemon-sv03-obsidian-flames-charizard-ex-215-197&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard VMAX",
       "set": "SWSH: Sword & Shield Promo Cards",
-      "number": "261",
+      "number": "SWSH261",
       "variant": "",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/285378/pokemon-swsh-sword-and-shield-promo-cards-charizard-vmax-swsh261&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Charizard VSTAR",
@@ -199,7 +205,8 @@
       "number": "212",
       "variant": "S12a",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/571750/pokemon-japan-s12a-vstar-universe-charizard-vstar-212-172&page=1&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Charmander",
@@ -207,7 +214,8 @@
       "number": "168",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/502556/pokemon-sv-scarlet-and-violet-151-charmander-168-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Cheren",
@@ -215,7 +223,8 @@
       "number": "148",
       "variant": "148 Full Art",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84250/pokemon-boundaries-crossed-cheren-148-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Cinccino",
@@ -223,7 +232,8 @@
       "number": "183",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/542904/pokemon-sv05-temporal-forces-cinccino-183-162&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Cobalion",
@@ -231,7 +241,8 @@
       "number": "144",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642598/pokemon-sv-black-bolt-cobalion-144-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Colress",
@@ -239,7 +250,8 @@
       "number": "135",
       "variant": "Team Plasma",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84390/pokemon-plasma-storm-colress-team-plasma-135-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Counter Gain",
@@ -247,7 +259,8 @@
       "number": "249",
       "variant": "Hyper Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/593856/pokemon-sv08-surging-sparks-counter-gain-249-191&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Cubchoo",
@@ -255,7 +268,8 @@
       "number": "109",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642562/pokemon-sv-black-bolt-cubchoo-109-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Cynthia's Garchomp ex",
@@ -263,7 +277,8 @@
       "number": "204",
       "variant": "",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/637613/pokemon-sv-scarlet-and-violet-promo-cards-cynthias-garchomp-ex&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Dark Quilava",
@@ -271,7 +286,8 @@
       "number": "039",
       "variant": "N4",
       "condition": "LP",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84645/pokemon-neo-destiny-dark-quilava&page=1&Language=English&Printing=1st+Edition?Condition=Lightly+Played"
     },
     {
       "name": "Dawn",
@@ -279,7 +295,8 @@
       "number": "129",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662150/pokemon-me02-phantasmal-flames-dawn-129-094?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Dewgong",
@@ -287,15 +304,17 @@
       "number": "097",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662152/pokemon-me02-phantasmal-flames-dewgong-097-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Dialga",
       "set": "Burger King Promos",
-      "number": "016",
+      "number": "16",
       "variant": "Promo",
       "condition": "MP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/155604/pokemon-burger-king-promos-dialga-16-106-platinum?page=1&Language=English&Condition=Moderately+Played"
     },
     {
       "name": "Dialga EX",
@@ -303,7 +322,8 @@
       "number": "99",
       "variant": "Team Plasma",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84809/pokemon-plasma-blast-dialga-ex-team-plasma-99-full-art?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Dragonair",
@@ -311,7 +331,8 @@
       "number": "075",
       "variant": "Uncommon",
       "condition": "MP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84898/pokemon-expedition-dragonair?page=1&Language=English&Printing=Reverse+Holofoil&Condition=Moderately+Played"
     },
     {
       "name": "Dratini",
@@ -319,7 +340,8 @@
       "number": "107",
       "variant": "Common",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/84931/pokemon-expedition-dratini&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Lightly+Played"
     },
     {
       "name": "Duosion",
@@ -327,15 +349,17 @@
       "number": "119",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642573/pokemon-sv-black-bolt-duosion-119-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Duraludon VMAX",
       "set": "SWSH07: Evolving Skies",
-      "number": "220",
+      "number": "swsh07",
       "variant": "Alternate Art Secret",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246754/pokemon-swsh07-evolving-skies-duraludon-vmax-alternate-art-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Eevee ex",
@@ -343,7 +367,8 @@
       "number": "167",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610522/pokemon-sv-prismatic-evolutions-eevee-ex-167-131&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Eevee ex",
@@ -351,7 +376,8 @@
       "number": "174",
       "variant": "",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/632083/pokemon-sv-scarlet-and-violet-promo-cards-eevee-ex-174&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Emolga",
@@ -359,15 +385,17 @@
       "number": "23",
       "variant": "Full Art",
       "condition": "MP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/85194/pokemon-legendary-treasures-radiant-collection-emolga-full-art?page=1&Language=English&Condition=Moderately+Played"
     },
     {
       "name": "Empoleon FB",
       "set": "League & Championship Cards",
-      "number": "027",
+      "number": "27",
       "variant": "League Promo",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/164155/pokemon-league-and-championship-cards-empoleon-fb-27-147-league-promo&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Espeon ex",
@@ -375,7 +403,8 @@
       "number": "155",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610510/pokemon-sv-prismatic-evolutions-espeon-ex-155-131&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Espeon ex",
@@ -383,7 +412,8 @@
       "number": "155",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610510/pokemon-sv-prismatic-evolutions-espeon-ex-155-131&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Espeon EX",
@@ -391,7 +421,8 @@
       "number": "117",
       "variant": "Full Art",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/111558/pokemon-xy-breakpoint-espeon-ex-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Espeon VMAX",
@@ -399,7 +430,8 @@
       "number": "065",
       "variant": "SWSH07",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246690/pokemon-swsh07-evolving-skies-espeon-vmax?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Flaaffy",
@@ -407,7 +439,8 @@
       "number": "194",
       "variant": "S8b",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/571446/pokemon-japan-s8b-vmax-climax-flaaffy-194-184?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Flaaffy",
@@ -415,7 +448,8 @@
       "number": "28",
       "variant": "N3",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/85473/pokemon-neo-revelation-flaaffy?page=1&Language=English&Printing=1st+Edition&Condition=Near+Mint"
     },
     {
       "name": "Flapple",
@@ -423,15 +457,17 @@
       "number": "210",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/589947/pokemon-sv08-surging-sparks-flapple-210-191&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Flareon",
       "set": "Jungle",
-      "number": "03",
+      "number": "3",
       "variant": "3",
       "condition": "HP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/45129/pokemon-jungle-flareon-3?page=1&Language=English&Condition=Heavily+Played"
     },
     {
       "name": "Flareon V",
@@ -439,7 +475,8 @@
       "number": "073",
       "variant": "S6a",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/570535/pokemon-japan-s6a-eevee-heroes-flareon-v-073-069?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Flareon VMAX",
@@ -447,7 +484,8 @@
       "number": "018",
       "variant": "SWSH07",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246712/pokemon-swsh07-evolving-skies-flareon-vmax&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Froslass",
@@ -455,7 +493,8 @@
       "number": "174",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/550218/pokemon-sv06-twilight-masquerade-froslass-174-167&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Galarian Perrserker V",
@@ -463,7 +502,8 @@
       "number": "184",
       "variant": "Alternate Full Art",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/284135/pokemon-swsh11-lost-origin-galarian-perrserker-v-alternate-full-art&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Gardevoir ex",
@@ -471,7 +511,8 @@
       "number": "245",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/486623/pokemon-sv01-scarlet-and-violet-base-set-gardevoir-ex-245-198?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Gardevoir EX",
@@ -479,15 +520,17 @@
       "number": "111",
       "variant": "Full Art",
       "condition": "LP",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/121235/pokemon-xy-steam-siege-gardevoir-ex-full-art?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Gardevoir EX",
       "set": "Generations: Radiant Collection",
-      "number": "30",
+      "number": "RC30",
       "variant": "Full Art",
       "condition": "MP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/113772/pokemon-generations-radiant-collection-gardevoir-ex-full-art&page=1&Language=English?Condition=Moderately+Played"
     },
     {
       "name": "Gastly",
@@ -495,7 +538,8 @@
       "number": "177",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/542898/pokemon-sv05-temporal-forces-gastly-177-162&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Geeta",
@@ -503,7 +547,8 @@
       "number": "226",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/509986/pokemon-sv03-obsidian-flames-geeta-226-197&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Ghetsis",
@@ -511,7 +556,8 @@
       "number": "115",
       "variant": "Team Plasma",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/85695/pokemon-plasma-freeze-ghetsis-team-plasma-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Giovanni",
@@ -519,7 +565,8 @@
       "number": "018",
       "variant": "18",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/85708/pokemon-gym-challenge-giovanni-18&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Glaceon VMAX",
@@ -527,7 +574,8 @@
       "number": "041",
       "variant": "SWSH07",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246753/pokemon-swsh07-evolving-skies-glaceon-vmax&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Gouging Fire ex",
@@ -535,7 +583,8 @@
       "number": "204",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/542925/pokemon-sv05-temporal-forces-gouging-fire-ex-204-162?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Great Tusk ex",
@@ -543,7 +592,8 @@
       "number": "246",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/490290/pokemon-sv01-scarlet-and-violet-base-set-great-tusk-ex-246-198&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Gyarados EX",
@@ -551,7 +601,8 @@
       "number": "123",
       "variant": "Secret",
       "condition": "LP",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/111531/pokemon-xy-breakpoint-gyarados-ex-secret?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Gyarados EX",
@@ -559,23 +610,26 @@
       "number": "114",
       "variant": "Full Art",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/111530/pokemon-xy-breakpoint-gyarados-ex-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Gyarados VMAX",
       "set": "SWSH07: Evolving Skies",
-      "number": "029",
+      "number": "swsh07",
       "variant": "SWSH07",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246724/pokemon-swsh07-evolving-skies-gyarados-vmax?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Haunter",
       "set": "ME: Mega Evolution Promo",
       "number": "027",
-      "variant": "",
+      "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/659232/pokemon-me-mega-evolution-promo-haunter-027&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Heliolisk",
@@ -583,15 +637,17 @@
       "number": "177",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/550221/pokemon-sv06-twilight-masquerade-heliolisk-177-167&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Hisuian Decidueye VSTAR",
       "set": "SWSH10: Astral Radiance",
-      "number": "195",
+      "number": "swsh10",
       "variant": "Secret",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/272449/pokemon-swsh10-astral-radiance-hisuian-decidueye-vstar-secret&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Hitmonchan",
@@ -599,7 +655,8 @@
       "number": "007",
       "variant": "Holo Rare",
       "condition": "HP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/42415/pokemon-base-set-hitmonchan?page=1&Language=English&Condition=Heavily+Played"
     },
     {
       "name": "Hitmonchan",
@@ -607,7 +664,8 @@
       "number": "007",
       "variant": "Holo Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/42415/pokemon-base-set-hitmonchan&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Hop's Zacian ex",
@@ -615,7 +673,8 @@
       "number": "186",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/623613/pokemon-sv09-journey-together-hops-zacian-ex-186-159&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Hydrapple",
@@ -623,15 +682,17 @@
       "number": "188",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/632988/pokemon-sv10-destined-rivals-hydrapple-188-182&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Hydreigon ex",
       "set": "SV08: Surging Sparks",
-      "number": "240",
+      "number": "191",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/589967/pokemon-sv08-surging-sparks-hydreigon-ex-240-191&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Inteleon VMAX",
@@ -639,7 +700,8 @@
       "number": "266",
       "variant": "Alternate Art Secret",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/253171/pokemon-swsh08-fusion-strike-inteleon-vmax-alternate-art-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Iono's Bellibolt ex",
@@ -647,7 +709,8 @@
       "number": "183",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/623610/pokemon-sv09-journey-together-ionos-bellibolt-ex-183-159&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Iono's Bellibolt ex",
@@ -655,7 +718,8 @@
       "number": "188",
       "variant": "Hyper Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/623615/pokemon-sv09-journey-together-ionos-bellibolt-ex-188-159&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Irida",
@@ -663,7 +727,8 @@
       "number": "077",
       "variant": "S10P",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/569920/pokemon-japan-s10p-space-juggler-irida-077-067?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Iris",
@@ -671,7 +736,8 @@
       "number": "101",
       "variant": "101 Full Art",
       "condition": "LP",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/86289/pokemon-plasma-blast-iris-101-full-art?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Iris's Fighting Spirit",
@@ -679,7 +745,8 @@
       "number": "292",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/676104/pokemon-me-ascended-heroes-iriss-fighting-spirit-292-217&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Iron Boulder ex",
@@ -687,7 +754,8 @@
       "number": "207",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/542928/pokemon-sv05-temporal-forces-iron-boulder-ex-207-162&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Iron Leaves ex",
@@ -695,7 +763,8 @@
       "number": "213",
       "variant": "Hyper Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/542934/pokemon-sv05-temporal-forces-iron-leaves-ex-213-162&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Iron Leaves ex",
@@ -703,15 +772,17 @@
       "number": "176",
       "variant": "Hyper Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610531/pokemon-sv-prismatic-evolutions-iron-leaves-ex&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Jolteon",
       "set": "Jungle",
-      "number": "04",
+      "number": "4",
       "variant": "4",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/45130/pokemon-jungle-jolteon-4&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Lightly+Played"
     },
     {
       "name": "Kangaskhan EX",
@@ -719,15 +790,17 @@
       "number": "103",
       "variant": "103 Full Art",
       "condition": "LP",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/91241/pokemon-xy-flashfire-kangaskhan-ex-103-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Kingdra",
       "set": "XY Promos",
-      "number": "39",
+      "number": "XY39",
       "variant": "Prerelease",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/96413/pokemon-xy-promos-kingdra-xy39-prerelease&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Kyurem ex",
@@ -735,15 +808,17 @@
       "number": "165",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642617/pokemon-sv-black-bolt-kyurem-ex-165-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Lady",
       "set": "SWSH11: Lost Origin",
-      "number": "193",
+      "number": "swsh11",
       "variant": "Full Art",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/284146/pokemon-swsh11-lost-origin-lady-full-art?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Lana",
@@ -751,7 +826,8 @@
       "number": "150",
       "variant": "Full Art",
       "condition": "LP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/157766/pokemon-sm-ultra-prism-lana-full-art?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Lapras",
@@ -759,7 +835,8 @@
       "number": "10",
       "variant": "10",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/44419/pokemon-fossil-lapras-10&page=1&Language=English&Printing=1st+Edition+Holofoil&Language=English&Printing=1st+Edition+Holofoil&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Larry",
@@ -767,15 +844,17 @@
       "number": "235",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/523916/pokemon-sv04-paradox-rift-larry-235-182&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Latias",
       "set": "Crown Zenith: Galarian Gallery",
-      "number": "20",
+      "number": "GG20",
       "variant": "CRZ:GG",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/478038/pokemon-crown-zenith-galarian-gallery-latias&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Leafeon ex",
@@ -783,23 +862,26 @@
       "number": "144",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610499/pokemon-sv-prismatic-evolutions-leafeon-ex-144-131&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Leafeon V",
       "set": "SWSH07: Evolving Skies",
-      "number": "167",
+      "number": "swsh07",
       "variant": "Alternate Full Art",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/246688/pokemon-swsh07-evolving-skies-leafeon-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Lt. Surge's Pikachu",
-      "set": "",
-      "number": "",
-      "variant": "",
+      "set": "Gym Heroes",
+      "number": "081",
+      "variant": "G1",
       "condition": "MP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/86859/pokemon-gym-heroes-lt-surges-pikachu?Condition=Moderately+Played&page=1&Language=English&Printing=Unlimited"
     },
     {
       "name": "Lugia",
@@ -807,7 +889,8 @@
       "number": "",
       "variant": "",
       "condition": "LP",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/575819/pokemon-japan-gold-silver-to-a-new-world-lugia?page=1&Language=all&Printing=Holofoil&Condition=Lightly+Played"
     },
     {
       "name": "Lugia EX",
@@ -815,7 +898,8 @@
       "number": "94",
       "variant": "94 Full Art",
       "condition": "LP",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/101516/pokemon-xy-ancient-origins-lugia-ex-94-full-art?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "M Charizard EX",
@@ -823,15 +907,17 @@
       "number": "13",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/124025/pokemon-xy-evolutions-m-charizard-ex&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "M Garchomp EX",
       "set": "XY Promos",
-      "number": "168",
-      "variant": "",
+      "number": "XY168",
+      "variant": "Promo",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/126563/pokemon-xy-promos-m-garchomp-ex-xy168&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "M Gengar EX",
@@ -839,7 +925,8 @@
       "number": "121",
       "variant": "121 Secret Rare",
       "condition": "LP",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/94688/pokemon-xy-phantom-forces-m-gengar-ex-121-secret-rare&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "M Mewtwo EX",
@@ -847,7 +934,8 @@
       "number": "159",
       "variant": "159 Full Art",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/107276/pokemon-xy-breakthrough-m-mewtwo-ex-159-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "M Rayquaza EX",
@@ -855,7 +943,8 @@
       "number": "98",
       "variant": "Shiny Full Art",
       "condition": "LP",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/101520/pokemon-xy-ancient-origins-m-rayquaza-ex-shiny-full-art?page=1&Language=English&Condition=Lightly+Played"
     },
     {
       "name": "Magmar",
@@ -863,15 +952,17 @@
       "number": "39",
       "variant": "Uncommon",
       "condition": "HP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/44441/pokemon-fossil-magmar?page=1&Language=English&Printing=1st+Edition&Condition=Heavily+Played"
     },
     {
       "name": "Magneton",
       "set": "Base Set 2",
-      "number": "009",
+      "number": "2",
       "variant": "BS2",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/42497/pokemon-base-set-2-magneton&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Magneton",
@@ -879,15 +970,17 @@
       "number": "009",
       "variant": "Holo Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/42433/pokemon-base-set-magneton&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Malamar",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
-      "number": "06",
+      "number": "swsh12",
       "variant": "SWSH12: TG",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/452020/pokemon-swsh12-silver-tempest-trainer-gallery-malamar&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mallow",
@@ -895,7 +988,8 @@
       "number": "145",
       "variant": "Full Art",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/131053/pokemon-sm-guardians-rising-mallow-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Marnie's Grimmsnarl ex",
@@ -903,7 +997,8 @@
       "number": "243",
       "variant": "M2a",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/665914/pokemon-japan-m2a-high-class-pack-mega-dream-ex-marnies-grimmsnarl-ex&page=1&Language=all&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Marshadow & Machamp GX",
@@ -911,7 +1006,8 @@
       "number": "199",
       "variant": "199",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/189308/pokemon-sm-unbroken-bonds-marshadow-and-machamp-gx-199-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Charizard X ex",
@@ -919,15 +1015,8 @@
       "number": "116",
       "variant": "M2",
       "condition": "NM",
-      "price_band": "$250+"
-    },
-    {
-      "name": "Mega Charizard X ex",
-      "set": "ME02: Phantasmal Flames",
-      "number": "125",
-      "variant": "Special Illustration Rare",
-      "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/655892/pokemon-japan-m2-inferno-x-mega-charizard-x-ex-116-080&page=1&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Mega Charizard X ex",
@@ -935,7 +1024,8 @@
       "number": "130",
       "variant": "Mega Hyper Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662185/pokemon-me02-phantasmal-flames-mega-charizard-x-ex-130-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Charizard X ex",
@@ -943,15 +1033,8 @@
       "number": "109",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
-    },
-    {
-      "name": "Mega Charizard Y ex",
-      "set": "ME: Ascended Heroes",
-      "number": "294",
-      "variant": "Mega Hyper Rare",
-      "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662183/pokemon-me02-phantasmal-flames-mega-charizard-x-ex-109-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Dragalge ex",
@@ -959,7 +1042,8 @@
       "number": "116",
       "variant": "m4",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/683767/pokemon-japan-m4-ninja-spinner-mega-dragalge-ex-116-083&page=1&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Mega Feraligatr ex",
@@ -967,7 +1051,8 @@
       "number": "274",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/676086/pokemon-me-ascended-heroes-mega-feraligatr-ex-274-217&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Froslass ex",
@@ -975,7 +1060,8 @@
       "number": "233",
       "variant": "M2a",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/665904/pokemon-japan-m2a-high-class-pack-mega-dream-ex-mega-froslass-ex-233-193&page=1&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Mega Kangaskhan ex",
@@ -983,7 +1069,8 @@
       "number": "182",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/654521/pokemon-me01-mega-evolution-mega-kangaskhan-ex-182-132&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Latias ex",
@@ -991,7 +1078,8 @@
       "number": "181",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/654520/pokemon-me01-mega-evolution-mega-latias-ex-181-132&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Lopunny ex",
@@ -999,7 +1087,8 @@
       "number": "128",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662190/pokemon-me02-phantasmal-flames-mega-lopunny-ex-128-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mega Sableye & Tyranitar GX",
@@ -1007,15 +1096,8 @@
       "number": "054",
       "variant": "SM11",
       "condition": "NM",
-      "price_band": "$10–$20"
-    },
-    {
-      "name": "Mew",
-      "set": "Secret Wonders",
-      "number": "15",
-      "variant": "Secret Rare",
-      "condition": "MP",
-      "price_band": "$20–$50"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/574557/pokemon-japan-sm11-miracle-twin-mega-sableye-and-tyranitar-gx-054-094&page=1&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Mew V",
@@ -1023,7 +1105,8 @@
       "number": "251",
       "variant": "Alternate Full Art",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/253147/pokemon-swsh08-fusion-strike-mew-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mewtwo",
@@ -1031,15 +1114,17 @@
       "number": "052",
       "variant": "",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/518872/pokemon-sv-scarlet-and-violet-promo-cards-mewtwo-052&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mewtwo & Mew GX",
       "set": "SM Promos",
-      "number": "191",
+      "number": "sm191",
       "variant": "",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/197856/pokemon-sm-promos-mewtwo-and-mew-gx-sm191&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mightyena",
@@ -1047,7 +1132,8 @@
       "number": "243",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/676055/pokemon-me-ascended-heroes-mightyena-243-217&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Misty's Favor",
@@ -1055,7 +1141,8 @@
       "number": "235",
       "variant": "Full Art",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/195296/pokemon-sm-unified-minds-mistys-favor-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Mr. Mime",
@@ -1063,7 +1150,8 @@
       "number": "06",
       "variant": "6",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/45132/pokemon-jungle-mr-mime-6&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Near+Mint"
     },
     {
       "name": "N's Plan",
@@ -1071,7 +1159,8 @@
       "number": "170",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642622/pokemon-sv-black-bolt-ns-plan-170-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Nidoking",
@@ -1079,7 +1168,8 @@
       "number": "45",
       "variant": "Holo Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/124058/pokemon-xy-evolutions-nidoking&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Near+Mint"
     },
     {
       "name": "Ninjask",
@@ -1087,7 +1177,8 @@
       "number": "137",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/654476/pokemon-me01-mega-evolution-ninjask-137-132&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Okidogi ex",
@@ -1095,7 +1186,8 @@
       "number": "082",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/560393/pokemon-sv-shrouded-fable-okidogi-ex-082-064&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Omanyte",
@@ -1103,7 +1195,8 @@
       "number": "180",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/517031/pokemon-sv-scarlet-and-violet-151-omanyte-180-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Palafin",
@@ -1111,23 +1204,26 @@
       "number": "225",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/534736/pokemon-sv-paldean-fates-palafin-225-091&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Paldean Wooper",
       "set": "ME02: Phantasmal Flames",
-      "number": "102",
+      "number": "me02",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662209/pokemon-me02-phantasmal-flames-paldean-wooper&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Parasect",
       "set": "SWSH11: Lost Origin Trainer Gallery",
-      "number": "01",
+      "number": "swsh11",
       "variant": "SWSH11: TG",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/284253/pokemon-swsh11-lost-origin-trainer-gallery-parasect?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Penny",
@@ -1135,7 +1231,8 @@
       "number": "239",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/535108/pokemon-sv-paldean-fates-penny&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Perrin",
@@ -1143,15 +1240,17 @@
       "number": "220",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/550264/pokemon-sv06-twilight-masquerade-perrin-220-167&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Pikachu",
       "set": "Crown Zenith: Galarian Gallery",
-      "number": "30",
+      "number": "GG30",
       "variant": "CRZ:GG",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/478058/pokemon-crown-zenith-galarian-gallery-pikachu&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Pikachu",
@@ -1159,15 +1258,17 @@
       "number": "160",
       "variant": "Secret",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/478103/pokemon-crown-zenith-pikachu-secret&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Pikachu EX",
       "set": "XY Promos",
-      "number": "174",
-      "variant": "",
+      "number": "XY174",
+      "variant": "Promo",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/123454/pokemon-xy-promos-pikachu-ex-xy174?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Pikachu ex",
@@ -1175,7 +1276,8 @@
       "number": "179",
       "variant": "Hyper Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610534/pokemon-sv-prismatic-evolutions-pikachu-ex-179-131&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Pokemon Center Lady",
@@ -1183,7 +1285,8 @@
       "number": "105",
       "variant": "105 Full Art",
       "condition": "LP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/91243/pokemon-xy-flashfire-pokemon-center-lady-105-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Porygon-Z",
@@ -1191,7 +1294,8 @@
       "number": "214",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/523895/pokemon-sv04-paradox-rift-porygon-z-214-182&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Psyduck",
@@ -1199,7 +1303,8 @@
       "number": "7",
       "variant": "Holo Common",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/186010/pokemon-detective-pikachu-psyduck-holo-common&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Raichu & Alolan Raichu GX",
@@ -1207,7 +1312,8 @@
       "number": "064",
       "variant": "SM10a",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/574240/pokemon-japan-sm10a-gg-end-raichu-and-alolan-raichu-gx-064-054?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Rapid Strike Urshifu VMAX",
@@ -1215,15 +1321,17 @@
       "number": "169",
       "variant": "Secret",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/234091/pokemon-swsh05-battle-styles-rapid-strike-urshifu-vmax-secret&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Reshiram & Charizard GX",
       "set": "SM Promos",
-      "number": "247",
-      "variant": "",
+      "number": "SM247",
+      "variant": "Promo",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/253394/pokemon-sm-promos-reshiram-and-charizard-gx-sm247&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Reshiram ex",
@@ -1231,7 +1339,8 @@
       "number": "166",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642283/pokemon-sv-white-flare-reshiram-ex-166-086&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Reshiram ex",
@@ -1239,7 +1348,8 @@
       "number": "173",
       "variant": "Black White Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642289/pokemon-sv-white-flare-reshiram-ex-173-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Reshiram ex",
@@ -1247,7 +1357,8 @@
       "number": "173",
       "variant": "Black White Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642289/pokemon-sv-white-flare-reshiram-ex-173-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Rhyhorn",
@@ -1255,7 +1366,8 @@
       "number": "090",
       "variant": "Common",
       "condition": "LP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/88738/pokemon-legendary-collection-rhyhorn&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Lightly+Played"
     },
     {
       "name": "Roaring Moon ex",
@@ -1263,15 +1375,8 @@
       "number": "162",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
-    },
-    {
-      "name": "Rocket's Suicune ex",
-      "set": "Team Rocket Returns",
-      "number": "105",
-      "variant": "Ultra Rare",
-      "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610517/pokemon-sv-prismatic-evolutions-roaring-moon-ex&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Rotom ex",
@@ -1279,7 +1384,8 @@
       "number": "126",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662222/pokemon-me02-phantasmal-flames-rotom-ex-126-094?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Ruffian",
@@ -1287,7 +1393,8 @@
       "number": "181",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/623608/pokemon-sv09-journey-together-ruffian-181-159?page=1&Language=English&Condition=Near+Mint"
     },
     {
       "name": "Salamence ex",
@@ -1295,7 +1402,8 @@
       "number": "187",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/623614/pokemon-sv09-journey-together-salamence-ex-187-159&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Serperior VSTAR",
@@ -1303,31 +1411,35 @@
       "number": "196",
       "variant": "Secret",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/451986/pokemon-swsh12-silver-tempest-serperior-vstar-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Shadow Rider Calyrex VMAX",
       "set": "SWSH10: Astral Radiance Trainer Gallery",
-      "number": "18",
+      "number": "TG18",
       "variant": "SWSH10:TG",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/272489/pokemon-swsh10-astral-radiance-trainer-gallery-shadow-rider-calyrex-vmax&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Shadow Rider Calyrex VMAX",
       "set": "SWSH06: Chilling Reign",
-      "number": "205",
+      "number": "swsh06",
       "variant": "Alternate Art Secret",
       "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/241740/pokemon-swsh06-chilling-reign-shadow-rider-calyrex-vmax-alternate-art-secret&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Shaymin EX",
       "set": "Alternate Art Promos",
-      "number": "077",
+      "number": "108",
       "variant": "Alternate Art",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/148350/pokemon-alternate-art-promos-shaymin-ex-77a-108&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Shedinja",
@@ -1335,7 +1447,8 @@
       "number": "144",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/654483/pokemon-me01-mega-evolution-shedinja-144-132&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Simipour",
@@ -1343,7 +1456,8 @@
       "number": "102",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642555/pokemon-sv-black-bolt-simipour-102-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Skyla",
@@ -1351,7 +1465,8 @@
       "number": "149",
       "variant": "149 Full Art",
       "condition": "LP",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/89287/pokemon-boundaries-crossed-skyla-149-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Slowking",
@@ -1359,7 +1474,8 @@
       "number": "014",
       "variant": "N1",
       "condition": "MP",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/89311/pokemon-neo-genesis-slowking?page=1&Language=English&Printing=Unlimited+Holofoil&Condition=Moderately+Played"
     },
     {
       "name": "Snorlax",
@@ -1367,15 +1483,8 @@
       "number": "11",
       "variant": "11",
       "condition": "LP",
-      "price_band": "$100–$250"
-    },
-    {
-      "name": "Squirtle",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "170",
-      "variant": "Illustration Rare",
-      "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/45122/pokemon-jungle-snorlax-11&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Lightly+Played"
     },
     {
       "name": "Stakataka GX",
@@ -1383,7 +1492,8 @@
       "number": "102",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/170927/pokemon-sm-celestial-storm-stakataka-gx&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Stoutland",
@@ -1391,7 +1501,8 @@
       "number": "061",
       "variant": "SM11b",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/574939/pokemon-japan-sm11b-dream-league-stoutland-061-049?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Suicune GX",
@@ -1399,7 +1510,8 @@
       "number": "200",
       "variant": "Full Art",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/178868/pokemon-sm-lost-thunder-suicune-gx-full-art&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Tangela",
@@ -1407,7 +1519,8 @@
       "number": "178",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/517036/pokemon-sv-scarlet-and-violet-151-tangela-178-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Team Rocket's Giovanni",
@@ -1415,7 +1528,8 @@
       "number": "238",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/633038/pokemon-sv10-destined-rivals-team-rockets-giovanni-238-182&page=1&Language=English&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Team Rocket's Nidoking ex",
@@ -1423,7 +1537,8 @@
       "number": "216",
       "variant": "Ultra Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/633016/pokemon-sv10-destined-rivals-team-rockets-nidoking-ex-216-182&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Team Skull Grunt",
@@ -1431,7 +1546,8 @@
       "number": "149",
       "variant": "Full Art",
       "condition": "LP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/127021/pokemon-sm-base-set-team-skull-grunt-full-art&page=1&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Ultra Ball",
@@ -1439,7 +1555,8 @@
       "number": "216",
       "variant": "M2a",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/665887/pokemon-japan-m2a-high-class-pack-mega-dream-ex-ultra-ball&page=1&Language=all&Language=all?Condition=Near+Mint"
     },
     {
       "name": "Umbreon",
@@ -1447,7 +1564,8 @@
       "number": "059",
       "variant": "Master Ball Pattern",
       "condition": "MP",
-      "price_band": "$50–$100"
+      "price_band": "$50–$100",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610679/pokemon-sv-prismatic-evolutions-umbreon-master-ball-pattern&page=1&Language=English&Language=English?Condition=Moderately+Played"
     },
     {
       "name": "Umbreon",
@@ -1455,7 +1573,8 @@
       "number": "13",
       "variant": "13",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/90137/pokemon-neo-discovery-umbreon-13&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Near+Mint"
     },
     {
       "name": "Unown VSTAR",
@@ -1463,7 +1582,8 @@
       "number": "199",
       "variant": "Secret",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/451989/pokemon-swsh12-silver-tempest-unown-vstar-secret&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Unown VSTAR",
@@ -1471,7 +1591,8 @@
       "number": "116",
       "variant": "S12",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/570174/pokemon-japan-s12-paradigm-trigger-unown-vstar-116-098?page=1&Language=all&Condition=Near+Mint"
     },
     {
       "name": "Vaporeon ex",
@@ -1479,7 +1600,8 @@
       "number": "149",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/610504/pokemon-sv-prismatic-evolutions-vaporeon-ex-149-131&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Venusaur",
@@ -1487,15 +1609,8 @@
       "number": "15",
       "variant": "Classic Collection",
       "condition": "NM",
-      "price_band": "$10–$20"
-    },
-    {
-      "name": "Wartortle",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "171",
-      "variant": "Illustration Rare",
-      "condition": "NM",
-      "price_band": "$50–$100"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/250321/pokemon-celebrations-classic-collection-venusaur&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Whimsicott ex",
@@ -1503,7 +1618,8 @@
       "number": "165",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$20–$50"
+      "price_band": "$20–$50",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642282/pokemon-sv-white-flare-whimsicott-ex-165-086&Language=English&page=1?Condition=Near+Mint"
     },
     {
       "name": "Wigglytuff",
@@ -1511,7 +1627,8 @@
       "number": "105",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662240/pokemon-me02-phantasmal-flames-wigglytuff-105-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Wigglytuff",
@@ -1519,7 +1636,8 @@
       "number": "105",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/662240/pokemon-me02-phantasmal-flames-wigglytuff-105-094&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Wishiwashi GX",
@@ -1527,7 +1645,8 @@
       "number": "151",
       "variant": "Secret",
       "condition": "LP",
-      "price_band": "Under $10"
+      "price_band": "Under $10",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/130940/pokemon-sm-guardians-rising-wishiwashi-gx-secret&page=1&Language=English&Language=English?Condition=Lightly+Played"
     },
     {
       "name": "Zapdos ex",
@@ -1535,15 +1654,8 @@
       "number": "202",
       "variant": "Special Illustration Rare",
       "condition": "NM",
-      "price_band": "$100–$250"
-    },
-    {
-      "name": "Zapdos ex",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "202",
-      "variant": "Special Illustration Rare",
-      "condition": "NM",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/517048/pokemon-sv-scarlet-and-violet-151-zapdos-ex-202-165&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Zekrom ex",
@@ -1551,7 +1663,8 @@
       "number": "172",
       "variant": "Black White Rare",
       "condition": "NM",
-      "price_band": "$250+"
+      "price_band": "$250+",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/642623/pokemon-sv-black-bolt-zekrom-ex-172-086&page=1&Language=English?Condition=Near+Mint"
     },
     {
       "name": "Zeraora",
@@ -1559,7 +1672,8 @@
       "number": "151",
       "variant": "Illustration Rare",
       "condition": "NM",
-      "price_band": "$10–$20"
+      "price_band": "$10–$20",
+      "tcgplayer_url": "https://www.tcgplayer.com/product/567434/pokemon-sv07-stellar-crown-zeraora-151-142&page=1&Language=English?Condition=Near+Mint"
     }
   ],
   "graded": [
@@ -1571,7 +1685,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "EX-MT 6",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "138177938",
+      "slab_image": "card_images/slab_138177938.jpg"
     },
     {
       "name": "ARCANINE-HOLO",
@@ -1581,7 +1697,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "86340759",
+      "slab_image": "card_images/slab_86340759.jpg"
     },
     {
       "name": "ARTICUNO-HOLO",
@@ -1591,7 +1709,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "83890053",
+      "slab_image": "card_images/slab_83890053.jpg"
     },
     {
       "name": "BLAINE'S MOLTRES",
@@ -1601,7 +1721,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "120459469",
+      "slab_image": "card_images/slab_120459469.jpg"
     },
     {
       "name": "BLASTOISE EX",
@@ -1611,7 +1733,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "118510160",
+      "slab_image": "card_images/slab_118510160.jpg"
     },
     {
       "name": "BLASTOISE-HOLO",
@@ -1621,7 +1745,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "VG-EX 4",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "121101523",
+      "slab_image": "card_images/slab_121101523.jpg"
     },
     {
       "name": "BLASTOISE-HOLO",
@@ -1631,7 +1757,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "64596151",
+      "slab_image": "card_images/slab_64596151.jpg"
     },
     {
       "name": "BLASTOISE-HOLO",
@@ -1641,7 +1769,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "72554517",
+      "slab_image": "card_images/slab_72554517.jpg"
     },
     {
       "name": "BROCK'S NINETALES",
@@ -1651,7 +1781,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "48029560",
+      "slab_image": null
     },
     {
       "name": "BULBASAUR",
@@ -1661,7 +1793,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "100114407",
+      "slab_image": "card_images/slab_100114407.jpg"
     },
     {
       "name": "CAPTAIN PIKACHU",
@@ -1671,7 +1805,9 @@
       "language": "Chinese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "140008443",
+      "slab_image": "card_images/slab_140008443.jpg"
     },
     {
       "name": "CASSIOPEIA",
@@ -1681,17 +1817,21 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "97950777",
+      "slab_image": "card_images/slab_97950777.jpg"
     },
     {
       "name": "Celebi & Venusaur GX",
-      "set": "SM Promo",
+      "set": "Black Star Promos",
       "number": "SM167",
       "variant": "Tag Team Tin",
       "language": "English",
       "grading_company": "CGC",
       "grade": "10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "6060285289",
+      "slab_image": null
     },
     {
       "name": "CELEBI & VENUSAUR GX",
@@ -1701,7 +1841,9 @@
       "language": "Chinese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "134520420",
+      "slab_image": "card_images/slab_134520420.jpg"
     },
     {
       "name": "CERULEDGE EX",
@@ -1711,7 +1853,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "140008446",
+      "slab_image": "card_images/slab_140008446.jpg"
     },
     {
       "name": "Charizard & Braixen GX",
@@ -1721,7 +1865,9 @@
       "language": "English",
       "grading_company": "CGC",
       "grade": "PRISTINE 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "6110214277",
+      "slab_image": null
     },
     {
       "name": "Charizard ex",
@@ -1731,7 +1877,9 @@
       "language": "English",
       "grading_company": "CGC",
       "grade": "6.5",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "6036862034",
+      "slab_image": null
     },
     {
       "name": "CHARIZARD EX",
@@ -1741,7 +1889,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "103638298",
+      "slab_image": "card_images/slab_103638298.jpg"
     },
     {
       "name": "CHARIZARD EX",
@@ -1751,7 +1901,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "97932520",
+      "slab_image": "card_images/slab_97932520.jpg"
     },
     {
       "name": "CHARIZARD EX",
@@ -1761,7 +1913,9 @@
       "language": "English",
       "grading_company": "TAG",
       "grade": "10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "P8003737",
+      "slab_image": null
     },
     {
       "name": "CHARIZARD GX",
@@ -1771,7 +1925,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "75093812",
+      "slab_image": "card_images/slab_75093812.jpg"
     },
     {
       "name": "CHARIZARD-HOLO",
@@ -1781,7 +1937,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "68209433",
+      "slab_image": null
     },
     {
       "name": "CHARIZARD-HOLO",
@@ -1791,7 +1949,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "EX-MT 6",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "132412549",
+      "slab_image": "card_images/slab_132412549.jpg"
     },
     {
       "name": "CHARIZARD-HOLO",
@@ -1801,7 +1961,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "99731874",
+      "slab_image": "card_images/slab_99731874.jpg"
     },
     {
       "name": "CHARMANDER",
@@ -1811,7 +1973,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "120930775",
+      "slab_image": "card_images/slab_120930775.jpg"
     },
     {
       "name": "CHARMELEON-HOLO",
@@ -1821,7 +1985,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "136537025",
+      "slab_image": "card_images/slab_136537025.jpg"
     },
     {
       "name": "CLEFFA",
@@ -1831,7 +1997,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "105604755",
+      "slab_image": "card_images/slab_105604755.jpg"
     },
     {
       "name": "DARK CHARIZARD",
@@ -1841,7 +2009,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "130171603",
+      "slab_image": "card_images/slab_130171603.jpg"
     },
     {
       "name": "DARK HYPNO-HOLO",
@@ -1851,7 +2021,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "68520427",
+      "slab_image": null
     },
     {
       "name": "DELIBIRD-HOLO",
@@ -1861,7 +2033,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "48536349",
+      "slab_image": null
     },
     {
       "name": "DUGTRIO",
@@ -1871,7 +2045,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "66337298",
+      "slab_image": null
     },
     {
       "name": "DWEBBLE",
@@ -1881,7 +2057,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "133170433",
+      "slab_image": "card_images/slab_133170433.jpg"
     },
     {
       "name": "EEVEE & SNORLAX GX",
@@ -1891,7 +2069,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "128126815",
+      "slab_image": "card_images/slab_128126815.jpg"
     },
     {
       "name": "ESPEON EX",
@@ -1901,7 +2081,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "136751961",
+      "slab_image": "card_images/slab_136751961.jpg"
     },
     {
       "name": "ETHAN'S ADVENTURE",
@@ -1911,17 +2093,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
-    },
-    {
-      "name": "Ethan's Ho-Oh",
-      "set": "Destined Rivals",
-      "number": "230",
-      "variant": "Special Illustration Rare",
-      "language": "English",
-      "grading_company": "BGS",
-      "grade": "9.5",
-      "price_band": "$250–$500"
+      "price_band": "$100–$250",
+      "cert_number": "133170438",
+      "slab_image": "card_images/slab_133170438.jpg"
     },
     {
       "name": "ETHAN'S HO-OH EX",
@@ -1931,7 +2105,21 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "151752645",
+      "slab_image": "card_images/slab_151752645.jpg"
+    },
+    {
+      "name": "Ethan's Ho-Oh ex SIR",
+      "set": "Pokemon TCG Scarlet and Violet Destined Rivals",
+      "number": "230",
+      "variant": "Special Illustration Rare",
+      "language": "English",
+      "grading_company": "BGS",
+      "grade": "9.5",
+      "price_band": "$250–$500",
+      "cert_number": "0018639289",
+      "slab_image": null
     },
     {
       "name": "ETHAN'S TYPHLOSION",
@@ -1941,7 +2129,9 @@
       "language": "English",
       "grading_company": "TAG",
       "grade": "10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "Q6657952",
+      "slab_image": null
     },
     {
       "name": "ETHAN'S TYPHLOSION",
@@ -1951,7 +2141,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "130063740",
+      "slab_image": "card_images/slab_130063740.jpg"
     },
     {
       "name": "FA/AERODACTYL GX",
@@ -1961,7 +2153,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "135421271",
+      "slab_image": "card_images/slab_135421271.jpg"
     },
     {
       "name": "FA/ALAKAZAM EX",
@@ -1971,7 +2165,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "124503300",
+      "slab_image": "card_images/slab_124503300.jpg"
     },
     {
       "name": "FA/ARCEUS VSTAR",
@@ -1981,7 +2177,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "122839433",
+      "slab_image": "card_images/slab_122839433.jpg"
     },
     {
       "name": "FA/CHARIZARD",
@@ -1991,7 +2189,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "89476250",
+      "slab_image": "card_images/slab_89476250.jpg"
     },
     {
       "name": "FA/CHARIZARD VMAX",
@@ -2001,7 +2201,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "101497558",
+      "slab_image": "card_images/slab_101497558.jpg"
     },
     {
       "name": "FA/DITTO",
@@ -2011,7 +2213,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "137596422",
+      "slab_image": "card_images/slab_137596422.jpg"
     },
     {
       "name": "FA/DRAGONITE EX",
@@ -2021,7 +2225,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "55783523",
+      "slab_image": null
     },
     {
       "name": "FA/ETERNATUS VMAX",
@@ -2031,7 +2237,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "82589073",
+      "slab_image": "card_images/slab_82589073.jpg"
     },
     {
       "name": "FA/FLAREON",
@@ -2041,7 +2249,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "124358005",
+      "slab_image": "card_images/slab_124358005.jpg"
     },
     {
       "name": "FA/GLACEON V",
@@ -2051,7 +2261,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "113179723",
+      "slab_image": "card_images/slab_113179723.jpg"
     },
     {
       "name": "FA/GYARADOS GX",
@@ -2061,7 +2273,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "133566164",
+      "slab_image": "card_images/slab_133566164.jpg"
     },
     {
       "name": "FA/LILLIE",
@@ -2071,7 +2285,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "109471003",
+      "slab_image": "card_images/slab_109471003.jpg"
     },
     {
       "name": "FA/LUGIA V",
@@ -2081,7 +2297,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "114561495",
+      "slab_image": "card_images/slab_114561495.jpg"
     },
     {
       "name": "FA/LUNALA GX",
@@ -2091,7 +2309,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "135421269",
+      "slab_image": "card_images/slab_135421269.jpg"
     },
     {
       "name": "FA/M GARDEVOIR EX",
@@ -2101,7 +2321,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "99583812",
+      "slab_image": "card_images/slab_99583812.jpg"
     },
     {
       "name": "FA/M GARDEVOIR EX",
@@ -2111,7 +2333,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "56019172",
+      "slab_image": null
     },
     {
       "name": "FA/M.LPNY.&JGLYPF.GX",
@@ -2121,7 +2345,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "124191666",
+      "slab_image": "card_images/slab_124191666.jpg"
     },
     {
       "name": "FA/MEW",
@@ -2131,7 +2357,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "135366746",
+      "slab_image": "card_images/slab_135366746.jpg"
     },
     {
       "name": "FA/MEW",
@@ -2141,7 +2369,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "140008448",
+      "slab_image": "card_images/slab_140008448.jpg"
     },
     {
       "name": "FA/MEW EX",
@@ -2151,7 +2381,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "72744136",
+      "slab_image": "card_images/slab_72744136.jpg"
     },
     {
       "name": "FA/MEW V",
@@ -2161,7 +2393,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "113406466",
+      "slab_image": "card_images/slab_113406466.jpg"
     },
     {
       "name": "FA/MEWTWO & MEW GX",
@@ -2171,7 +2405,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "121101521",
+      "slab_image": "card_images/slab_121101521.jpg"
     },
     {
       "name": "FA/MEWTWO EX",
@@ -2181,7 +2417,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "121441083",
+      "slab_image": "card_images/slab_121441083.jpg"
     },
     {
       "name": "FA/MEWTWO EX",
@@ -2191,7 +2429,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "110083353",
+      "slab_image": "card_images/slab_110083353.jpg"
     },
     {
       "name": "FA/ORGN.FRM.PALKIA V",
@@ -2201,7 +2441,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "94685882",
+      "slab_image": "card_images/slab_94685882.jpg"
     },
     {
       "name": "FA/PIKACHU",
@@ -2211,7 +2453,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "79539971",
+      "slab_image": "card_images/slab_79539971.jpg"
     },
     {
       "name": "FA/PIKACHU",
@@ -2221,7 +2465,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "127703658",
+      "slab_image": "card_images/slab_127703658.jpg"
     },
     {
       "name": "FA/PIKACHU & ZKRM. GX",
@@ -2231,7 +2477,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "126833775",
+      "slab_image": "card_images/slab_126833775.jpg"
     },
     {
       "name": "FA/PIKACHU VMAX",
@@ -2241,7 +2489,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "55147368",
+      "slab_image": "card_images/slab_55147368.jpg"
     },
     {
       "name": "FA/PIKACHU VMAX",
@@ -2251,7 +2501,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "104021681",
+      "slab_image": "card_images/slab_104021681.jpg"
     },
     {
       "name": "FA/PIKACHU VMAX",
@@ -2261,7 +2513,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "103336383",
+      "slab_image": "card_images/slab_103336383.jpg"
     },
     {
       "name": "FA/PRIMAL GROUDON EX",
@@ -2271,7 +2525,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "114165918",
+      "slab_image": "card_images/slab_114165918.jpg"
     },
     {
       "name": "FA/RAYQUAZA VMAX",
@@ -2281,7 +2537,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "103216993",
+      "slab_image": "card_images/slab_103216993.jpg"
     },
     {
       "name": "FA/RAYQUAZA VMAX",
@@ -2291,7 +2549,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "91942116",
+      "slab_image": "card_images/slab_91942116.jpg"
     },
     {
       "name": "FA/SUICUNE V",
@@ -2301,7 +2561,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "110408310",
+      "slab_image": "card_images/slab_110408310.jpg"
     },
     {
       "name": "FA/SYLVEON EX",
@@ -2311,7 +2573,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "108611643",
+      "slab_image": "card_images/slab_108611643.jpg"
     },
     {
       "name": "FA/SYLVEON VMAX",
@@ -2321,7 +2585,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "99311532",
+      "slab_image": "card_images/slab_99311532.jpg"
     },
     {
       "name": "FA/VENUSAUR VMAX",
@@ -2331,7 +2597,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "104216594",
+      "slab_image": "card_images/slab_104216594.jpg"
     },
     {
       "name": "FA/ZERAORA GX",
@@ -2341,7 +2609,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "105920987",
+      "slab_image": "card_images/slab_105920987.jpg"
     },
     {
       "name": "FA/ZERAORA VSTAR",
@@ -2351,7 +2621,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "113315606",
+      "slab_image": "card_images/slab_113315606.jpg"
     },
     {
       "name": "FA/ZINNIA'S RESOLVE",
@@ -2361,7 +2633,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "75410564",
+      "slab_image": "card_images/slab_75410564.jpg"
     },
     {
       "name": "FLAREON EX",
@@ -2371,7 +2645,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "142794672",
+      "slab_image": "card_images/slab_142794672.jpg"
     },
     {
       "name": "FLAREON EX-HOLO",
@@ -2381,7 +2657,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "97952672",
+      "slab_image": "card_images/slab_97952672.jpg"
     },
     {
       "name": "GALARIAN MOLTRES",
@@ -2391,7 +2669,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "136393168",
+      "slab_image": "card_images/slab_136393168.jpg"
     },
     {
       "name": "GARDEVOIR/SYLVEON GX",
@@ -2401,7 +2681,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "74318844",
+      "slab_image": "card_images/slab_74318844.jpg"
     },
     {
       "name": "GASTLY",
@@ -2411,7 +2693,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "121330687",
+      "slab_image": "card_images/slab_121330687.jpg"
     },
     {
       "name": "GENGAR & MIMIKYU GX",
@@ -2421,7 +2705,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "130259828",
+      "slab_image": "card_images/slab_130259828.jpg"
     },
     {
       "name": "GENGAR & MIMIKYU GX",
@@ -2431,7 +2717,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "136754159",
+      "slab_image": "card_images/slab_136754159.jpg"
     },
     {
       "name": "GENGAR V",
@@ -2441,7 +2729,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "138766160",
+      "slab_image": "card_images/slab_138766160.jpg"
     },
     {
       "name": "GEODUDE-REV.FOIL",
@@ -2451,7 +2741,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "72557219",
+      "slab_image": "card_images/slab_72557219.jpg"
     },
     {
       "name": "GLACEON EX",
@@ -2461,7 +2753,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "130059326",
+      "slab_image": "card_images/slab_130059326.jpg"
     },
     {
       "name": "GLACEON VMAX",
@@ -2471,7 +2765,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "122813554",
+      "slab_image": "card_images/slab_122813554.jpg"
     },
     {
       "name": "GRENINJA EX",
@@ -2481,7 +2777,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "133723966",
+      "slab_image": "card_images/slab_133723966.jpg"
     },
     {
       "name": "GRENINJA-GOLD STAR",
@@ -2491,7 +2789,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "140008442",
+      "slab_image": "card_images/slab_140008442.jpg"
     },
     {
       "name": "HO-OH-HOLO",
@@ -2501,7 +2801,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "141209877",
+      "slab_image": null
     },
     {
       "name": "KARRABLAST",
@@ -2511,7 +2813,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "133170435",
+      "slab_image": "card_images/slab_133170435.jpg"
     },
     {
       "name": "LANCE'S CHARIZARD V",
@@ -2521,7 +2825,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "135612990",
+      "slab_image": "card_images/slab_135612990.jpg"
     },
     {
       "name": "LIGHT TOGETIC-HOLO",
@@ -2531,7 +2837,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "66096207",
+      "slab_image": "card_images/slab_66096207.jpg"
     },
     {
       "name": "M CHARIZARD EX",
@@ -2541,7 +2849,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "127062074",
+      "slab_image": "card_images/slab_127062074.jpg"
     },
     {
       "name": "M GYARADOS EX",
@@ -2551,7 +2861,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "121221965",
+      "slab_image": "card_images/slab_121221965.jpg"
     },
     {
       "name": "M STEELIX EX",
@@ -2561,7 +2873,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "75212306",
+      "slab_image": "card_images/slab_75212306.jpg"
     },
     {
       "name": "MAGNETON-HOLO",
@@ -2571,7 +2885,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "128197250",
+      "slab_image": "card_images/slab_128197250.jpg"
     },
     {
       "name": "MARNIE'S MORPEKO",
@@ -2581,7 +2897,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "136393173",
+      "slab_image": "card_images/slab_136393173.jpg"
     },
     {
       "name": "MEGA CHARIZARD X EX",
@@ -2591,7 +2909,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "148854716",
+      "slab_image": null
     },
     {
       "name": "MEGA VENUSAUR EX",
@@ -2601,7 +2921,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "140008445",
+      "slab_image": "card_images/slab_140008445.jpg"
     },
     {
       "name": "MEW EX",
@@ -2611,7 +2933,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "136537059",
+      "slab_image": "card_images/slab_136537059.jpg"
     },
     {
       "name": "MEW-HOLO",
@@ -2621,7 +2945,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "95037316",
+      "slab_image": "card_images/slab_95037316.jpg"
     },
     {
       "name": "MEWTWO",
@@ -2631,7 +2957,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "115961011",
+      "slab_image": "card_images/slab_115961011.jpg"
     },
     {
       "name": "MEWTWO-HOLO",
@@ -2641,7 +2969,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "141182001",
+      "slab_image": "card_images/slab_141182001.jpg"
     },
     {
       "name": "MIMIKYU-HOLO",
@@ -2651,7 +2981,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "137841380",
+      "slab_image": "card_images/slab_137841380.jpg"
     },
     {
       "name": "MIRAIDON",
@@ -2661,7 +2993,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "115393658",
+      "slab_image": "card_images/slab_115393658.jpg"
     },
     {
       "name": "MUK-HOLO",
@@ -2671,7 +3005,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "73608529",
+      "slab_image": "card_images/slab_73608529.jpg"
     },
     {
       "name": "PIKACHU",
@@ -2681,7 +3017,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "43414311",
+      "slab_image": null
     },
     {
       "name": "PIKACHU & ZEKROM GX",
@@ -2691,7 +3029,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "106384726",
+      "slab_image": "card_images/slab_106384726.jpg"
     },
     {
       "name": "PIKACHU BIRTHDAY",
@@ -2701,7 +3041,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "41696347",
+      "slab_image": null
     },
     {
       "name": "PIKACHU EX",
@@ -2711,7 +3053,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "110674502",
+      "slab_image": "card_images/slab_110674502.jpg"
     },
     {
       "name": "PIKACHU EX",
@@ -2721,7 +3065,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "88768447",
+      "slab_image": "card_images/slab_88768447.jpg"
     },
     {
       "name": "PIKACHU GX",
@@ -2731,7 +3077,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "85274351",
+      "slab_image": "card_images/slab_85274351.jpg"
     },
     {
       "name": "PIKACHU V-UNION",
@@ -2741,7 +3089,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "136412293",
+      "slab_image": "card_images/slab_136412293.jpg"
     },
     {
       "name": "Pikachu with Grey Felt Hat",
@@ -2751,7 +3101,9 @@
       "language": "English",
       "grading_company": "CGC",
       "grade": "10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "6091906008",
+      "slab_image": null
     },
     {
       "name": "PIKACHU-HOLO",
@@ -2761,7 +3113,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "114808891",
+      "slab_image": "card_images/slab_114808891.jpg"
     },
     {
       "name": "PIKACHU/GREY FELT HAT",
@@ -2771,7 +3125,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "116594461",
+      "slab_image": "card_images/slab_116594461.jpg"
     },
     {
       "name": "PRTD.GYRDS. PIKACHU",
@@ -2781,7 +3137,9 @@
       "language": "Japanese",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "148947045",
+      "slab_image": null
     },
     {
       "name": "QUAQUAVAL EX",
@@ -2791,7 +3149,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "122707297",
+      "slab_image": "card_images/slab_122707297.jpg"
     },
     {
       "name": "RADIANT ALAKAZAM",
@@ -2801,7 +3161,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "124368161",
+      "slab_image": "card_images/slab_124368161.jpg"
     },
     {
       "name": "RAICHU",
@@ -2811,7 +3173,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "99544939",
+      "slab_image": "card_images/slab_99544939.jpg"
     },
     {
       "name": "RAICHU/ALN.RAICHU GX",
@@ -2821,7 +3185,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "112408949",
+      "slab_image": "card_images/slab_112408949.jpg"
     },
     {
       "name": "RESHIRAM & ZEKROM GX",
@@ -2831,7 +3197,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "125080124",
+      "slab_image": "card_images/slab_125080124.jpg"
     },
     {
       "name": "ROCKET'S ARTICUNO",
@@ -2841,7 +3209,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "133170431",
+      "slab_image": "card_images/slab_133170431.jpg"
     },
     {
       "name": "ROCKET'S NIDOKING EX",
@@ -2851,7 +3221,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "126392728",
+      "slab_image": "card_images/slab_126392728.jpg"
     },
     {
       "name": "ROCKET'S RATICATE",
@@ -2861,7 +3233,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "126744270",
+      "slab_image": "card_images/slab_126744270.jpg"
     },
     {
       "name": "SABRINA'S DROWZEE",
@@ -2871,7 +3245,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "124700344",
+      "slab_image": "card_images/slab_124700344.jpg"
     },
     {
       "name": "SNORLAX",
@@ -2881,7 +3257,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "124503301",
+      "slab_image": "card_images/slab_124503301.jpg"
     },
     {
       "name": "SP.DELIVERY CHARIZARD",
@@ -2891,7 +3269,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$1,000+"
+      "price_band": "$1,000+",
+      "cert_number": "70275209",
+      "slab_image": "card_images/slab_70275209.jpg"
     },
     {
       "name": "SPCL.DELIVERY PIKACHU",
@@ -2901,7 +3281,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "86329765",
+      "slab_image": "card_images/slab_86329765.jpg"
     },
     {
       "name": "STARMIE",
@@ -2911,7 +3293,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "59311393",
+      "slab_image": null
     },
     {
       "name": "SUICUNE-HOLO",
@@ -2921,7 +3305,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT+ 8.5",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "48018455",
+      "slab_image": null
     },
     {
       "name": "TEAM AQUA",
@@ -2931,7 +3317,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "68683014",
+      "slab_image": null
     },
     {
       "name": "THUNDURUS",
@@ -2941,7 +3329,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "127651480",
+      "slab_image": "card_images/slab_127651480.jpg"
     },
     {
       "name": "UMBREON",
@@ -2951,7 +3341,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "113076140",
+      "slab_image": "card_images/slab_113076140.jpg"
     },
     {
       "name": "UMBREON",
@@ -2961,7 +3353,9 @@
       "language": "Chinese",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "131775862",
+      "slab_image": "card_images/slab_131775862.jpg"
     },
     {
       "name": "UMBREON & DARKRAI GX",
@@ -2971,7 +3365,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "MINT 9",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "115906251",
+      "slab_image": "card_images/slab_115906251.jpg"
     },
     {
       "name": "UMBREON-GOLD STAR",
@@ -2981,7 +3377,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "105503955",
+      "slab_image": "card_images/slab_105503955.jpg"
     },
     {
       "name": "UMBREON-HOLO",
@@ -2991,7 +3389,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "EX-MT 6",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "117064541",
+      "slab_image": "card_images/slab_117064541.jpg"
     },
     {
       "name": "VAPOREON EX-HOLO",
@@ -3001,7 +3401,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM 7",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "136992774",
+      "slab_image": "card_images/slab_136992774.jpg"
     },
     {
       "name": "Venusaur",
@@ -3011,7 +3413,9 @@
       "language": "Japanese",
       "grading_company": "BGS",
       "grade": "NM",
-      "price_band": "Under $100"
+      "price_band": "Under $100",
+      "cert_number": "0015187342",
+      "slab_image": null
     },
     {
       "name": "VENUSAUR EX",
@@ -3021,7 +3425,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "NM-MT 8",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "127041534",
+      "slab_image": "card_images/slab_127041534.jpg"
     },
     {
       "name": "VICTINI",
@@ -3031,7 +3437,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$250–$500"
+      "price_band": "$250–$500",
+      "cert_number": "136393170",
+      "slab_image": "card_images/slab_136393170.jpg"
     },
     {
       "name": "ZAPDOS EX",
@@ -3041,7 +3449,9 @@
       "language": "English",
       "grading_company": "PSA",
       "grade": "GEM MT 10",
-      "price_band": "$500–$1,000"
+      "price_band": "$500–$1,000",
+      "cert_number": "123013021",
+      "slab_image": "card_images/slab_123013021.jpg"
     },
     {
       "name": "Zapdos ex",
@@ -3051,92 +3461,82 @@
       "language": "English",
       "grading_company": "CGC",
       "grade": "10",
-      "price_band": "$100–$250"
+      "price_band": "$100–$250",
+      "cert_number": "6059238166",
+      "slab_image": null
     }
   ],
   "sealed": [
     {
-      "name": "151 Booster Bundle",
-      "language": "English",
-      "quantity": 1,
-      "price_band": "$150–$500"
-    },
-    {
-      "name": "151 Master Sets (En + JP)",
-      "language": "English",
-      "quantity": 1,
-      "price_band": "$500+"
-    },
-    {
-      "name": "Base set 2 Master Set",
-      "language": "English",
-      "quantity": 1,
-      "price_band": "$500+"
-    },
-    {
-      "name": "Blastoise Box S-CH",
-      "language": "English",
-      "quantity": 5,
-      "price_band": "$50–$150"
-    },
-    {
-      "name": "Charizard Boxes",
-      "language": "English",
-      "quantity": 9,
-      "price_band": "Under $50"
-    },
-    {
-      "name": "Dark Crystal Blaze",
-      "language": "English",
+      "name": "151 First Partner Display Box",
+      "language": "Chinese",
       "quantity": 7,
       "price_band": "Under $50"
     },
     {
-      "name": "Eevee Keychain Box",
-      "language": "English",
-      "quantity": 7,
-      "price_band": "Under $50"
-    },
-    {
-      "name": "Eeveelution Binder",
-      "language": "English",
-      "quantity": 1,
-      "price_band": "Under $50"
-    },
-    {
-      "name": "Fearless Tera",
-      "language": "English",
-      "quantity": 7,
-      "price_band": "$50–$150"
-    },
-    {
-      "name": "First Partner",
-      "language": "English",
-      "quantity": 7,
-      "price_band": "Under $50"
-    },
-    {
-      "name": "Gathering Coin Sets",
-      "language": "English",
+      "name": "151 Gathering Coin Sets S-CH",
+      "language": "Chinese",
       "quantity": 6,
       "price_band": "Under $50"
     },
     {
-      "name": "Gem 2",
+      "name": "Charizard Keychain Blind Box",
+      "language": "Chinese",
+      "quantity": 9,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Dark Crystal Blaze Booster Pack",
+      "language": "Chinese",
+      "quantity": 7,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Eevee Keychain Blind Box",
+      "language": "Chinese",
+      "quantity": 7,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Eeveelution Binder \"Jolteon\"",
       "language": "English",
+      "quantity": 1,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Gem Pack Vol. 2 Booster Box",
+      "language": "Chinese",
       "quantity": 50,
       "price_band": "$50–$150"
     },
     {
-      "name": "Gem 3",
-      "language": "English",
+      "name": "Gem Pack Vol. 3 Booster Box",
+      "language": "Chinese",
       "quantity": 40,
       "price_band": "$50–$150"
     },
     {
-      "name": "Venusaur Box S-CH",
-      "language": "English",
+      "name": "Gem Pack Vol. 4 Booster Box",
+      "language": "Chinese",
+      "quantity": 20,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "SV: Fearless Terastal \"Arcanine\" Slim Booster Box",
+      "language": "Chinese",
       "quantity": 7,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "SWSH: Primordial Arts A \"Venusaur\" Jumbo Booster Box",
+      "language": "Chinese",
+      "quantity": 7,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "SWSH: Primordial Arts B \"Blastoise\" Jumbo Booster Box",
+      "language": "Chinese",
+      "quantity": 5,
       "price_band": "$50–$150"
     }
   ]

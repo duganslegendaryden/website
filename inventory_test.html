@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[TEST] Browse Inventory — Dugan's Legendary Den</title>
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ── Test banner ── */
+        .test-banner {
+            background: #b8860b;
+            color: #fff;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            padding: 6px 12px;
+        }
+
+        /* ── Card thumbnail ── */
+        .card-thumb {
+            width: 72px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 5px;
+            display: block;
+            background: #1a1a2e;
+        }
+        .thumb-placeholder {
+            width: 72px;
+            height: 100px;
+            background: #1a1a2e;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-size: 10px;
+            text-align: center;
+            line-height: 1.2;
+            flex-shrink: 0;
+        }
+
+        /* ── Link column ── */
+        .col-link { width: 52px; text-align: center; }
+        .col-img  { width: 80px; text-align: center; }
+        td.col-link, td.col-img { padding: 4px 6px; vertical-align: middle; }
+
+        .cert-link, .tcg-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            padding: 3px 6px;
+            border-radius: 4px;
+            text-decoration: none;
+            white-space: nowrap;
+            line-height: 1;
+        }
+        .cert-link { background: #2a3a5c; color: #a8c7fa; border: 1px solid #3a5080; }
+        .cert-link:hover { background: #3a5080; }
+        .tcg-link  { background: #1a3a1a; color: #7ec87e; border: 1px solid #2a5a2a; }
+        .tcg-link:hover  { background: #2a5a2a; }
+
+        /* ── Mobile card layout: image left, content right ── */
+        .inv-card {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: flex-start !important;
+            gap: 10px !important;
+        }
+        .inv-card-img-col {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .inv-card-content {
+            flex: 1;
+            min-width: 0;
+        }
+        .inv-card-link-row {
+            /* used for cert/tcg link below image on mobile */
+        }
+    </style>
+</head>
+<body>
+    <div class="test-banner">⚠ LOCAL TEST PAGE — NOT FOR PRODUCTION</div>
+    <div class="top-accent"></div>
+
+    <header class="inv-header">
+        <div class="section-inner inv-header-inner">
+            <a href="index.html" class="inv-back-btn" aria-label="Back to home">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                </svg>
+                Home
+            </a>
+            <div class="inv-title-block">
+                <p class="inv-eyebrow">Dugan's Legendary Den</p>
+                <h1 class="inv-page-title">Browse Inventory <span style="font-size:0.55em;color:#b8860b">[TEST]</span></h1>
+            </div>
+            <img src="logo.png" alt="" class="inv-logo" aria-hidden="true">
+        </div>
+    </header>
+
+    <main class="inv-main">
+        <div class="section-inner">
+
+            <nav class="inv-tabs" role="tablist" aria-label="Inventory categories">
+                <button class="inv-tab active" data-tab="all"     role="tab" aria-selected="true">All <span class="tab-count" id="cnt-all">–</span></button>
+                <button class="inv-tab" data-tab="singles" role="tab" aria-selected="false">Singles <span class="tab-count" id="cnt-singles">–</span></button>
+                <button class="inv-tab" data-tab="graded"  role="tab" aria-selected="false">Slabs <span class="tab-count" id="cnt-graded">–</span></button>
+                <button class="inv-tab" data-tab="sealed"  role="tab" aria-selected="false">Sealed <span class="tab-count" id="cnt-sealed">–</span></button>
+            </nav>
+
+            <div class="inv-controls">
+                <div class="inv-search-wrap">
+                    <svg class="inv-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                    <input type="search" id="inv-search" class="inv-search"
+                        placeholder="Search by name, set, or number…"
+                        autocomplete="off" spellcheck="false" aria-label="Search inventory">
+                </div>
+                <div class="inv-bands" id="inv-bands" role="group" aria-label="Filter by price range"></div>
+            </div>
+
+            <div class="inv-meta">
+                <span id="inv-result-count">Loading…</span>
+                <span class="inv-updated" id="inv-updated"></span>
+            </div>
+
+            <div class="inv-table-wrap" id="inv-table-wrap">
+                <div class="inv-loading" id="inv-loading">
+                    <div class="inv-spinner" aria-hidden="true"></div>
+                    <p>Loading inventory…</p>
+                </div>
+            </div>
+
+            <div class="inv-disclaimer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="flex-shrink:0;margin-top:2px">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+                <span>Prices shown as approximate ranges only. Final prices confirmed at each show.
+                <a href="mailto:duganslegendaryden@gmail.com">Contact us</a> if you're looking for something specific.</span>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="section-inner">
+            <p>&copy; 2026 Dugan's Legendary Den. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+'use strict';
+
+// ── Config ────────────────────────────────────────────────────────────────────
+// Always use local JSON for this test page
+const DATA_URL = 'inventory_data.json';
+
+// Pokemon TCG API key (pokemontcg.io) — optional but raises limit from 1k to 20k/day.
+// Get a free key at https://dev.pokemontcg.io/ then paste it here for testing.
+const PTCG_API_KEY = '53611259-9f03-4864-ad59-1e58d9ce618e';
+
+// Manual overrides for graded cards whose PSA cert name is abbreviated, truncated,
+// or uses non-standard notation that can't be resolved by normal pattern matching.
+// Key: raw PSA card name (lowercased, exactly as stored in the DB).
+// Value: { name: "API card name", [number: "override number"], [setId: "set.id filter"] }
+//   • name    — the exact card name to query (replaces the normal cleaning + variants)
+//   • number  — override the stored number (use when PSA cert stored the wrong number)
+//   • setId   — append set.id:xxx to the query (use when number alone is ambiguous)
+const GRADED_NAME_OVERRIDES = {
+    // PSA abbreviates long names — map to the real card name
+    'sp.delivery charizard':  { name: 'Special Delivery Charizard' },
+    'spcl.delivery pikachu':  { name: 'Special Delivery Pikachu' },
+    // Compound Tag Team names truncated by PSA character limit
+    'fa/m.lpny.&jglypf.gx':  { name: 'Moltres & Zapdos & Articuno-GX', number: 'SM210' },
+    'fa/pikachu & zkrm. gx': { name: 'Pikachu & Zekrom-GX' },
+    'raichu/aln.raichu gx':  { name: 'Raichu & Alolan Raichu-GX' },
+    // PSA uses "/" as separator for compound names (covered by _nameVariants for most,
+    // but these have abbreviated second halves that need explicit mapping)
+    'pikachu/grey felt hat':  { name: 'Pikachu with Grey Felt Hat' },
+    // PSA appends "-GOLD STAR" as a variety annotation; strip it and query the plain name.
+    // Greninja: SWSH Black Star Promo SWSH144 — number is correct in DB
+    'greninja-gold star':     { name: 'Greninja' },
+    // Umbreon: Celebrations Classic Collection #17 — set.id needed to avoid Delta Species
+    'umbreon-gold star':      { name: 'Umbreon ★', setId: 'cel25c' },
+};
+
+// Pokemon TCG API image cache: "set|number" → image URL (or false if not found)
+const imgCache = new Map();
+
+// IntersectionObserver for lazy-loading thumbnails
+let thumbObserver = null;
+
+// ── State ─────────────────────────────────────────────────────────────────────
+const mobileQuery = window.matchMedia('(max-width: 639px)');
+mobileQuery.addEventListener('change', () => render());
+
+let INV        = { singles: [], graded: [], sealed: [] };
+let activeTab  = 'all';
+let activeBand = null;
+let query      = '';
+let debounce   = null;
+
+const BANDS = {
+    singles: ['Under $10', '$10\u2013$20', '$20\u2013$50', '$50\u2013$100', '$100\u2013$250', '$250+'],
+    graded:  ['Under $100', '$100\u2013$250', '$250\u2013$500', '$500\u2013$1,000', '$1,000+'],
+    sealed:  ['Under $50', '$50\u2013$150', '$150\u2013$500', '$500+'],
+};
+
+// ── Load data ─────────────────────────────────────────────────────────────────
+fetch(DATA_URL)
+    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(data => {
+        INV = data;
+        document.getElementById('inv-loading').style.display = 'none';
+        if (data.generated) document.getElementById('inv-updated').textContent = 'Updated: ' + data.generated;
+        refreshCounts();
+        render();
+    })
+    .catch(err => {
+        document.getElementById('inv-loading').innerHTML =
+            `<p class="inv-empty">Could not load inventory_data.json.<br>
+             Run <code>python _export_inventory_preview.py</code> first.<br>
+             <small>${esc(err.message)}</small></p>`;
+    });
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function esc(s) {
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function allItems() {
+    return [
+        ...INV.singles.map(x => ({...x, _cat: 'singles'})),
+        ...INV.graded.map(x  => ({...x, _cat: 'graded'})),
+        ...INV.sealed.map(x  => ({...x, _cat: 'sealed'})),
+    ];
+}
+
+function categoryItems() {
+    return activeTab === 'all' ? allItems() : (INV[activeTab] || []).map(x => ({...x, _cat: activeTab}));
+}
+
+function filtered() {
+    let items = categoryItems();
+    if (activeBand) items = items.filter(x => x.price_band === activeBand);
+    if (query) {
+        const q = query.toLowerCase();
+        items = items.filter(x =>
+            (x.name    || '').toLowerCase().includes(q) ||
+            (x.set     || '').toLowerCase().includes(q) ||
+            (x.number  || '').toLowerCase().includes(q) ||
+            (x.variant || '').toLowerCase().includes(q)
+        );
+    }
+    return items;
+}
+
+function gradeCell(item) {
+    if (item._cat === 'sealed') return '\u2014';
+    if (item._cat === 'graded') {
+        const gc = item.grading_company || '';
+        const gr = item.grade || '';
+        return gc && gr ? `<span class="grade-badge gc-${gc.toLowerCase()}">${esc(gc)} ${esc(gr)}</span>`
+                        : esc(gc || gr || '\u2014');
+    }
+    return esc(item.condition || '\u2014');
+}
+
+// ── Cert link builder ─────────────────────────────────────────────────────────
+function certLink(item) {
+    if (!item.cert_number) return '\u2014';
+    const n = encodeURIComponent(item.cert_number);
+    const gc = (item.grading_company || '').toUpperCase();
+    let href = '';
+    if      (gc === 'PSA') href = `https://www.psacard.com/cert/${n}`;
+    else if (gc === 'CGC') href = `https://www.cgccards.com/certlookup/${n}/`;
+    else if (gc === 'BGS' || gc === 'BGS/BCCG') href = `https://www.beckett.com/grading/card-lookup?item_id=${n}&item_type=BGS`;
+    else if (gc === 'TAG') href = `https://my.taggrading.com/card/${n}`;
+    else                   href = '';
+
+    if (!href) return `<span style="font-size:0.75rem;color:#888">${esc(item.cert_number)}</span>`;
+    return `<a class="cert-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(gc || 'Cert')}</a>`;
+}
+
+// ── TCGPlayer link ─────────────────────────────────────────────────────────────
+function tcgLink(item) {
+    if (!item.tcgplayer_url) return '';
+    return `<a class="tcg-link" href="${esc(item.tcgplayer_url)}" target="_blank" rel="noopener noreferrer">TCG</a>`;
+}
+
+// ── Pokemon TCG API image ─────────────────────────────────────────────────────
+
+// Concurrency limiter — max 4 parallel API calls to avoid hammering the API
+const _MAX_CONCURRENT = 4;
+let _activeReqs = 0;
+const _reqQueue = [];
+function _enqueue(fn) {
+    return new Promise((resolve, reject) => {
+        _reqQueue.push({ fn, resolve, reject });
+        _drain();
+    });
+}
+function _drain() {
+    while (_activeReqs < _MAX_CONCURRENT && _reqQueue.length > 0) {
+        const { fn, resolve, reject } = _reqQueue.shift();
+        _activeReqs++;
+        fn().then(resolve, reject).finally(() => { _activeReqs--; _drain(); });
+    }
+}
+
+// Returns true when `num` looks like a Pokemon TCG API set ID used as a placeholder
+// instead of a real card number (e.g. sv08, swsh09, me02).
+// These are lowercase series codes + a small series index (1-12 range).
+// Excludes legitimate promo card numbers like XY80, SM191, SWSH261 which use
+// uppercase prefixes and/or large indices.
+function _isSetIdPlaceholder(num) {
+    // sv01..sv10, swsh01..swsh12, me01..me02 — set IDs stored accidentally as numbers
+    return /^(?:sv|swsh|me)\d{1,2}[a-z]?$/i.test(num)
+        && parseInt(num.replace(/^[a-z]+/i, '')) <= 15;
+}
+
+// Derive number variants to try based on set name patterns
+function _numberVariants(setName, number) {
+    const s = setName.toLowerCase();
+    // Strip /total suffix (e.g. "008/064" → "008", "202/165" → "202")
+    // The API uses the card number alone; the /total is print-run info and breaks query syntax.
+    const base = number.split('/')[0];
+    const stripped = base.replace(/^0+/, '') || base;
+    const padded = stripped.padStart(2, '0');
+
+    // If the stored number is a set ID placeholder (e.g. sv08, swsh09), return empty so
+    // _doFetch can fall through to the set-name fallback strategy.
+    if (_isSetIdPlaceholder(base)) return [];
+
+    // If the stored number already has a letter prefix (e.g., "XY80", "SM191", "TG13")
+    // — newer entries saved by the fixed cert_lookup.py — use it directly.
+    if (/^[A-Za-z]+\d/.test(base)) return [base];
+
+    // Legacy data (number stored as bare digits): map by set name.
+    // Shiny Vault (Hidden Fates): "53" → "SV53"
+    if (s.includes('shiny vault'))     return [`SV${stripped}`, `SV${padded}`];
+    // Trainer Gallery (SWSH sets): "13" → "TG13"
+    if (s.includes('trainer gallery')) return [`TG${stripped}`, `TG${padded}`];
+    // XY Promos: "80" → "XY80"
+    if (s.includes('xy promo'))        return [`XY${stripped}`, base];
+    // SWSH Promos: "261" → "SWSH261"
+    if (s.includes('sword & shield promo') || s.includes('swsh promo')) return [`SWSH${stripped}`, base];
+    // SM Promos / SM-P: "191" → "SM191"
+    if (s.includes('sm promo') || s.includes('sun & moon promo') || s.includes('sm-p'))
+        return [`SM${stripped}`, base];
+    // SV Promos: pokemontcg.io stores these as bare numbers ("174", not "SVP174")
+    if (s.includes('scarlet & violet promo') || s.includes('sv promo')) return [stripped, base];
+    // SVP (SV Black Star Promos): bare stripped number, e.g. "013" → query as "13"
+    if (s.includes('svp') || s.includes('sv black star')) return [stripped, base];
+    // SWSH Black Star Promos: zero-padded 3-digit SWSH prefix, e.g. "074" → "SWSH074"
+    if (s.includes('swsh black star')) return [`SWSH${stripped.padStart(3,'0')}`, `SWSH${stripped}`, base];
+    // SM Black Star Promos: "195" → "SM195" (must check before generic 'black star')
+    if (s.includes('sm black star')) return [`SM${stripped}`, base];
+    // BW / Black Star Promos (generic / older BW era)
+    if (s.includes('black star') || s.includes('bw promo')) return [`BW${stripped}`, base];
+
+    // Default: raw base number, then stripped (no leading zeros)
+    const variants = [base];
+    if (stripped !== base) variants.push(stripped);
+    return variants;
+}
+
+// Extract the numeric TCGPlayer product ID from a tcgplayer_url, or null.
+function _tcgProductId(item) {
+    const m = (item.tcgplayer_url || '').match(/\/product\/(\d+)\//);
+    return m ? m[1] : null;
+}
+
+// Returns an <img> or placeholder div. Placeholder gets data-* attrs for lazy load.
+function thumbCell(item) {
+    if (!item.set || !item.number) {
+        return `<div class="thumb-placeholder">–</div>`;
+    }
+    // Singles carry a tcgplayer_url — extract the product ID and serve the image
+    // directly from TCGPlayer's CDN. No API call, no async, works for all languages.
+    const productId = _tcgProductId(item);
+    if (productId) {
+        const src = `https://product-images.tcgplayer.com/fit-in/437x437/${productId}.jpg`;
+        return `<img class="card-thumb" src="${esc(src)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    // Graded cards with a downloaded slab scan show that directly.
+    if (item.slab_image) {
+        return `<img class="card-thumb" src="${esc(item.slab_image)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    // Everything else (graded without a scan, the rare singles without a product ID)
+    // falls back to the pokemontcg.io API via the async lazy-load path.
+    const cacheKey = `${item.set}|${item.number}`;
+    const cached = imgCache.get(cacheKey);
+    if (cached && cached !== 'pending') {
+        return cached === false
+            ? `<div class="thumb-placeholder">–</div>`
+            : `<img class="card-thumb" src="${esc(cached)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    return `<div class="thumb-placeholder card-thumb-lazy" data-set="${esc(item.set)}" data-num="${esc(item.number)}" data-name="${esc(item.name)}">…</div>`;
+}
+
+// Generate name variants to handle space vs hyphen before type suffix.
+// pokemontcg.io stores GX/EX cards as "Name-GX"/"Name-EX" (hyphen),
+// but TCGPlayer (our source) uses "Name GX"/"Name EX" (space).
+function _nameVariants(name) {
+    const variants = [name];
+    // Space → hyphen before common type suffixes
+    const spaceToHyphen = name.replace(/ (GX|EX|VMAX|V-UNION|Tag Team GX)$/i,
+        (_, s) => `-${s.toUpperCase()}`);
+    if (spaceToHyphen !== name) variants.push(spaceToHyphen);
+    // Also try hyphen → space (for anything already hyphenated)
+    const hyphenToSpace = name.replace(/-(GX|EX|VMAX)$/i, ' $1');
+    if (hyphenToSpace !== name && !variants.includes(hyphenToSpace)) variants.push(hyphenToSpace);
+    // PSA sometimes stores "/" instead of " & " for compound GX / Tag Team names
+    // e.g. "Gardevoir/Sylveon GX" → "Gardevoir & Sylveon-GX"
+    if (name.includes('/')) {
+        const ampVariant = name.replace(/\//g, ' & ');
+        if (!variants.includes(ampVariant)) variants.push(ampVariant);
+        // also hyphenate that variant
+        const ampHyphen = ampVariant.replace(/ (GX|EX|VMAX|V-UNION)$/i, (_, s) => `-${s.toUpperCase()}`);
+        if (ampHyphen !== ampVariant && !variants.includes(ampHyphen)) variants.push(ampHyphen);
+    }
+    return variants;
+}
+
+async function _doFetch(cacheKey, setName, number, cardName) {
+    const headers = {};
+    if (PTCG_API_KEY) headers['X-Api-Key'] = PTCG_API_KEY;
+
+    // Check the manual override table first (keyed by raw lowercased PSA name).
+    const override = GRADED_NAME_OVERRIDES[cardName.toLowerCase()];
+
+    // Normalize PSA-format names before querying:
+    //   • Strip grade-type prefix: "FA/", "SR/", "UR/", "AR/", "HR/", etc.
+    //   • Strip "-HOLO" suffix (PSA grading annotation, not part of card name)
+    //   • Strip double-quotes (would break query string)
+    //   • Keep apostrophes — valid in names like "Hop's Zacian ex"
+    //   • Title-case ALL-CAPS names (PSA stores names in all caps; API is case-insensitive
+    //     but normalizing helps with the hyphenated-name variant generation)
+    let cleanName = cardName
+        .replace(/^[A-Z]{1,3}\//, '')   // strip FA/, SR/, UR/, etc.
+        .replace(/-HOLO$/i, '')           // strip trailing -HOLO (PSA annotation)
+        .replace(/-REV\.FOIL$/i, '')      // strip trailing -REV.FOIL (PSA annotation)
+        .replace(/"/g, '')
+        .trim();
+    // If the name is all-caps, convert to title case for cleaner variant generation
+    if (cleanName === cleanName.toUpperCase() && /[A-Z]{2}/.test(cleanName)) {
+        cleanName = cleanName.replace(/\b\w+/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+    }
+    const numVariants = _numberVariants(setName, number);
+
+    // Apply overrides: exact name replaces all variants; number/setId narrow the query.
+    const nameVars  = override ? [override.name] : _nameVariants(cleanName);
+    const numVars   = (override && override.number) ? [override.number] : numVariants;
+    const setClause = (override && override.setId) ? ` set.id:${override.setId}` : '';
+
+    let url = false;
+
+    // Strategy 1: each name variant × each number variant (quoted name required for multi-word)
+    outer:
+    for (const nm of nameVars) {
+        for (const num of numVars) {
+            const q = encodeURIComponent(`name:"${nm}" number:${num}${setClause}`);
+            try {
+                const res = await fetch(
+                    `https://api.pokemontcg.io/v2/cards?q=${q}&select=images&pageSize=1`,
+                    { headers }
+                );
+                if (!res.ok) continue;
+                const json = await res.json();
+                if (json.data?.length > 0) { url = json.data[0].images?.small ?? false; break outer; }
+            } catch { continue; }
+        }
+    }
+
+    // Strategy 2 (fallback): when the stored number is a set-ID placeholder and strategy 1
+    // found nothing, try querying by name + set name (strip series prefix like "SV08: ").
+    if (!url && numVars.length === 0 && !override) {
+        const cleanSetName = setName.replace(/^[A-Z0-9]+:\s*/i, '').trim();
+        // Some stored names append " Base Set" (e.g. "Scarlet & Violet Base Set") but
+        // the API uses the shorter form ("Scarlet & Violet"), so try both.
+        const setNameCandidates = [cleanSetName];
+        if (cleanSetName.endsWith(' Base Set')) {
+            setNameCandidates.push(cleanSetName.replace(/ Base Set$/, ''));
+        }
+        outer2:
+        for (const sn of setNameCandidates) {
+            if (!sn) continue;
+            for (const nm of nameVars) {
+                const q = encodeURIComponent(`name:"${nm}" set.name:"${sn}"`);
+                try {
+                    const res = await fetch(
+                        `https://api.pokemontcg.io/v2/cards?q=${q}&select=images&pageSize=1`,
+                        { headers }
+                    );
+                    if (!res.ok) continue;
+                    const json = await res.json();
+                    if (json.data?.length > 0) { url = json.data[0].images?.small ?? false; break outer2; }
+                } catch { continue; }
+            }
+        }
+    }
+
+    imgCache.set(cacheKey, url);
+
+    // Update all placeholder elements currently in the DOM for this card
+    document.querySelectorAll(`.card-thumb-lazy[data-set="${CSS.escape(setName)}"][data-num="${CSS.escape(number)}"]`).forEach(el => {
+        if (url) {
+            const img = document.createElement('img');
+            img.className = 'card-thumb';
+            img.src = url;
+            img.alt = el.dataset.name || '';
+            img.loading = 'lazy';
+            el.replaceWith(img);
+        } else {
+            el.textContent = '–';
+        }
+    });
+}
+
+async function fetchCardImage(setName, number, cardName) {
+    const cacheKey = `${setName}|${number}`;
+    if (imgCache.has(cacheKey)) return;
+    imgCache.set(cacheKey, 'pending');
+    await _enqueue(() => _doFetch(cacheKey, setName, number, cardName));
+}
+
+// Set up IntersectionObserver to fetch images lazily
+function initThumbObserver() {
+    if (thumbObserver) thumbObserver.disconnect();
+    thumbObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const setName = el.dataset.set;
+            const num     = el.dataset.num;
+            const name    = el.dataset.name || '';
+            if (setName && num) {
+                fetchCardImage(setName, num, name);
+                thumbObserver.unobserve(el);
+            }
+        });
+    }, { rootMargin: '200px' });
+
+    document.querySelectorAll('.card-thumb-lazy').forEach(el => {
+        thumbObserver.observe(el);
+    });
+}
+
+// ── Counts ─────────────────────────────────────────────────────────────────────
+function refreshCounts() {
+    const a = allItems();
+    document.getElementById('cnt-all').textContent     = a.length;
+    document.getElementById('cnt-singles').textContent = INV.singles.length;
+    document.getElementById('cnt-graded').textContent  = INV.graded.length;
+    document.getElementById('cnt-sealed').textContent  = INV.sealed.length;
+}
+
+// ── Render dispatcher ──────────────────────────────────────────────────────────
+function render() {
+    renderBands();
+    renderItems();
+    renderMeta();
+}
+
+function renderItems() {
+    const wrap  = document.getElementById('inv-table-wrap');
+    const items = filtered();
+    if (!items.length) {
+        wrap.innerHTML = '<p class="inv-empty">No items match your filters.</p>';
+        return;
+    }
+    wrap.innerHTML = mobileQuery.matches ? renderCards(items) : renderTable(items);
+    // Wire up lazy-load observer after DOM update
+    initThumbObserver();
+}
+
+function renderBands() {
+    const container = document.getElementById('inv-bands');
+    const bands = activeTab === 'all' ? [] : (BANDS[activeTab] || []);
+    if (!bands.length) { container.innerHTML = ''; return; }
+
+    let html = `<button class="band-btn${activeBand === null ? ' active' : ''}" data-band="">All prices</button>`;
+    bands.forEach(b => {
+        html += `<button class="band-btn${activeBand === b ? ' active' : ''}" data-band="${esc(b)}">${esc(b)}</button>`;
+    });
+    container.innerHTML = html;
+    container.querySelectorAll('.band-btn').forEach(btn => {
+        btn.addEventListener('click', () => { activeBand = btn.dataset.band || null; render(); });
+    });
+}
+
+function renderMeta() {
+    const items = filtered();
+    const cat   = categoryItems();
+    let text = `${items.length} item${items.length !== 1 ? 's' : ''}`;
+    if (items.length !== cat.length) text += ` of ${cat.length}`;
+    document.getElementById('inv-result-count').textContent = text;
+}
+
+// ── Mobile card layout ─────────────────────────────────────────────────────────
+function renderCards(items) {
+    const showAll      = activeTab === 'all';
+    const isSealedOnly = activeTab === 'sealed';
+    const typeLabels   = { singles: 'Single', graded: 'Slab', sealed: 'Sealed' };
+
+    let html = '<div class="inv-card-list">';
+
+    items.forEach(item => {
+        const cat = item._cat;
+
+        const bandHtml = item.price_band
+            ? `<span class="band-pill">${esc(item.price_band)}</span>`
+            : `<span class="band-pill band-ask">Ask</span>`;
+
+        let nameHtml = `<span class="item-name">${esc(item.name || '\u2014')}</span>`;
+        if (item.variant) nameHtml += ` <span class="tag-variant">${esc(item.variant)}</span>`;
+        if (cat === 'graded' && item.language && item.language !== 'English') {
+            nameHtml += ` <span class="tag-lang">${esc(item.language)}</span>`;
+        }
+
+        let subLine;
+        if (isSealedOnly || cat === 'sealed') {
+            subLine = `<span class="inv-card-qty">Qty: ${item.quantity ?? 1}</span>`;
+        } else {
+            const setStr = item.set    ? esc(item.set)    : '\u2014';
+            const numStr = item.number ? ` &middot; #${esc(item.number)}` : '';
+            subLine = `<span class="inv-card-setnum">${setStr}${numStr}</span>`;
+        }
+
+        let tagsHtml = '';
+        if (cat !== 'sealed' && !isSealedOnly) {
+            tagsHtml += `<span class="inv-card-grade-wrap">${gradeCell(item)}</span>`;
+        }
+        if (showAll) {
+            tagsHtml += ` <span class="type-tag type-${cat}">${typeLabels[cat]}</span>`;
+        }
+
+        // Left image/link column
+        let imgColHtml = '';
+        if (cat === 'singles') {
+            const thumb = thumbCell(item);
+            const link  = tcgLink(item);
+            imgColHtml = `<div class="inv-card-img-col">${thumb}${link ? `<div class="inv-card-link-row">${link}</div>` : ''}</div>`;
+        } else if (cat === 'graded') {
+            const thumb = thumbCell(item);
+            const link  = certLink(item);
+            imgColHtml = `<div class="inv-card-img-col">${thumb}${link !== '\u2014' ? `<div class="inv-card-link-row">${link}</div>` : ''}</div>`;
+        } else {
+            imgColHtml = `<div class="inv-card-img-col"><div class="thumb-placeholder">–</div></div>`;
+        }
+
+        html += `
+<div class="inv-card">
+  ${imgColHtml}
+  <div class="inv-card-content">
+    <div class="inv-card-top">
+      <div class="inv-card-name-wrap">${nameHtml}</div>
+      <div class="inv-card-band">${bandHtml}</div>
+    </div>
+    <div class="inv-card-bottom">
+      <div class="inv-card-sub">${subLine}</div>
+      ${tagsHtml.trim() ? `<div class="inv-card-tags">${tagsHtml.trim()}</div>` : ''}
+    </div>
+  </div>
+</div>`;
+    });
+
+    html += '</div>';
+    return html;
+}
+
+// ── Table layout (desktop) ─────────────────────────────────────────────────────
+function renderTable(items) {
+    const isSealedOnly = activeTab === 'sealed';
+    const isGradedOnly = activeTab === 'graded';
+    const isSinglesOnly = activeTab === 'singles';
+    const showAll       = activeTab === 'all';
+    const showSetNum    = !isSealedOnly;
+
+    let html = '<div class="inv-table-scroll"><table class="inv-table"><thead><tr>';
+    // Image col — singles and graded (not sealed)
+    if (!isSealedOnly) html += '<th class="col-img">Image</th>';
+    html += '<th class="col-name">Name</th>';
+    if (showSetNum) {
+        html += '<th class="col-set">Set</th>';
+        html += '<th class="col-num">#</th>';
+    }
+    if (showAll)        html += '<th class="col-type">Type</th>';
+    if (!isSealedOnly)  html += `<th class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">Grade / Cond.</th>`;
+    if (isSealedOnly)   html += '<th class="col-qty">Qty</th>';
+    html += '<th class="col-band">Price Range</th>';
+    // Link col
+    if (!isSealedOnly)  html += '<th class="col-link">Link</th>';
+    html += '</tr></thead><tbody>';
+
+    items.forEach(item => {
+        const cat = item._cat;
+        html += '<tr>';
+
+        // Image cell
+        if (!isSealedOnly) {
+            if (cat === 'singles' || cat === 'graded') {
+                html += `<td class="col-img">${thumbCell(item)}</td>`;
+            } else {
+                html += '<td class="col-img"></td>';
+            }
+        }
+
+        // Name cell
+        html += `<td class="col-name"><span class="item-name">${esc(item.name || '\u2014')}</span>`;
+        if (item.variant) html += ` <span class="tag-variant">${esc(item.variant)}</span>`;
+        if (cat === 'graded' && item.language && item.language !== 'English') {
+            html += ` <span class="tag-lang">${esc(item.language)}</span>`;
+        }
+        html += '</td>';
+
+        if (showSetNum) {
+            if (cat === 'sealed') {
+                html += '<td class="col-set inv-muted">\u2014</td><td class="col-num inv-muted">\u2014</td>';
+            } else {
+                html += `<td class="col-set">${esc(item.set || '\u2014')}</td>`;
+                html += `<td class="col-num">${esc(item.number || '\u2014')}</td>`;
+            }
+        }
+
+        if (showAll) {
+            const labels = { singles: 'Single', graded: 'Slab', sealed: 'Sealed' };
+            html += `<td class="col-type"><span class="type-tag type-${cat}">${labels[cat]}</span></td>`;
+        }
+
+        if (!isSealedOnly) html += `<td class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">${gradeCell(item)}</td>`;
+        if (isSealedOnly)  html += `<td class="col-qty">${item.quantity ?? 1}</td>`;
+
+        const bandHtml = item.price_band
+            ? `<span class="band-pill">${esc(item.price_band)}</span>`
+            : `<span class="band-pill band-ask">Ask</span>`;
+        html += `<td class="col-band">${bandHtml}</td>`;
+
+        // Link cell
+        if (!isSealedOnly) {
+            if (cat === 'singles') {
+                const link = tcgLink(item);
+                html += `<td class="col-link">${link || '\u2014'}</td>`;
+            } else if (cat === 'graded') {
+                html += `<td class="col-link">${certLink(item)}</td>`;
+            } else {
+                html += '<td class="col-link">\u2014</td>';
+            }
+        }
+
+        html += '</tr>';
+    });
+
+    html += '</tbody></table></div>';
+    return html;
+}
+
+// ── Event listeners ────────────────────────────────────────────────────────────
+document.querySelectorAll('.inv-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.inv-tab').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        activeTab  = btn.dataset.tab;
+        activeBand = null;
+        render();
+    });
+});
+
+document.getElementById('inv-search').addEventListener('input', e => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => { query = e.target.value.trim(); render(); }, 180);
+});
+</script>
+</body>
+</html>
