@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse Inventory — Dugan's Legendary Den</title>
     <meta name="description" content="Browse singles, graded slabs, and sealed products available from Dugan's Legendary Den at card shows across Texas.">
+    <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,25 +131,59 @@ const IS_NETLIFY = window.location.hostname !== 'localhost' &&
                    window.location.hostname !== '';
 const DATA_URL = IS_NETLIFY ? '/.netlify/functions/inventory' : 'inventory_data.json';
 
-fetch(DATA_URL)
-    .then(r => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-    })
-    .then(data => {
-        INV = data;
-        document.getElementById('inv-loading').style.display = 'none';
-        if (data.generated) {
-            document.getElementById('inv-updated').textContent = 'Updated: ' + data.generated;
-        }
-        refreshCounts();
-        render();
-    })
-    .catch(err => {
-        document.getElementById('inv-loading').innerHTML =
-            `<p class="inv-empty">Could not load inventory data.<br>
-             <small>${esc(err.message)}</small></p>`;
-    });
+// ── sessionStorage cache ────────────────────────────────────────────────────
+// Avoid a round-trip to Netlify when the same visitor navigates back within
+// the same browser session.  TTL matches the CDN max-age (5 min) so the data
+// is never more stale on-device than what the CDN would serve anyway.
+const SS_KEY = 'dugans_inv_cache';
+const SS_TTL_MS = 5 * 60 * 1000; // 5 minutes
+
+function loadFromCache() {
+    try {
+        const raw = sessionStorage.getItem(SS_KEY);
+        if (!raw) return null;
+        const { ts, data } = JSON.parse(raw);
+        if (Date.now() - ts < SS_TTL_MS) return data;
+    } catch { /* ignore */ }
+    return null;
+}
+
+function saveToCache(data) {
+    try { sessionStorage.setItem(SS_KEY, JSON.stringify({ ts: Date.now(), data })); }
+    catch { /* quota exceeded or private-mode — ignore */ }
+}
+
+const cached = loadFromCache();
+if (cached) {
+    INV = cached;
+    document.getElementById('inv-loading').style.display = 'none';
+    if (cached.generated) {
+        document.getElementById('inv-updated').textContent = 'Updated: ' + cached.generated;
+    }
+    refreshCounts();
+    render();
+} else {
+    fetch(DATA_URL)
+        .then(r => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+        })
+        .then(data => {
+            INV = data;
+            saveToCache(data);
+            document.getElementById('inv-loading').style.display = 'none';
+            if (data.generated) {
+                document.getElementById('inv-updated').textContent = 'Updated: ' + data.generated;
+            }
+            refreshCounts();
+            render();
+        })
+        .catch(err => {
+            document.getElementById('inv-loading').innerHTML =
+                `<p class="inv-empty">Could not load inventory data.<br>
+                 <small>${esc(err.message)}</small></p>`;
+        });
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function esc(s) {

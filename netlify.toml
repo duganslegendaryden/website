@@ -5,6 +5,33 @@
 [functions]
   node_bundler = "esbuild"
 
+# Static assets — long-lived cache (content-addressed by file name/hash)
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ttf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML — always revalidate so visitors see the latest page structure
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, no-cache"
+
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]

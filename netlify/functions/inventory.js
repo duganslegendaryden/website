@@ -188,8 +188,10 @@ export async function handler(event) {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
-        // Cache on Netlify's CDN for 60 s; client may use stale for up to 30 s more
-        'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=30',
+        // CDN caches for 1 hour; browsers cache for 5 min.
+        // Inventory only changes when the app pushes a sync, so long TTLs are safe.
+        // stale-while-revalidate lets CDN serve stale while revalidating in background.
+        'Cache-Control': 'public, s-maxage=3600, max-age=300, stale-while-revalidate=60',
       },
       body: JSON.stringify(payload),
     };
