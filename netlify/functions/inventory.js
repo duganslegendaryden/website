@@ -188,10 +188,9 @@ export async function handler(event) {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
-        // CDN caches for 1 hour; browsers cache for 5 min.
-        // Inventory only changes when the app pushes a sync, so long TTLs are safe.
+        // CDN caches for 5 min; browsers cache for 60 s.
         // stale-while-revalidate lets CDN serve stale while revalidating in background.
-        'Cache-Control': 'public, s-maxage=3600, max-age=300, stale-while-revalidate=60',
+        'Cache-Control': 'public, s-maxage=300, max-age=60, stale-while-revalidate=60',
       },
       body: JSON.stringify(payload),
     };

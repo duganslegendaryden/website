@@ -136,7 +136,7 @@ const DATA_URL = IS_NETLIFY ? '/.netlify/functions/inventory' : 'inventory_data.
 // the same browser session.  TTL matches the CDN max-age (5 min) so the data
 // is never more stale on-device than what the CDN would serve anyway.
 const SS_KEY = 'dugans_inv_cache';
-const SS_TTL_MS = 5 * 60 * 1000; // 5 minutes
+const SS_TTL_MS = 60 * 1000; // 1 minute
 
 function loadFromCache() {
     try {
