@@ -101,24 +101,15 @@ export async function handler(event) {
   }
 
   try {
-    // SELECT only the columns that are safe to expose publicly.
-    // cost, market_price, list_price, pct_market, acquisition_*, assigned_basis,
-    // trade_value_in, id, _client_id are intentionally excluded.
+    // SELECT only item_class (for filtering) and the data blob (source of truth).
+    // All other columns are intentionally excluded — sensitive fields like cost,
+    // market_price, list_price, pct_market, id, acquisition_* live in the blob
+    // and are filtered out below before anything leaves the server.
     const rows = await queryTurso(`
-      SELECT
-        item_class,
-        name,
-        set_name,
-        number,
-        variant,
-        grading_company,
-        grade,
-        quantity,
-        list_price,
-        market_price,
-        data
+      SELECT item_class, data
       FROM items
       WHERE item_class IN ('Singles', 'Graded', 'Sealed')
+        AND data IS NOT NULL
     `);
 
     const singles = [];
@@ -128,24 +119,24 @@ export async function handler(event) {
     for (const row of rows) {
       const cls = row.item_class;
 
-      // Parse the JSON blob for fields not in top-level columns
-      let blob = {};
-      try { blob = JSON.parse(row.data || '{}'); } catch { /* ignore */ }
+      // The data blob is the authoritative source (mirrors _export_inventory_preview.py)
+      let d = {};
+      try { d = JSON.parse(row.data || '{}'); } catch { continue; }
 
       // Skip items marked as sold/internal
-      if (blob.skip_value_in_total) continue;
+      if (d.skip_value_in_total) continue;
 
       // Skip items the owner has flagged as hidden from the website
-      if (blob.hide_from_website) continue;
+      if (d.hide_from_website) continue;
 
-      // Price band — prefer list_price, fall back to market_price
-      const rawPrice = parseFloat(row.list_price || row.market_price || 0);
+      // Price band — prefer list_price, fall back to market_price. Exact value discarded.
+      const rawPrice = parseFloat(d.list_price || d.market_price || 0);
       const band = priceBand(rawPrice, cls);
 
-      const name    = (row.name     || '').trim();
-      const set     = (row.set_name || '').trim();
-      const number  = (row.number   || '').trim();
-      const variant = (row.variant  || '').trim();
+      const name    = (d.name     || '').trim();
+      const set     = (d.set_name || '').trim();
+      const number  = (d.number   || '').trim();
+      const variant = (d.variant  || '').trim();
 
       if (cls === 'Singles') {
         singles.push({
@@ -153,7 +144,7 @@ export async function handler(event) {
           set,
           number,
           variant,
-          condition:  (row.grade || 'NM').trim(),
+          condition:  (d.grade || 'NM').trim(),
           price_band: band,
         });
       } else if (cls === 'Graded') {
@@ -162,17 +153,18 @@ export async function handler(event) {
           set,
           number,
           variant,
-          language:        blob.language || 'English',
-          grading_company: (row.grading_company || '').trim().toUpperCase(),
-          grade:           (row.grade || '').trim(),
+          language:        d.language || 'English',
+          grading_company: (d.grading_company || '').trim().toUpperCase(),
+          grade:           (d.grade || '').trim(),
           price_band:      band,
         });
       } else if (cls === 'Sealed') {
-        const qty = parseInt(row.quantity ?? 1, 10);
+        let qty = 1;
+        try { qty = parseInt(d.quantity ?? 1, 10); } catch { qty = 1; }
         if (qty <= 0) continue; // sold out
         sealed.push({
           name,
-          language:   blob.language || 'English',
+          language:   d.language || 'English',
           quantity:   qty,
           price_band: band,
         });
