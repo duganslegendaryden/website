@@ -436,6 +436,7 @@ body::before {
     gap: 0.65rem;
     padding: 0.95rem 1.75rem;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
     width: 100%;
     max-width: 320px;
     border-radius: 50px;
