@@ -1,0 +1,3143 @@
+{
+  "generated": "Apr 22, 2026 10:18 AM",
+  "singles": [
+    {
+      "name": "Alolan Ninetales GX",
+      "set": "Hidden Fates: Shiny Vault",
+      "number": "53",
+      "variant": "HIF:SV",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Amoonguss",
+      "set": "SV: Black Bolt",
+      "number": "096",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Appletun",
+      "set": "SV08: Surging Sparks",
+      "number": "211",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Armored Mewtwo",
+      "set": "SM-P: Sun & Moon Promos",
+      "number": "365",
+      "variant": "SM-P",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Articuno",
+      "set": "Fossil",
+      "number": "17",
+      "variant": "17",
+      "condition": "LP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Azurill",
+      "set": "Sandstorm",
+      "number": "31",
+      "variant": "Uncommon",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Black Kyurem",
+      "set": "XY Promos",
+      "number": "80",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Blastoise ex",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "200",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Boltund V",
+      "set": "SWSH09: Brilliant Stars Trainer Gallery",
+      "number": "13",
+      "variant": "SWSH09:TG",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Bulbasaur",
+      "set": "SV: Venusaur, Charizard & Blastoise Special Deck Set",
+      "number": "050",
+      "variant": "svG",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Bulbasaur",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "166",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Caitlyn",
+      "set": "cs3bc",
+      "number": "167",
+      "variant": "Secret Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Carbink",
+      "set": "ME: Ascended Heroes",
+      "number": "242",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Celebi V",
+      "set": "SWSH08: Fusion Strike",
+      "number": "245",
+      "variant": "Alternate Full Art",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Ceruledge",
+      "set": "Gem 3",
+      "number": "",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Charcadet",
+      "set": "ME: Mega Evolution Promo",
+      "number": "022",
+      "variant": "Pokemon Center Exclusive",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "XY Promos",
+      "number": "121",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "199",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "SV3: Ruler of the Black Flame",
+      "number": "134",
+      "variant": "SV3",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "183",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Charizard EX",
+      "set": "XY - Evolutions",
+      "number": "12",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "SV03: Obsidian Flames",
+      "number": "223",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "SV03: Obsidian Flames",
+      "number": "215",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Charizard VMAX",
+      "set": "SWSH: Sword & Shield Promo Cards",
+      "number": "261",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Charizard VSTAR",
+      "set": "S12a: VSTAR Universe",
+      "number": "212",
+      "variant": "S12a",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Charmander",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "168",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Cheren",
+      "set": "Boundaries Crossed",
+      "number": "148",
+      "variant": "148 Full Art",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Cinccino",
+      "set": "SV05: Temporal Forces",
+      "number": "183",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Cobalion",
+      "set": "SV: Black Bolt",
+      "number": "144",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Colress",
+      "set": "Plasma Storm",
+      "number": "135",
+      "variant": "Team Plasma",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Counter Gain",
+      "set": "SV08: Surging Sparks",
+      "number": "249",
+      "variant": "Hyper Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Cubchoo",
+      "set": "SV: Black Bolt",
+      "number": "109",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Cynthia's Garchomp ex",
+      "set": "SV: Scarlet & Violet Promo Cards",
+      "number": "204",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Dark Quilava",
+      "set": "Neo Destiny",
+      "number": "039",
+      "variant": "N4",
+      "condition": "LP",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Dawn",
+      "set": "ME02: Phantasmal Flames",
+      "number": "129",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Dewgong",
+      "set": "ME02: Phantasmal Flames",
+      "number": "097",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Dialga",
+      "set": "Burger King Promos",
+      "number": "016",
+      "variant": "Promo",
+      "condition": "MP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Dialga EX",
+      "set": "Plasma Blast",
+      "number": "99",
+      "variant": "Team Plasma",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Dragonair",
+      "set": "Expedition",
+      "number": "075",
+      "variant": "Uncommon",
+      "condition": "MP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Dratini",
+      "set": "Expedition",
+      "number": "107",
+      "variant": "Common",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Duosion",
+      "set": "SV: Black Bolt",
+      "number": "119",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Duraludon VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "220",
+      "variant": "Alternate Art Secret",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Eevee ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "167",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Eevee ex",
+      "set": "SV: Scarlet & Violet Promo Cards",
+      "number": "174",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Emolga",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "23",
+      "variant": "Full Art",
+      "condition": "MP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Empoleon FB",
+      "set": "League & Championship Cards",
+      "number": "027",
+      "variant": "League Promo",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Espeon ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "155",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Espeon ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "155",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Espeon EX",
+      "set": "XY - BREAKpoint",
+      "number": "117",
+      "variant": "Full Art",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Espeon VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "065",
+      "variant": "SWSH07",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Flaaffy",
+      "set": "S8b: VMAX Climax",
+      "number": "194",
+      "variant": "S8b",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Flaaffy",
+      "set": "Neo Revelation",
+      "number": "28",
+      "variant": "N3",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Flapple",
+      "set": "SV08: Surging Sparks",
+      "number": "210",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Flareon",
+      "set": "Jungle",
+      "number": "03",
+      "variant": "3",
+      "condition": "HP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Flareon V",
+      "set": "S6a: Eevee Heroes",
+      "number": "073",
+      "variant": "S6a",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Flareon VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "018",
+      "variant": "SWSH07",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Froslass",
+      "set": "SV06: Twilight Masquerade",
+      "number": "174",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Galarian Perrserker V",
+      "set": "SWSH11: Lost Origin",
+      "number": "184",
+      "variant": "Alternate Full Art",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Gardevoir ex",
+      "set": "SV01: Scarlet & Violet Base Set",
+      "number": "245",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Gardevoir EX",
+      "set": "XY - Steam Siege",
+      "number": "111",
+      "variant": "Full Art",
+      "condition": "LP",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Gardevoir EX",
+      "set": "Generations: Radiant Collection",
+      "number": "30",
+      "variant": "Full Art",
+      "condition": "MP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Gastly",
+      "set": "SV05: Temporal Forces",
+      "number": "177",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Geeta",
+      "set": "SV03: Obsidian Flames",
+      "number": "226",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Ghetsis",
+      "set": "Plasma Freeze",
+      "number": "115",
+      "variant": "Team Plasma",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Giovanni",
+      "set": "Gym Challenge",
+      "number": "018",
+      "variant": "18",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Glaceon VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "041",
+      "variant": "SWSH07",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Gouging Fire ex",
+      "set": "SV05: Temporal Forces",
+      "number": "204",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Great Tusk ex",
+      "set": "SV01: Scarlet & Violet Base Set",
+      "number": "246",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Gyarados EX",
+      "set": "XY - BREAKpoint",
+      "number": "123",
+      "variant": "Secret",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Gyarados EX",
+      "set": "XY - BREAKpoint",
+      "number": "114",
+      "variant": "Full Art",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Gyarados VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "029",
+      "variant": "SWSH07",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Haunter",
+      "set": "ME: Mega Evolution Promo",
+      "number": "027",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Heliolisk",
+      "set": "SV06: Twilight Masquerade",
+      "number": "177",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Hisuian Decidueye VSTAR",
+      "set": "SWSH10: Astral Radiance",
+      "number": "195",
+      "variant": "Secret",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Hitmonchan",
+      "set": "Base Set",
+      "number": "007",
+      "variant": "Holo Rare",
+      "condition": "HP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Hitmonchan",
+      "set": "Base Set",
+      "number": "007",
+      "variant": "Holo Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Hop's Zacian ex",
+      "set": "SV09: Journey Together",
+      "number": "186",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Hydrapple",
+      "set": "SV10: Destined Rivals",
+      "number": "188",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Hydreigon ex",
+      "set": "SV08: Surging Sparks",
+      "number": "240",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Inteleon VMAX",
+      "set": "SWSH08: Fusion Strike",
+      "number": "266",
+      "variant": "Alternate Art Secret",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Iono's Bellibolt ex",
+      "set": "SV09: Journey Together",
+      "number": "183",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Iono's Bellibolt ex",
+      "set": "SV09: Journey Together",
+      "number": "188",
+      "variant": "Hyper Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Irida",
+      "set": "S10P: Space Juggler",
+      "number": "077",
+      "variant": "S10P",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Iris",
+      "set": "Plasma Blast",
+      "number": "101",
+      "variant": "101 Full Art",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Iris's Fighting Spirit",
+      "set": "ME: Ascended Heroes",
+      "number": "292",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Iron Boulder ex",
+      "set": "SV05: Temporal Forces",
+      "number": "207",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Iron Leaves ex",
+      "set": "SV05: Temporal Forces",
+      "number": "213",
+      "variant": "Hyper Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Iron Leaves ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "176",
+      "variant": "Hyper Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Jolteon",
+      "set": "Jungle",
+      "number": "04",
+      "variant": "4",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Kangaskhan EX",
+      "set": "XY - Flashfire",
+      "number": "103",
+      "variant": "103 Full Art",
+      "condition": "LP",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Kingdra",
+      "set": "XY Promos",
+      "number": "39",
+      "variant": "Prerelease",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Kyurem ex",
+      "set": "SV: Black Bolt",
+      "number": "165",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Lady",
+      "set": "SWSH11: Lost Origin",
+      "number": "193",
+      "variant": "Full Art",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Lana",
+      "set": "SM - Ultra Prism",
+      "number": "150",
+      "variant": "Full Art",
+      "condition": "LP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Lapras",
+      "set": "Fossil",
+      "number": "10",
+      "variant": "10",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Larry",
+      "set": "SV04: Paradox Rift",
+      "number": "235",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Latias",
+      "set": "Crown Zenith: Galarian Gallery",
+      "number": "20",
+      "variant": "CRZ:GG",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Leafeon ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "144",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Leafeon V",
+      "set": "SWSH07: Evolving Skies",
+      "number": "167",
+      "variant": "Alternate Full Art",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Lt. Surge's Pikachu",
+      "set": "",
+      "number": "",
+      "variant": "",
+      "condition": "MP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Lugia",
+      "set": "Gold, Silver, to a New World...",
+      "number": "",
+      "variant": "",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Lugia EX",
+      "set": "XY - Ancient Origins",
+      "number": "94",
+      "variant": "94 Full Art",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "M Charizard EX",
+      "set": "XY - Evolutions",
+      "number": "13",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "M Garchomp EX",
+      "set": "XY Promos",
+      "number": "168",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "M Gengar EX",
+      "set": "XY - Phantom Forces",
+      "number": "121",
+      "variant": "121 Secret Rare",
+      "condition": "LP",
+      "price_band": "$250+"
+    },
+    {
+      "name": "M Mewtwo EX",
+      "set": "XY - BREAKthrough",
+      "number": "159",
+      "variant": "159 Full Art",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "M Rayquaza EX",
+      "set": "XY - Ancient Origins",
+      "number": "98",
+      "variant": "Shiny Full Art",
+      "condition": "LP",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Magmar",
+      "set": "Fossil",
+      "number": "39",
+      "variant": "Uncommon",
+      "condition": "HP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Magneton",
+      "set": "Base Set 2",
+      "number": "009",
+      "variant": "BS2",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Magneton",
+      "set": "Base Set",
+      "number": "009",
+      "variant": "Holo Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Malamar",
+      "set": "SWSH12: Silver Tempest Trainer Gallery",
+      "number": "06",
+      "variant": "SWSH12: TG",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Mallow",
+      "set": "SM - Guardians Rising",
+      "number": "145",
+      "variant": "Full Art",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Marnie's Grimmsnarl ex",
+      "set": "M2a: High Class Pack: MEGA Dream ex",
+      "number": "243",
+      "variant": "M2a",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Marshadow & Machamp GX",
+      "set": "SM - Unbroken Bonds",
+      "number": "199",
+      "variant": "199",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "M2: Inferno X",
+      "number": "116",
+      "variant": "M2",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "ME02: Phantasmal Flames",
+      "number": "125",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "ME02: Phantasmal Flames",
+      "number": "130",
+      "variant": "Mega Hyper Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mega Charizard X ex",
+      "set": "ME02: Phantasmal Flames",
+      "number": "109",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mega Charizard Y ex",
+      "set": "ME: Ascended Heroes",
+      "number": "294",
+      "variant": "Mega Hyper Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mega Dragalge ex",
+      "set": "M4: Ninja Spinner",
+      "number": "116",
+      "variant": "m4",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mega Feraligatr ex",
+      "set": "ME: Ascended Heroes",
+      "number": "274",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Mega Froslass ex",
+      "set": "M2a: High Class Pack: MEGA Dream ex",
+      "number": "233",
+      "variant": "M2a",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mega Kangaskhan ex",
+      "set": "ME01: Mega Evolution",
+      "number": "182",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Mega Latias ex",
+      "set": "ME01: Mega Evolution",
+      "number": "181",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Mega Lopunny ex",
+      "set": "ME02: Phantasmal Flames",
+      "number": "128",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mega Sableye & Tyranitar GX",
+      "set": "SM11: Miracle Twin",
+      "number": "054",
+      "variant": "SM11",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Mew",
+      "set": "Secret Wonders",
+      "number": "15",
+      "variant": "Secret Rare",
+      "condition": "MP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mew V",
+      "set": "SWSH08: Fusion Strike",
+      "number": "251",
+      "variant": "Alternate Full Art",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Mewtwo",
+      "set": "SV: Scarlet & Violet Promo Cards",
+      "number": "052",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Mewtwo & Mew GX",
+      "set": "SM Promos",
+      "number": "191",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mightyena",
+      "set": "ME: Ascended Heroes",
+      "number": "243",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Misty's Favor",
+      "set": "SM - Unified Minds",
+      "number": "235",
+      "variant": "Full Art",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Mr. Mime",
+      "set": "Jungle",
+      "number": "06",
+      "variant": "6",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "N's Plan",
+      "set": "SV: Black Bolt",
+      "number": "170",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Nidoking",
+      "set": "XY - Evolutions",
+      "number": "45",
+      "variant": "Holo Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Ninjask",
+      "set": "ME01: Mega Evolution",
+      "number": "137",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Okidogi ex",
+      "set": "SV: Shrouded Fable",
+      "number": "082",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Omanyte",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "180",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Palafin",
+      "set": "SV: Paldean Fates",
+      "number": "225",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Paldean Wooper",
+      "set": "ME02: Phantasmal Flames",
+      "number": "102",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Parasect",
+      "set": "SWSH11: Lost Origin Trainer Gallery",
+      "number": "01",
+      "variant": "SWSH11: TG",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Penny",
+      "set": "SV: Paldean Fates",
+      "number": "239",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Perrin",
+      "set": "SV06: Twilight Masquerade",
+      "number": "220",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Pikachu",
+      "set": "Crown Zenith: Galarian Gallery",
+      "number": "30",
+      "variant": "CRZ:GG",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Pikachu",
+      "set": "Crown Zenith",
+      "number": "160",
+      "variant": "Secret",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Pikachu EX",
+      "set": "XY Promos",
+      "number": "174",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Pikachu ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "179",
+      "variant": "Hyper Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Pokemon Center Lady",
+      "set": "XY - Flashfire",
+      "number": "105",
+      "variant": "105 Full Art",
+      "condition": "LP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Porygon-Z",
+      "set": "SV04: Paradox Rift",
+      "number": "214",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Psyduck",
+      "set": "Detective Pikachu",
+      "number": "7",
+      "variant": "Holo Common",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Raichu & Alolan Raichu GX",
+      "set": "SM10a: GG End",
+      "number": "064",
+      "variant": "SM10a",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Rapid Strike Urshifu VMAX",
+      "set": "SWSH05: Battle Styles",
+      "number": "169",
+      "variant": "Secret",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Reshiram & Charizard GX",
+      "set": "SM Promos",
+      "number": "247",
+      "variant": "",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Reshiram ex",
+      "set": "SV: White Flare",
+      "number": "166",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Reshiram ex",
+      "set": "SV: White Flare",
+      "number": "173",
+      "variant": "Black White Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Reshiram ex",
+      "set": "SV: White Flare",
+      "number": "173",
+      "variant": "Black White Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Rhyhorn",
+      "set": "Legendary Collection",
+      "number": "090",
+      "variant": "Common",
+      "condition": "LP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Roaring Moon ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "162",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Rocket's Suicune ex",
+      "set": "Team Rocket Returns",
+      "number": "105",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Rotom ex",
+      "set": "ME02: Phantasmal Flames",
+      "number": "126",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Ruffian",
+      "set": "SV09: Journey Together",
+      "number": "181",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Salamence ex",
+      "set": "SV09: Journey Together",
+      "number": "187",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Serperior VSTAR",
+      "set": "SWSH12: Silver Tempest",
+      "number": "196",
+      "variant": "Secret",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Shadow Rider Calyrex VMAX",
+      "set": "SWSH10: Astral Radiance Trainer Gallery",
+      "number": "18",
+      "variant": "SWSH10:TG",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Shadow Rider Calyrex VMAX",
+      "set": "SWSH06: Chilling Reign",
+      "number": "205",
+      "variant": "Alternate Art Secret",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Shaymin EX",
+      "set": "Alternate Art Promos",
+      "number": "077",
+      "variant": "Alternate Art",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Shedinja",
+      "set": "ME01: Mega Evolution",
+      "number": "144",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Simipour",
+      "set": "SV: Black Bolt",
+      "number": "102",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Skyla",
+      "set": "Boundaries Crossed",
+      "number": "149",
+      "variant": "149 Full Art",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Slowking",
+      "set": "Neo Genesis",
+      "number": "014",
+      "variant": "N1",
+      "condition": "MP",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Snorlax",
+      "set": "Jungle",
+      "number": "11",
+      "variant": "11",
+      "condition": "LP",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Squirtle",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "170",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Stakataka GX",
+      "set": "SM - Celestial Storm",
+      "number": "102",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Stoutland",
+      "set": "SM11b: Dream League",
+      "number": "061",
+      "variant": "SM11b",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Suicune GX",
+      "set": "SM - Lost Thunder",
+      "number": "200",
+      "variant": "Full Art",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Tangela",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "178",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Team Rocket's Giovanni",
+      "set": "SV10: Destined Rivals",
+      "number": "238",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Team Rocket's Nidoking ex",
+      "set": "SV10: Destined Rivals",
+      "number": "216",
+      "variant": "Ultra Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Team Skull Grunt",
+      "set": "SM Base Set",
+      "number": "149",
+      "variant": "Full Art",
+      "condition": "LP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Ultra Ball",
+      "set": "M2a: High Class Pack: MEGA Dream ex",
+      "number": "216",
+      "variant": "M2a",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Umbreon",
+      "set": "SV: Prismatic Evolutions",
+      "number": "059",
+      "variant": "Master Ball Pattern",
+      "condition": "MP",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Umbreon",
+      "set": "Neo Discovery",
+      "number": "13",
+      "variant": "13",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Unown VSTAR",
+      "set": "SWSH12: Silver Tempest",
+      "number": "199",
+      "variant": "Secret",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Unown VSTAR",
+      "set": "S12: Paradigm Trigger",
+      "number": "116",
+      "variant": "S12",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Vaporeon ex",
+      "set": "SV: Prismatic Evolutions",
+      "number": "149",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Venusaur",
+      "set": "Celebrations: Classic Collection",
+      "number": "15",
+      "variant": "Classic Collection",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    },
+    {
+      "name": "Wartortle",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "171",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$50–$100"
+    },
+    {
+      "name": "Whimsicott ex",
+      "set": "SV: White Flare",
+      "number": "165",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$20–$50"
+    },
+    {
+      "name": "Wigglytuff",
+      "set": "ME02: Phantasmal Flames",
+      "number": "105",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Wigglytuff",
+      "set": "ME02: Phantasmal Flames",
+      "number": "105",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Wishiwashi GX",
+      "set": "SM - Guardians Rising",
+      "number": "151",
+      "variant": "Secret",
+      "condition": "LP",
+      "price_band": "Under $10"
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "202",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "202",
+      "variant": "Special Illustration Rare",
+      "condition": "NM",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Zekrom ex",
+      "set": "SV: Black Bolt",
+      "number": "172",
+      "variant": "Black White Rare",
+      "condition": "NM",
+      "price_band": "$250+"
+    },
+    {
+      "name": "Zeraora",
+      "set": "SV07: Stellar Crown",
+      "number": "151",
+      "variant": "Illustration Rare",
+      "condition": "NM",
+      "price_band": "$10–$20"
+    }
+  ],
+  "graded": [
+    {
+      "name": "ALAKAZAM-HOLO",
+      "set": "POKEMON EX CRYSTAL GUARDIANS",
+      "number": "99",
+      "variant": "EX CRYSTAL GUARDIANS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "EX-MT 6",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "ARCANINE-HOLO",
+      "set": "POKEMON JAPANESE HEARTGOLD COLLECTION",
+      "number": "014",
+      "variant": "HEARTGOLD COLL-1ST ED.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ARTICUNO-HOLO",
+      "set": "POKEMON JAPANESE FOSSIL",
+      "number": "144",
+      "variant": "",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "BLAINE'S MOLTRES",
+      "set": "POKEMON GYM HEROES",
+      "number": "1",
+      "variant": "HOLO",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "BLASTOISE EX",
+      "set": "POKEMON MEW EN-151",
+      "number": "200",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "BLASTOISE-HOLO",
+      "set": "POKEMON GAME",
+      "number": "2",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "VG-EX 4",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "BLASTOISE-HOLO",
+      "set": "POKEMON JAPANESE EXPEDITION",
+      "number": "108",
+      "variant": "EXPEDITION-1ST EDITION",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "BLASTOISE-HOLO",
+      "set": "POKEMON JAPANESE CD PROMO",
+      "number": "9",
+      "variant": "CD PROMO",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "BROCK'S NINETALES",
+      "set": "POKEMON GYM CHALLENGE",
+      "number": "3",
+      "variant": "HOLO",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "BULBASAUR",
+      "set": "POKEMON JAPANESE SV2A-POKEMON 151",
+      "number": "166",
+      "variant": "ART RARE",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "CAPTAIN PIKACHU",
+      "set": "POKEMON SIMPLIFIED CHINESE CBB1 C-GEM PACK VOL 1",
+      "number": "09",
+      "variant": "",
+      "language": "Chinese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "CASSIOPEIA",
+      "set": "POKEMON JAPANESE SV6A-NIGHT WANDERER",
+      "number": "091",
+      "variant": "SPECIAL ART RARE",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "Celebi & Venusaur GX",
+      "set": "SM Promo",
+      "number": "SM167",
+      "variant": "Tag Team Tin",
+      "language": "English",
+      "grading_company": "CGC",
+      "grade": "10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "CELEBI & VENUSAUR GX",
+      "set": "POKEMON SIMPLIFIED CHINESE CSM2B C-SHINING SYNERGY: SUPREME",
+      "number": "001",
+      "variant": "",
+      "language": "Chinese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "CERULEDGE EX",
+      "set": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "number": "147",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "Charizard & Braixen GX",
+      "set": "Remix Bout",
+      "number": "008/064",
+      "variant": "Holo",
+      "language": "English",
+      "grading_company": "CGC",
+      "grade": "PRISTINE 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "Charizard ex",
+      "set": "Random Const. Start Deck",
+      "number": "012/052",
+      "variant": "1st Edition",
+      "language": "English",
+      "grading_company": "CGC",
+      "grade": "6.5",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "CHARIZARD EX",
+      "set": "POKEMON PAF EN-PALDEAN FATES",
+      "number": "234",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "CHARIZARD EX",
+      "set": "POKEMON MEW EN-151",
+      "number": "199",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "CHARIZARD EX",
+      "set": "SPECIAL ILLUSTRATION RARE",
+      "number": "199",
+      "variant": "",
+      "language": "English",
+      "grading_company": "TAG",
+      "grade": "10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "CHARIZARD GX",
+      "set": "POKEMON SM BLACK STAR PROMO",
+      "number": "SM195",
+      "variant": "PROMO-D/P CHARIZARD-GX",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "CHARIZARD-HOLO",
+      "set": "POKEMON JAPANESE EXPANSION 20TH ANNIVERSARY",
+      "number": "011",
+      "variant": "EXP.20TH ANNIV-1ST ED.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "CHARIZARD-HOLO",
+      "set": "POKEMON GAME",
+      "number": "4",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "EX-MT 6",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "CHARIZARD-HOLO",
+      "set": "POKEMON GAME",
+      "number": "4",
+      "variant": "SHADOWLESS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "CHARMANDER",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "044",
+      "variant": "OBSIDIAN FLAMES ETB",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "CHARMELEON-HOLO",
+      "set": "POKEMON EX DRAGON",
+      "number": "99",
+      "variant": "DRAGON-STATE CHAMP.",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "CLEFFA",
+      "set": "POKEMON OBF EN-OBSIDIAN FLAMES",
+      "number": "202",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "DARK CHARIZARD",
+      "set": "POKEMON ROCKET",
+      "number": "21",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "DARK HYPNO-HOLO",
+      "set": "POKEMON ROCKET",
+      "number": "9",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "DELIBIRD-HOLO",
+      "set": "POKEMON NEO REVELATION",
+      "number": "5",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "DUGTRIO",
+      "set": "POKEMON GAME",
+      "number": "19",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "DWEBBLE",
+      "set": "POKEMON BLK EN-BLACK BOLT",
+      "number": "129",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "EEVEE & SNORLAX GX",
+      "set": "POKEMON SUN & MOON TEAM UP",
+      "number": "120",
+      "variant": "TEAM UP",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ESPEON EX",
+      "set": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "number": "155",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ETHAN'S ADVENTURE",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "236",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "Ethan's Ho-Oh",
+      "set": "Destined Rivals",
+      "number": "230",
+      "variant": "Special Illustration Rare",
+      "language": "English",
+      "grading_company": "BGS",
+      "grade": "9.5",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ETHAN'S HO-OH EX",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "230",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "ETHAN'S TYPHLOSION",
+      "set": "DESTINED RIVALS PRERELEASE STAFF",
+      "number": "34",
+      "variant": "HOLO",
+      "language": "English",
+      "grading_company": "TAG",
+      "grade": "10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ETHAN'S TYPHLOSION",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "190",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/AERODACTYL GX",
+      "set": "POKEMON SUN & MOON UNIFIED MINDS",
+      "number": "244",
+      "variant": "UNIFIED MINDS-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/ALAKAZAM EX",
+      "set": "POKEMON XY FATES COLLIDE",
+      "number": "125",
+      "variant": "FATES COLLIDE-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/ARCEUS VSTAR",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG70",
+      "variant": "CROWN ZENITH-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/CHARIZARD",
+      "set": "POKEMON SWORD & SHIELD LOST ORIGIN",
+      "number": "TG03",
+      "variant": "LOST ORIGIN",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/CHARIZARD VMAX",
+      "set": "POKEMON SWORD & SHIELD SHINING FATES",
+      "number": "SV107",
+      "variant": "SHINING FATES",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/DITTO",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG22",
+      "variant": "CROWN ZENITH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/DRAGONITE EX",
+      "set": "POKEMON XY EVOLUTIONS",
+      "number": "106",
+      "variant": "EVOLUTIONS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/ETERNATUS VMAX",
+      "set": "POKEMON SWORD & SHIELD DARKNESS ABLAZE",
+      "number": "192",
+      "variant": "DARKNESS ABLAZE-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/FLAREON",
+      "set": "POKEMON SWORD & SHIELD BRILLIANT STARS",
+      "number": "TG01",
+      "variant": "BRILLIANT STARS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/GLACEON V",
+      "set": "POKEMON SWORD & SHIELD EVOLVING SKIES",
+      "number": "174",
+      "variant": "EVOLVING SKIES",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/GYARADOS GX",
+      "set": "POKEMON SUN & MOON CRIMSON INVASION",
+      "number": "112",
+      "variant": "CRIMSON INVASION-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/LILLIE",
+      "set": "POKEMON SUN & MOON",
+      "number": "147",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/LUGIA V",
+      "set": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+      "number": "186",
+      "variant": "SILVER TEMPEST",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/LUNALA GX",
+      "set": "POKEMON SUN & MOON",
+      "number": "153",
+      "variant": "SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/M GARDEVOIR EX",
+      "set": "POKEMON XY STEAM SIEGE",
+      "number": "112",
+      "variant": "STEAM SIEGE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/M GARDEVOIR EX",
+      "set": "POKEMON XY STEAM SIEGE",
+      "number": "112",
+      "variant": "STEAM SIEGE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/M.LPNY.&JGLYPF.GX",
+      "set": "POKEMON SUN & MOON COSMIC ECLIPSE",
+      "number": "225",
+      "variant": "COSMIC ECLIPSE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/MEW",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG10",
+      "variant": "CROWN ZENITH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/MEW",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG10",
+      "variant": "CROWN ZENITH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/MEW EX",
+      "set": "POKEMON BLACK & WHITE LEGENDARY TREASURES RADIANT COLLECTION",
+      "number": "RC24",
+      "variant": "LEG.TREAS. RADIANT COLL.",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/MEW V",
+      "set": "POKEMON SWORD & SHIELD FUSION STRIKE",
+      "number": "250",
+      "variant": "FUSION STRIKE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/MEWTWO & MEW GX",
+      "set": "POKEMON SM BLACK STAR PROMO",
+      "number": "SM191",
+      "variant": "PROMO-PWR.PRTNRSHP.TINS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/MEWTWO EX",
+      "set": "POKEMON XY EVOLUTIONS",
+      "number": "103",
+      "variant": "EVOLUTIONS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/MEWTWO EX",
+      "set": "POKEMON XY EVOLUTIONS",
+      "number": "103",
+      "variant": "EVOLUTIONS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/ORGN.FRM.PALKIA V",
+      "set": "POKEMON SWORD & SHIELD ASTRAL RADIANCE",
+      "number": "167",
+      "variant": "ASTRAL RADIANCE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/PIKACHU",
+      "set": "POKEMON JAPANESE SUN & MOON DREAM LEAGUE",
+      "number": "054",
+      "variant": "DREAM LEAGUE",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/PIKACHU",
+      "set": "POKEMON JAPANESE SWORD & SHIELD DARK PHANTASMA",
+      "number": "073",
+      "variant": "DARK PHANTASMA",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/PIKACHU & ZKRM. GX",
+      "set": "POKEMON SM BLACK STAR PROMO",
+      "number": "SM248",
+      "variant": "PR-P&Z GX PREMIUM COLL.",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/PIKACHU VMAX",
+      "set": "POKEMON SWORD & SHIELD VIVID VOLTAGE",
+      "number": "188",
+      "variant": "VIVID VOLTAGE-SECRET",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/PIKACHU VMAX",
+      "set": "POKEMON SWORD & SHIELD LOST ORIGIN",
+      "number": "TG17",
+      "variant": "LOST ORIGIN",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/PIKACHU VMAX",
+      "set": "POKEMON JAPANESE SWORD & SHIELD VMAX CLIMAX",
+      "number": "223",
+      "variant": "VMAX CLIMAX",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/PRIMAL GROUDON EX",
+      "set": "POKEMON XY PRIMAL CLASH",
+      "number": "151",
+      "variant": "PRIMAL CLASH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/RAYQUAZA VMAX",
+      "set": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+      "number": "TG20",
+      "variant": "SILVER TEMPEST",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/RAYQUAZA VMAX",
+      "set": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+      "number": "TG20",
+      "variant": "SILVER TEMPEST",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/SUICUNE V",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG38",
+      "variant": "CROWN ZENITH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "FA/SYLVEON EX",
+      "set": "POKEMON XY GENERATIONS RADIANT COLLECTION",
+      "number": "RC32",
+      "variant": "GEN.RADIANT COLLECTION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FA/SYLVEON VMAX",
+      "set": "POKEMON JAPANESE SWORD & SHIELD EEVEE HEROES",
+      "number": "041",
+      "variant": "EEVEE HEROES",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/VENUSAUR VMAX",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "102",
+      "variant": "VENUSAUR VMAX BATTLE BOX",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/ZERAORA GX",
+      "set": "POKEMON SUN & MOON LOST THUNDER",
+      "number": "201",
+      "variant": "LOST THUNDER",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "FA/ZERAORA VSTAR",
+      "set": "POKEMON SWORD AND SHIELD CROWN ZENITH",
+      "number": "GG43",
+      "variant": "CROWN ZENITH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FA/ZINNIA'S RESOLVE",
+      "set": "POKEMON SWORD & SHIELD EVOLVING SKIES",
+      "number": "203",
+      "variant": "EVOLVING SKIES",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "FLAREON EX",
+      "set": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "number": "146",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "FLAREON EX-HOLO",
+      "set": "POKEMON EX DELTA SPECIES",
+      "number": "108",
+      "variant": "DELTA SPECIES",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "GALARIAN MOLTRES",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "284",
+      "variant": "CROWN ZENITH TIN",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GARDEVOIR/SYLVEON GX",
+      "set": "POKEMON SUN & MOON UNBROKEN BONDS",
+      "number": "225",
+      "variant": "UNBROKEN BONDS-SCRT-FA",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GASTLY",
+      "set": "POKEMON TEF EN-TEMPORAL FORCES",
+      "number": "177",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "GENGAR & MIMIKYU GX",
+      "set": "POKEMON SUN & MOON TEAM UP",
+      "number": "53",
+      "variant": "TEAM UP",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GENGAR & MIMIKYU GX",
+      "set": "POKEMON SUN & MOON TEAM UP",
+      "number": "53",
+      "variant": "TEAM UP",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "GENGAR V",
+      "set": "POKEMON PLAY! POKEMON PRIZE PACK: SERIES 2",
+      "number": "156",
+      "variant": "POKEMON PRIZE PACK: SER 2",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GEODUDE-REV.FOIL",
+      "set": "POKEMON LEGENDARY COLLECTION",
+      "number": "77",
+      "variant": "LEGENDARY COLLECTION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GLACEON EX",
+      "set": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "number": "150",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "GLACEON VMAX",
+      "set": "POKEMON HOLIDAY CALENDAR",
+      "number": "041",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "GRENINJA EX",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "132",
+      "variant": "SFA SPECIAL ILLUSTRATION COLL",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "GRENINJA-GOLD STAR",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "144",
+      "variant": "CELEBRATIONS ELT.TRNR.BOX",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "HO-OH-HOLO",
+      "set": "POKEMON NEO REVELATION",
+      "number": "7",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "KARRABLAST",
+      "set": "POKEMON BLK EN-BLACK BOLT",
+      "number": "094",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "LANCE'S CHARIZARD V",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "133",
+      "variant": "CELEBRATIONS COLLECTION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "LIGHT TOGETIC-HOLO",
+      "set": "POKEMON JAPANESE NEO 4",
+      "number": "176",
+      "variant": "",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "M CHARIZARD EX",
+      "set": "POKEMON JAPANESE M CHARIZARD EX MEGA BATTLE",
+      "number": "002",
+      "variant": "M-CHARIZARD EX MEGA BTL.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "M GYARADOS EX",
+      "set": "POKEMON XY BREAKPOINT",
+      "number": "27",
+      "variant": "BREAKPOINT",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "M STEELIX EX",
+      "set": "POKEMON XY STEAM SIEGE",
+      "number": "68",
+      "variant": "STEAM SIEGE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MAGNETON-HOLO",
+      "set": "POKEMON JAPANESE FOSSIL",
+      "number": "82",
+      "variant": "",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "MARNIE'S MORPEKO",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "206",
+      "variant": "MARNIE RIVAL BATTLE DECK",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MEGA CHARIZARD X EX",
+      "set": "POKEMON PFL EN-PHANTASMAL FLAMES",
+      "number": "109",
+      "variant": "ULTRA RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MEGA VENUSAUR EX",
+      "set": "POKEMON MEG EN-MEGA EVOLUTION",
+      "number": "177",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MEW EX",
+      "set": "POKEMON JAPANESE SV2A-POKEMON 151",
+      "number": "205",
+      "variant": "SPECIAL ART RARE",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MEW-HOLO",
+      "set": "POKEMON JAPANESE PROMO SOUTHERN ISLANDS",
+      "number": "151",
+      "variant": "SOUTHERN ISLAND-R.I.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "MEWTWO",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "052",
+      "variant": "151 ULTRA-PREMIUM COLL",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "MEWTWO-HOLO",
+      "set": "POKEMON GAME",
+      "number": "10",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "MIMIKYU-HOLO",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "136",
+      "variant": "CELEBRATIONS COLLECTION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "MIRAIDON",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "013",
+      "variant": "SVI PC ETB-MIRAIDON",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "MUK-HOLO",
+      "set": "POKEMON FOSSIL",
+      "number": "13",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "PIKACHU",
+      "set": "POKEMON GAME PROMO",
+      "number": "58",
+      "variant": "AUSTRALIA POKETOUR",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "PIKACHU & ZEKROM GX",
+      "set": "POKEMON SM BLACK STAR PROMO",
+      "number": "SM168",
+      "variant": "PROMO-TAG TEAM TINS-FA",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "PIKACHU BIRTHDAY",
+      "set": "POKEMON JAPANESE PROMO",
+      "number": "25",
+      "variant": "WHITE STAR-2ND ANNIV.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "PIKACHU EX",
+      "set": "POKEMON SSP EN-SURGING SPARKS",
+      "number": "238",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "PIKACHU EX",
+      "set": "POKEMON JAPANESE WCS23-WORLD CHAMPIONSHIPS YOKOHAMA DECK: PIKACHU",
+      "number": "001",
+      "variant": "",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "PIKACHU GX",
+      "set": "POKEMON JAPANESE SM PROMO",
+      "number": "393",
+      "variant": "BEAMS EXCLUSIVE",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "PIKACHU V-UNION",
+      "set": "POKEMON JAPANESE 25TH ANNIVERSARY COLLECTION",
+      "number": "028",
+      "variant": "25TH ANNIVERSARY COLL.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "Pikachu with Grey Felt Hat",
+      "set": "Black Star Promos",
+      "number": "085",
+      "variant": "Pokémon x Van Gogh",
+      "language": "English",
+      "grading_company": "CGC",
+      "grade": "10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "PIKACHU-HOLO",
+      "set": "POKEMON JAPANESE BLACK & WHITE SHINY COLLECTION",
+      "number": "007",
+      "variant": "SHINY COLLECTION-1ST ED.",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "PIKACHU/GREY FELT HAT",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "085",
+      "variant": "POKEMON X VAN GOGH",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "PRTD.GYRDS. PIKACHU",
+      "set": "POKEMON JAPANESE XY PROMO",
+      "number": "151",
+      "variant": "PROMO-HOLO",
+      "language": "Japanese",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "QUAQUAVAL EX",
+      "set": "POKEMON PAL EN-PALDEA EVOLVED",
+      "number": "273",
+      "variant": "HYPER RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "RADIANT ALAKAZAM",
+      "set": "POKEMON SWORD & SHIELD SILVER TEMPEST",
+      "number": "059",
+      "variant": "SILVER TEMPEST",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "RAICHU",
+      "set": "POKEMON PAL EN-PALDEA EVOLVED",
+      "number": "211",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "RAICHU/ALN.RAICHU GX",
+      "set": "POKEMON SUN & MOON UNIFIED MINDS",
+      "number": "220",
+      "variant": "UNIFIED MINDS-FA",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "RESHIRAM & ZEKROM GX",
+      "set": "POKEMON SUN & MOON COSMIC ECLIPSE",
+      "number": "157",
+      "variant": "COSMIC ECLIPSE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "ROCKET'S ARTICUNO",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "051",
+      "variant": "BEST BUY EXCLUSIVE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "ROCKET'S NIDOKING EX",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "233",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ROCKET'S RATICATE",
+      "set": "POKEMON DRI EN-DESTINED RIVALS",
+      "number": "202",
+      "variant": "ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "SABRINA'S DROWZEE",
+      "set": "POKEMON GYM CHALLENGE",
+      "number": "95",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "SNORLAX",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "051",
+      "variant": "151 POKEMON CENTER ETB",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "SP.DELIVERY CHARIZARD",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "075",
+      "variant": "POKEMON CENTER UK-HOLO",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$1,000+"
+    },
+    {
+      "name": "SPCL.DELIVERY PIKACHU",
+      "set": "POKEMON SWSH BLACK STAR PROMO",
+      "number": "074",
+      "variant": "PKMN.CENTER CANADA-HOLO",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "STARMIE",
+      "set": "POKEMON GAME",
+      "number": "64",
+      "variant": "1ST EDITION",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "SUICUNE-HOLO",
+      "set": "POKEMON NEO REVELATION",
+      "number": "14",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT+ 8.5",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "TEAM AQUA",
+      "set": "POKEMON SCRAP",
+      "number": "05",
+      "variant": "CHARACTERS",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "THUNDURUS",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "209",
+      "variant": "BLACK BOLT PC ETB",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "UMBREON",
+      "set": "POKEMON PRE EN-PRISMATIC EVOLUTIONS",
+      "number": "059",
+      "variant": "MASTER BALL REVERSE HOLO",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "UMBREON",
+      "set": "POKEMON SIMPLIFIED CHINESE CBB2 C-GEM PACK VOL 2",
+      "number": "15",
+      "variant": "",
+      "language": "Chinese",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "UMBREON & DARKRAI GX",
+      "set": "POKEMON SM BLACK STAR PROMO",
+      "number": "SM241",
+      "variant": "PRM-TAG TEAM PWR.CLL.",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "MINT 9",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "UMBREON-GOLD STAR",
+      "set": "POKEMON CELEBRATIONS CLASSIC COLLECTION",
+      "number": "17",
+      "variant": "CLASSIC COLL-POP SERIES 5",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "UMBREON-HOLO",
+      "set": "POKEMON NEO DISCOVERY",
+      "number": "13",
+      "variant": "",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "EX-MT 6",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "VAPOREON EX-HOLO",
+      "set": "POKEMON EX DELTA SPECIES",
+      "number": "110",
+      "variant": "DELTA SPECIES",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM 7",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "Venusaur",
+      "set": "Pokemon 25th Anniversary Edition Promo Pack Japanese",
+      "number": "",
+      "variant": "",
+      "language": "Japanese",
+      "grading_company": "BGS",
+      "grade": "NM",
+      "price_band": "Under $100"
+    },
+    {
+      "name": "VENUSAUR EX",
+      "set": "POKEMON MEW EN-151",
+      "number": "198",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "NM-MT 8",
+      "price_band": "$100–$250"
+    },
+    {
+      "name": "VICTINI",
+      "set": "POKEMON SVP EN-SV BLACK STAR PROMO",
+      "number": "208",
+      "variant": "UNOVA VICTINI ILLUS COLL",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$250–$500"
+    },
+    {
+      "name": "ZAPDOS EX",
+      "set": "POKEMON MEW EN-151",
+      "number": "202",
+      "variant": "SPECIAL ILLUSTRATION RARE",
+      "language": "English",
+      "grading_company": "PSA",
+      "grade": "GEM MT 10",
+      "price_band": "$500–$1,000"
+    },
+    {
+      "name": "Zapdos ex",
+      "set": "Scarlet & Violet 151",
+      "number": "202/165",
+      "variant": "Special Illustration Rare",
+      "language": "English",
+      "grading_company": "CGC",
+      "grade": "10",
+      "price_band": "$100–$250"
+    }
+  ],
+  "sealed": [
+    {
+      "name": "151 Booster Bundle",
+      "language": "English",
+      "quantity": 1,
+      "price_band": "$150–$500"
+    },
+    {
+      "name": "151 Master Sets (En + JP)",
+      "language": "English",
+      "quantity": 1,
+      "price_band": "$500+"
+    },
+    {
+      "name": "Base set 2 Master Set",
+      "language": "English",
+      "quantity": 1,
+      "price_band": "$500+"
+    },
+    {
+      "name": "Blastoise Box S-CH",
+      "language": "English",
+      "quantity": 5,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "Charizard Boxes",
+      "language": "English",
+      "quantity": 9,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Dark Crystal Blaze",
+      "language": "English",
+      "quantity": 7,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Eevee Keychain Box",
+      "language": "English",
+      "quantity": 7,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Eeveelution Binder",
+      "language": "English",
+      "quantity": 1,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Fearless Tera",
+      "language": "English",
+      "quantity": 7,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "First Partner",
+      "language": "English",
+      "quantity": 7,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Gathering Coin Sets",
+      "language": "English",
+      "quantity": 6,
+      "price_band": "Under $50"
+    },
+    {
+      "name": "Gem 2",
+      "language": "English",
+      "quantity": 50,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "Gem 3",
+      "language": "English",
+      "quantity": 40,
+      "price_band": "$50–$150"
+    },
+    {
+      "name": "Venusaur Box S-CH",
+      "language": "English",
+      "quantity": 7,
+      "price_band": "$50–$150"
+    }
+  ]
+}

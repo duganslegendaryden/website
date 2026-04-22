@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Inventory — Dugan's Legendary Den</title>
+    <meta name="description" content="Browse singles, graded slabs, and sealed products available from Dugan's Legendary Den at card shows across Texas.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-accent"></div>
+
+    <!-- ── Compact header ── -->
+    <header class="inv-header">
+        <div class="section-inner inv-header-inner">
+            <a href="index.html" class="inv-back-btn" aria-label="Back to home">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                </svg>
+                Home
+            </a>
+            <div class="inv-title-block">
+                <p class="inv-eyebrow">Dugan's Legendary Den</p>
+                <h1 class="inv-page-title">Browse Inventory</h1>
+            </div>
+            <img src="logo.png" alt="" class="inv-logo" aria-hidden="true">
+        </div>
+    </header>
+
+    <!-- ── Main content ── -->
+    <main class="inv-main">
+        <div class="section-inner">
+
+            <!-- Category tabs -->
+            <nav class="inv-tabs" role="tablist" aria-label="Inventory categories">
+                <button class="inv-tab active" data-tab="all"     role="tab" aria-selected="true">
+                    All <span class="tab-count" id="cnt-all">–</span>
+                </button>
+                <button class="inv-tab" data-tab="singles" role="tab" aria-selected="false">
+                    Singles <span class="tab-count" id="cnt-singles">–</span>
+                </button>
+                <button class="inv-tab" data-tab="graded"  role="tab" aria-selected="false">
+                    Slabs <span class="tab-count" id="cnt-graded">–</span>
+                </button>
+                <button class="inv-tab" data-tab="sealed"  role="tab" aria-selected="false">
+                    Sealed <span class="tab-count" id="cnt-sealed">–</span>
+                </button>
+            </nav>
+
+            <!-- Search + price filters -->
+            <div class="inv-controls">
+                <div class="inv-search-wrap">
+                    <svg class="inv-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                    <input
+                        type="search"
+                        id="inv-search"
+                        class="inv-search"
+                        placeholder="Search by name, set, or number…"
+                        autocomplete="off"
+                        spellcheck="false"
+                        aria-label="Search inventory"
+                    >
+                </div>
+                <div class="inv-bands" id="inv-bands" role="group" aria-label="Filter by price range"></div>
+            </div>
+
+            <!-- Results summary -->
+            <div class="inv-meta">
+                <span id="inv-result-count">Loading…</span>
+                <span class="inv-updated" id="inv-updated"></span>
+            </div>
+
+            <!-- Table / list -->
+            <div class="inv-table-wrap" id="inv-table-wrap">
+                <div class="inv-loading" id="inv-loading">
+                    <div class="inv-spinner" aria-hidden="true"></div>
+                    <p>Loading inventory…</p>
+                </div>
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="inv-disclaimer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="flex-shrink:0;margin-top:2px">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+                <span>Prices shown as approximate ranges only. Final prices are confirmed at each show and may differ from ranges shown. Inventory may have sold since the last update.
+                <a href="mailto:duganslegendaryden@gmail.com">Contact us</a> if you're looking for something specific.</span>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="section-inner">
+            <p>&copy; 2026 Dugan's Legendary Den. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+'use strict';
+
+// ── Mobile detection ──────────────────────────────────────────────────────────
+const mobileQuery = window.matchMedia('(max-width: 639px)');
+mobileQuery.addEventListener('change', () => render());
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let INV        = { singles: [], graded: [], sealed: [] };
+let activeTab  = 'all';
+let activeBand = null;
+let query      = '';
+let debounce   = null;
+
+// Price band lists per category (must match _export_inventory_preview.py)
+const BANDS = {
+    singles: ['Under $10', '$10\u2013$20', '$20\u2013$50', '$50\u2013$100', '$100\u2013$250', '$250+'],
+    graded:  ['Under $100', '$100\u2013$250', '$250\u2013$500', '$500\u2013$1,000', '$1,000+'],
+    sealed:  ['Under $50', '$50\u2013$150', '$150\u2013$500', '$500+'],
+};
+
+// ── Data load ─────────────────────────────────────────────────────────────────
+// On Netlify: use the live API function.
+// Local dev fallback: inventory_data.json (run _export_inventory_preview.py first).
+const IS_NETLIFY = window.location.hostname !== 'localhost' &&
+                   window.location.hostname !== '127.0.0.1' &&
+                   window.location.hostname !== '';
+const DATA_URL = IS_NETLIFY ? '/.netlify/functions/inventory' : 'inventory_data.json';
+
+fetch(DATA_URL)
+    .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+    })
+    .then(data => {
+        INV = data;
+        document.getElementById('inv-loading').style.display = 'none';
+        if (data.generated) {
+            document.getElementById('inv-updated').textContent = 'Updated: ' + data.generated;
+        }
+        refreshCounts();
+        render();
+    })
+    .catch(err => {
+        document.getElementById('inv-loading').innerHTML =
+            `<p class="inv-empty">Could not load inventory data.<br>
+             <small>${esc(err.message)}</small></p>`;
+    });
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function esc(s) {
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function allItems() {
+    return [
+        ...INV.singles.map(x => ({...x, _cat: 'singles'})),
+        ...INV.graded.map(x  => ({...x, _cat: 'graded'})),
+        ...INV.sealed.map(x  => ({...x, _cat: 'sealed'})),
+    ];
+}
+
+function categoryItems() {
+    return activeTab === 'all' ? allItems() : (INV[activeTab] || []).map(x => ({...x, _cat: activeTab}));
+}
+
+function filtered() {
+    let items = categoryItems();
+    if (activeBand) items = items.filter(x => x.price_band === activeBand);
+    if (query) {
+        const q = query.toLowerCase();
+        items = items.filter(x =>
+            (x.name    || '').toLowerCase().includes(q) ||
+            (x.set     || '').toLowerCase().includes(q) ||
+            (x.number  || '').toLowerCase().includes(q) ||
+            (x.variant || '').toLowerCase().includes(q)
+        );
+    }
+    return items;
+}
+
+function gradeCell(item) {
+    if (item._cat === 'sealed') return '\u2014';
+    if (item._cat === 'graded') {
+        const gc = item.grading_company || '';
+        const gr = item.grade || '';
+        return gc && gr ? `<span class="grade-badge gc-${gc.toLowerCase()}">${esc(gc)} ${esc(gr)}</span>`
+                        : esc(gc || gr || '\u2014');
+    }
+    return esc(item.condition || '\u2014');
+}
+
+// ── Counts ────────────────────────────────────────────────────────────────────
+function refreshCounts() {
+    const a = allItems();
+    document.getElementById('cnt-all').textContent     = a.length;
+    document.getElementById('cnt-singles').textContent = INV.singles.length;
+    document.getElementById('cnt-graded').textContent  = INV.graded.length;
+    document.getElementById('cnt-sealed').textContent  = INV.sealed.length;
+}
+
+// ── Render dispatcher ─────────────────────────────────────────────────────────
+function render() {
+    renderBands();
+    renderItems();
+    renderMeta();
+}
+
+function renderItems() {
+    const wrap  = document.getElementById('inv-table-wrap');
+    const items = filtered();
+    if (!items.length) {
+        wrap.innerHTML = '<p class="inv-empty">No items match your filters.</p>';
+        return;
+    }
+    wrap.innerHTML = mobileQuery.matches ? renderCards(items) : renderTable(items);
+}
+
+function renderBands() {
+    const container = document.getElementById('inv-bands');
+    const bands = activeTab === 'all' ? [] : (BANDS[activeTab] || []);
+    if (!bands.length) { container.innerHTML = ''; return; }
+
+    let html = `<button class="band-btn${activeBand === null ? ' active' : ''}" data-band="">All prices</button>`;
+    bands.forEach(b => {
+        html += `<button class="band-btn${activeBand === b ? ' active' : ''}" data-band="${esc(b)}">${esc(b)}</button>`;
+    });
+    container.innerHTML = html;
+
+    container.querySelectorAll('.band-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            activeBand = btn.dataset.band || null;
+            render();
+        });
+    });
+}
+
+function renderMeta() {
+    const items = filtered();
+    const cat   = categoryItems();
+    let text = `${items.length} item${items.length !== 1 ? 's' : ''}`;
+    if (items.length !== cat.length) text += ` of ${cat.length}`;
+    document.getElementById('inv-result-count').textContent = text;
+}
+
+// ── Card layout (mobile) ──────────────────────────────────────────────────────
+function renderCards(items) {
+    const showAll      = activeTab === 'all';
+    const isSealedOnly = activeTab === 'sealed';
+    const typeLabels   = { singles: 'Single', graded: 'Slab', sealed: 'Sealed' };
+
+    let html = '<div class="inv-card-list">';
+
+    items.forEach(item => {
+        const cat = item._cat;
+
+        // Band pill
+        const bandHtml = item.price_band
+            ? `<span class="band-pill">${esc(item.price_band)}</span>`
+            : `<span class="band-pill band-ask">Ask</span>`;
+
+        // Name + variant + language (non-English graded shown inline with name)
+        let nameHtml = `<span class="item-name">${esc(item.name || '\u2014')}</span>`;
+        if (item.variant) nameHtml += ` <span class="tag-variant">${esc(item.variant)}</span>`;
+        if (cat === 'graded' && item.language && item.language !== 'English') {
+            nameHtml += ` <span class="tag-lang">${esc(item.language)}</span>`;
+        }
+
+        // Sub-line: set/number or qty
+        let subLine;
+        if (isSealedOnly || cat === 'sealed') {
+            subLine = `<span class="inv-card-qty">Qty: ${item.quantity ?? 1}</span>`;
+        } else {
+            const setStr = item.set   ? esc(item.set)    : '\u2014';
+            const numStr = item.number ? ` &middot; #${esc(item.number)}` : '';
+            subLine = `<span class="inv-card-setnum">${setStr}${numStr}</span>`;
+        }
+
+        // Bottom-right: grade badge + type tag (all view)
+        let tagsHtml = '';
+        if (cat !== 'sealed' && !isSealedOnly) {
+            tagsHtml += `<span class="inv-card-grade-wrap">${gradeCell(item)}</span>`;
+        }
+        if (showAll) {
+            tagsHtml += ` <span class="type-tag type-${cat}">${typeLabels[cat]}</span>`;
+        }
+
+        html += `
+<div class="inv-card">
+  <div class="inv-card-top">
+    <div class="inv-card-name-wrap">${nameHtml}</div>
+    <div class="inv-card-band">${bandHtml}</div>
+  </div>
+  <div class="inv-card-bottom">
+    <div class="inv-card-sub">${subLine}</div>
+    ${tagsHtml.trim() ? `<div class="inv-card-tags">${tagsHtml.trim()}</div>` : ''}
+  </div>
+</div>`;
+    });
+
+    html += '</div>';
+    return html;
+}
+
+// ── Table layout (desktop) ────────────────────────────────────────────────────
+function renderTable(items) {
+    const isSealedOnly = activeTab === 'sealed';
+    const isGradedOnly = activeTab === 'graded';
+    const showAll      = activeTab === 'all';
+    const showSetNum   = !isSealedOnly;
+
+    let html = '<div class="inv-table-scroll"><table class="inv-table"><thead><tr>';
+    html += '<th class="col-name">Name</th>';
+    if (showSetNum) {
+        html += '<th class="col-set">Set</th>';
+        html += '<th class="col-num">#</th>';
+    }
+    if (showAll)       html += '<th class="col-type">Type</th>';
+    if (!isSealedOnly) html += `<th class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">Grade / Cond.</th>`;
+    if (isSealedOnly)  html += '<th class="col-qty">Qty</th>';
+    html += '<th class="col-band">Price Range</th>';
+    html += '</tr></thead><tbody>';
+
+    items.forEach(item => {
+        const cat = item._cat;
+        html += '<tr>';
+
+        // Name cell
+        html += `<td class="col-name"><span class="item-name">${esc(item.name || '\u2014')}</span>`;
+        if (item.variant) html += ` <span class="tag-variant">${esc(item.variant)}</span>`;
+        if (cat === 'graded' && item.language && item.language !== 'English') {
+            html += ` <span class="tag-lang">${esc(item.language)}</span>`;
+        }
+        html += '</td>';
+
+        if (showSetNum) {
+            if (cat === 'sealed') {
+                html += '<td class="col-set inv-muted">\u2014</td><td class="col-num inv-muted">\u2014</td>';
+            } else {
+                html += `<td class="col-set">${esc(item.set || '\u2014')}</td>`;
+                html += `<td class="col-num">${esc(item.number || '\u2014')}</td>`;
+            }
+        }
+
+        if (showAll) {
+            const labels = { singles: 'Single', graded: 'Slab', sealed: 'Sealed' };
+            html += `<td class="col-type"><span class="type-tag type-${cat}">${labels[cat]}</span></td>`;
+        }
+
+        if (!isSealedOnly) html += `<td class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">${gradeCell(item)}</td>`;
+        if (isSealedOnly)  html += `<td class="col-qty">${item.quantity ?? 1}</td>`;
+
+        const bandHtml = item.price_band
+            ? `<span class="band-pill">${esc(item.price_band)}</span>`
+            : `<span class="band-pill band-ask">Ask</span>`;
+        html += `<td class="col-band">${bandHtml}</td>`;
+
+        html += '</tr>';
+    });
+
+    html += '</tbody></table></div>';
+    return html;
+}
+
+// ── Event listeners ───────────────────────────────────────────────────────────
+document.querySelectorAll('.inv-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.inv-tab').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        activeTab  = btn.dataset.tab;
+        activeBand = null;
+        render();
+    });
+});
+
+document.getElementById('inv-search').addEventListener('input', e => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+        query = e.target.value.trim();
+        render();
+    }, 180);
+});
+</script>
+</body>
+</html>
