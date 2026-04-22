@@ -248,6 +248,21 @@
             margin-bottom: 5px;
         }
 
+        .pay-card.zelle .qr-tint {
+            position: relative;
+            display: inline-block;
+        }
+
+        .pay-card.zelle .qr-tint::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: #6D1ED4;
+            mix-blend-mode: screen;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+
         .pay-card .pay-name {
             font-size: 11pt;
             font-weight: 900;
@@ -427,7 +442,7 @@
                         <div class="pay-tag">$DuganD22</div>
                     </div>
                     <div class="pay-card zelle">
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=dugansden&bgcolor=FFFFFF&color=6D1ED4" alt="Zelle QR">
+                        <div class="qr-tint"><img src="zelle_QRcode.png" alt="Zelle QR"></div>
                         <div class="pay-name z-c">Zelle</div>
                         <div class="pay-tag">Tag: dugansden</div>
                     </div>
