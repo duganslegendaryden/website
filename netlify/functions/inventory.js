@@ -159,6 +159,7 @@ export async function handler(event) {
           grade:           (d.grade || '').trim(),
           price_band:      band,
           cert_number:     String(d.cert || '').trim() || null,
+          slab_image:      String(d.cert || '').trim() ? `card_images/slab_${String(d.cert).trim()}.jpg` : null,
         });
       } else if (cls === 'Sealed') {
         let qty = 1;

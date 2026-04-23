@@ -424,8 +424,11 @@ function thumbCell(item) {
         return `<img class="card-thumb" src="${esc(src)}" alt="${esc(item.name)}" loading="lazy">`;
     }
     // Graded cards with a downloaded slab scan show that directly.
+    // onerror: if the file is missing (no scan downloaded), fall back to lazy API lookup.
     if (item.slab_image) {
-        return `<img class="card-thumb" src="${esc(item.slab_image)}" alt="${esc(item.name)}" loading="lazy">`;
+        return `<img class="card-thumb" src="${esc(item.slab_image)}" alt="${esc(item.name)}" loading="lazy"
+            data-set="${esc(item.set)}" data-num="${esc(item.number)}" data-name="${esc(item.name)}"
+            onerror="_slabImgError(this)">`;
     }
     // Everything else falls back to the pokemontcg.io API via the async lazy-load path.
     const cacheKey = `${item.set}|${item.number}`;
@@ -540,6 +543,18 @@ async function fetchCardImage(setName, number, cardName) {
     if (imgCache.has(cacheKey)) return;
     imgCache.set(cacheKey, 'pending');
     await _enqueue(() => _doFetch(cacheKey, setName, number, cardName));
+}
+
+// Fallback when a slab image file is missing: replace with lazy-load placeholder
+function _slabImgError(img) {
+    const d = document.createElement('div');
+    d.className = 'thumb-placeholder card-thumb-lazy';
+    d.dataset.set  = img.dataset.set  || '';
+    d.dataset.num  = img.dataset.num  || '';
+    d.dataset.name = img.dataset.name || '';
+    d.textContent  = '\u2026';
+    img.replaceWith(d);
+    if (thumbObserver) thumbObserver.observe(d);
 }
 
 // Set up IntersectionObserver to fetch images lazily
