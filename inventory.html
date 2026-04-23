@@ -10,6 +10,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ── Card thumbnail ── */
+        .card-thumb {
+            width: 72px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 5px;
+            display: block;
+            background: #1a1a2e;
+        }
+        .thumb-placeholder {
+            width: 72px;
+            height: 100px;
+            background: #1a1a2e;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            font-size: 10px;
+            text-align: center;
+            line-height: 1.2;
+            flex-shrink: 0;
+        }
+
+        /* ── Link column ── */
+        .col-link { width: 52px; text-align: center; }
+        .col-img  { width: 80px; text-align: center; }
+        td.col-link, td.col-img { padding: 4px 6px; vertical-align: middle; }
+
+        .cert-link, .tcg-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            padding: 3px 6px;
+            border-radius: 4px;
+            text-decoration: none;
+            white-space: nowrap;
+            line-height: 1;
+        }
+        .cert-link { background: #2a3a5c; color: #a8c7fa; border: 1px solid #3a5080; }
+        .cert-link:hover { background: #3a5080; }
+        .tcg-link  { background: #1a3a1a; color: #7ec87e; border: 1px solid #2a5a2a; }
+        .tcg-link:hover  { background: #2a5a2a; }
+
+        /* ── Mobile card layout: image left, content right ── */
+        .inv-card {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: flex-start !important;
+            gap: 10px !important;
+        }
+        .inv-card-img-col {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .inv-card-content {
+            flex: 1;
+            min-width: 0;
+        }
+        .inv-card-link-row {
+            /* used for cert/tcg link below image on mobile */
+        }
+    </style>
 </head>
 <body>
     <div class="top-accent"></div>
@@ -104,6 +174,36 @@
 
 <script>
 'use strict';
+
+// ── Config ────────────────────────────────────────────────────────────────────
+// Pokemon TCG API key (pokemontcg.io) — optional but raises limit from 1k to 20k/day.
+const PTCG_API_KEY = '53611259-9f03-4864-ad59-1e58d9ce618e';
+
+// Manual overrides for graded cards whose PSA cert name is abbreviated, truncated,
+// or uses non-standard notation that can't be resolved by normal pattern matching.
+// Key: raw PSA card name (lowercased, exactly as stored in the DB).
+// Value: { name: "API card name", [number: "override number"], [setId: "set.id filter"] }
+const GRADED_NAME_OVERRIDES = {
+    // PSA abbreviates long names — map to the real card name
+    'sp.delivery charizard':  { name: 'Special Delivery Charizard' },
+    'spcl.delivery pikachu':  { name: 'Special Delivery Pikachu' },
+    // Compound Tag Team names truncated by PSA character limit
+    'fa/m.lpny.&jglypf.gx':  { name: 'Moltres & Zapdos & Articuno-GX', number: 'SM210' },
+    'fa/pikachu & zkrm. gx': { name: 'Pikachu & Zekrom-GX' },
+    'raichu/aln.raichu gx':  { name: 'Raichu & Alolan Raichu-GX' },
+    // PSA uses "/" as separator for compound names
+    'pikachu/grey felt hat':  { name: 'Pikachu with Grey Felt Hat' },
+    // PSA appends "-GOLD STAR" as a variety annotation
+    'greninja-gold star':     { name: 'Greninja' },
+    // Umbreon: Celebrations Classic Collection #17 — set.id needed to avoid Delta Species
+    'umbreon-gold star':      { name: 'Umbreon ★', setId: 'cel25c' },
+};
+
+// Pokemon TCG API image cache: "set|number" → image URL (or false if not found)
+const imgCache = new Map();
+
+// IntersectionObserver for lazy-loading thumbnails
+let thumbObserver = null;
 
 // ── Mobile detection ──────────────────────────────────────────────────────────
 const mobileQuery = window.matchMedia('(max-width: 639px)');
@@ -228,6 +328,242 @@ function gradeCell(item) {
     return esc(item.condition || '\u2014');
 }
 
+// ── Cert link builder ─────────────────────────────────────────────────────────
+function certLink(item) {
+    if (!item.cert_number) return '\u2014';
+    const n = encodeURIComponent(item.cert_number);
+    const gc = (item.grading_company || '').toUpperCase();
+    let href = '';
+    if      (gc === 'PSA') href = `https://www.psacard.com/cert/${n}`;
+    else if (gc === 'CGC') href = `https://www.cgccards.com/certlookup/${n}/`;
+    else if (gc === 'BGS' || gc === 'BGS/BCCG') href = `https://www.beckett.com/grading/card-lookup?item_id=${n}&item_type=BGS`;
+    else if (gc === 'TAG') href = `https://my.taggrading.com/card/${n}`;
+    else                   href = '';
+
+    if (!href) return `<span style="font-size:0.75rem;color:#888">${esc(item.cert_number)}</span>`;
+    return `<a class="cert-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(gc || 'Cert')}</a>`;
+}
+
+// ── TCGPlayer link ─────────────────────────────────────────────────────────────
+function tcgLink(item) {
+    if (!item.tcgplayer_url) return '';
+    return `<a class="tcg-link" href="${esc(item.tcgplayer_url)}" target="_blank" rel="noopener noreferrer">TCG</a>`;
+}
+
+// ── Pokemon TCG API image ─────────────────────────────────────────────────────
+
+// Concurrency limiter — max 4 parallel API calls to avoid hammering the API
+const _MAX_CONCURRENT = 4;
+let _activeReqs = 0;
+const _reqQueue = [];
+function _enqueue(fn) {
+    return new Promise((resolve, reject) => {
+        _reqQueue.push({ fn, resolve, reject });
+        _drain();
+    });
+}
+function _drain() {
+    while (_activeReqs < _MAX_CONCURRENT && _reqQueue.length > 0) {
+        const { fn, resolve, reject } = _reqQueue.shift();
+        _activeReqs++;
+        fn().then(resolve, reject).finally(() => { _activeReqs--; _drain(); });
+    }
+}
+
+// Returns true when `num` looks like a Pokemon TCG API set ID used as a placeholder
+// instead of a real card number (e.g. sv08, swsh09, me02).
+function _isSetIdPlaceholder(num) {
+    return /^(?:sv|swsh|me)\d{1,2}[a-z]?$/i.test(num)
+        && parseInt(num.replace(/^[a-z]+/i, '')) <= 15;
+}
+
+// Derive number variants to try based on set name patterns
+function _numberVariants(setName, number) {
+    const s = setName.toLowerCase();
+    const base = number.split('/')[0];
+    const stripped = base.replace(/^0+/, '') || base;
+    const padded = stripped.padStart(2, '0');
+
+    if (_isSetIdPlaceholder(base)) return [];
+
+    if (/^[A-Za-z]+\d/.test(base)) return [base];
+
+    if (s.includes('shiny vault'))     return [`SV${stripped}`, `SV${padded}`];
+    if (s.includes('trainer gallery')) return [`TG${stripped}`, `TG${padded}`];
+    if (s.includes('xy promo'))        return [`XY${stripped}`, base];
+    if (s.includes('sword & shield promo') || s.includes('swsh promo')) return [`SWSH${stripped}`, base];
+    if (s.includes('sm promo') || s.includes('sun & moon promo') || s.includes('sm-p'))
+        return [`SM${stripped}`, base];
+    if (s.includes('scarlet & violet promo') || s.includes('sv promo')) return [stripped, base];
+    if (s.includes('svp') || s.includes('sv black star')) return [stripped, base];
+    if (s.includes('swsh black star')) return [`SWSH${stripped.padStart(3,'0')}`, `SWSH${stripped}`, base];
+    if (s.includes('sm black star')) return [`SM${stripped}`, base];
+    if (s.includes('black star') || s.includes('bw promo')) return [`BW${stripped}`, base];
+
+    const variants = [base];
+    if (stripped !== base) variants.push(stripped);
+    return variants;
+}
+
+// Extract the numeric TCGPlayer product ID from a tcgplayer_url, or null.
+function _tcgProductId(item) {
+    const m = (item.tcgplayer_url || '').match(/\/product\/(\d+)\//);
+    return m ? m[1] : null;
+}
+
+// Returns an <img> or placeholder div. Placeholder gets data-* attrs for lazy load.
+function thumbCell(item) {
+    if (!item.set || !item.number) {
+        return `<div class="thumb-placeholder">–</div>`;
+    }
+    // Singles carry a tcgplayer_url — extract the product ID and serve the image
+    // directly from TCGPlayer's CDN. No API call, no async, works for all languages.
+    const productId = _tcgProductId(item);
+    if (productId) {
+        const src = `https://product-images.tcgplayer.com/fit-in/437x437/${productId}.jpg`;
+        return `<img class="card-thumb" src="${esc(src)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    // Graded cards with a downloaded slab scan show that directly.
+    if (item.slab_image) {
+        return `<img class="card-thumb" src="${esc(item.slab_image)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    // Everything else falls back to the pokemontcg.io API via the async lazy-load path.
+    const cacheKey = `${item.set}|${item.number}`;
+    const cached = imgCache.get(cacheKey);
+    if (cached && cached !== 'pending') {
+        return cached === false
+            ? `<div class="thumb-placeholder">–</div>`
+            : `<img class="card-thumb" src="${esc(cached)}" alt="${esc(item.name)}" loading="lazy">`;
+    }
+    return `<div class="thumb-placeholder card-thumb-lazy" data-set="${esc(item.set)}" data-num="${esc(item.number)}" data-name="${esc(item.name)}">…</div>`;
+}
+
+// Generate name variants to handle space vs hyphen before type suffix.
+function _nameVariants(name) {
+    const variants = [name];
+    const spaceToHyphen = name.replace(/ (GX|EX|VMAX|V-UNION|Tag Team GX)$/i,
+        (_, s) => `-${s.toUpperCase()}`);
+    if (spaceToHyphen !== name) variants.push(spaceToHyphen);
+    const hyphenToSpace = name.replace(/-(GX|EX|VMAX)$/i, ' $1');
+    if (hyphenToSpace !== name && !variants.includes(hyphenToSpace)) variants.push(hyphenToSpace);
+    if (name.includes('/')) {
+        const ampVariant = name.replace(/\//g, ' & ');
+        if (!variants.includes(ampVariant)) variants.push(ampVariant);
+        const ampHyphen = ampVariant.replace(/ (GX|EX|VMAX|V-UNION)$/i, (_, s) => `-${s.toUpperCase()}`);
+        if (ampHyphen !== ampVariant && !variants.includes(ampHyphen)) variants.push(ampHyphen);
+    }
+    return variants;
+}
+
+async function _doFetch(cacheKey, setName, number, cardName) {
+    const headers = {};
+    if (PTCG_API_KEY) headers['X-Api-Key'] = PTCG_API_KEY;
+
+    const override = GRADED_NAME_OVERRIDES[cardName.toLowerCase()];
+
+    let cleanName = cardName
+        .replace(/^[A-Z]{1,3}\//, '')
+        .replace(/-HOLO$/i, '')
+        .replace(/-REV\.FOIL$/i, '')
+        .replace(/"/g, '')
+        .trim();
+    if (cleanName === cleanName.toUpperCase() && /[A-Z]{2}/.test(cleanName)) {
+        cleanName = cleanName.replace(/\b\w+/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+    }
+    const numVariants = _numberVariants(setName, number);
+
+    const nameVars  = override ? [override.name] : _nameVariants(cleanName);
+    const numVars   = (override && override.number) ? [override.number] : numVariants;
+    const setClause = (override && override.setId) ? ` set.id:${override.setId}` : '';
+
+    let url = false;
+
+    outer:
+    for (const nm of nameVars) {
+        for (const num of numVars) {
+            const q = encodeURIComponent(`name:"${nm}" number:${num}${setClause}`);
+            try {
+                const res = await fetch(
+                    `https://api.pokemontcg.io/v2/cards?q=${q}&select=images&pageSize=1`,
+                    { headers }
+                );
+                if (!res.ok) continue;
+                const json = await res.json();
+                if (json.data?.length > 0) { url = json.data[0].images?.small ?? false; break outer; }
+            } catch { continue; }
+        }
+    }
+
+    // Strategy 2 (fallback): when the stored number is a set-ID placeholder
+    if (!url && numVars.length === 0 && !override) {
+        const cleanSetName = setName.replace(/^[A-Z0-9]+:\s*/i, '').trim();
+        const setNameCandidates = [cleanSetName];
+        if (cleanSetName.endsWith(' Base Set')) {
+            setNameCandidates.push(cleanSetName.replace(/ Base Set$/, ''));
+        }
+        outer2:
+        for (const sn of setNameCandidates) {
+            if (!sn) continue;
+            for (const nm of nameVars) {
+                const q = encodeURIComponent(`name:"${nm}" set.name:"${sn}"`);
+                try {
+                    const res = await fetch(
+                        `https://api.pokemontcg.io/v2/cards?q=${q}&select=images&pageSize=1`,
+                        { headers }
+                    );
+                    if (!res.ok) continue;
+                    const json = await res.json();
+                    if (json.data?.length > 0) { url = json.data[0].images?.small ?? false; break outer2; }
+                } catch { continue; }
+            }
+        }
+    }
+
+    imgCache.set(cacheKey, url);
+
+    document.querySelectorAll(`.card-thumb-lazy[data-set="${CSS.escape(setName)}"][data-num="${CSS.escape(number)}"]`).forEach(el => {
+        if (url) {
+            const img = document.createElement('img');
+            img.className = 'card-thumb';
+            img.src = url;
+            img.alt = el.dataset.name || '';
+            img.loading = 'lazy';
+            el.replaceWith(img);
+        } else {
+            el.textContent = '–';
+        }
+    });
+}
+
+async function fetchCardImage(setName, number, cardName) {
+    const cacheKey = `${setName}|${number}`;
+    if (imgCache.has(cacheKey)) return;
+    imgCache.set(cacheKey, 'pending');
+    await _enqueue(() => _doFetch(cacheKey, setName, number, cardName));
+}
+
+// Set up IntersectionObserver to fetch images lazily
+function initThumbObserver() {
+    if (thumbObserver) thumbObserver.disconnect();
+    thumbObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const setName = el.dataset.set;
+            const num     = el.dataset.num;
+            const name    = el.dataset.name || '';
+            if (setName && num) {
+                fetchCardImage(setName, num, name);
+                thumbObserver.unobserve(el);
+            }
+        });
+    }, { rootMargin: '200px' });
+
+    document.querySelectorAll('.card-thumb-lazy').forEach(el => {
+        thumbObserver.observe(el);
+    });
+}
+
 // ── Counts ────────────────────────────────────────────────────────────────────
 function refreshCounts() {
     const a = allItems();
@@ -252,6 +588,8 @@ function renderItems() {
         return;
     }
     wrap.innerHTML = mobileQuery.matches ? renderCards(items) : renderTable(items);
+    // Wire up lazy-load observer after DOM update
+    initThumbObserver();
 }
 
 function renderBands() {
@@ -292,29 +630,25 @@ function renderCards(items) {
     items.forEach(item => {
         const cat = item._cat;
 
-        // Band pill
         const bandHtml = item.price_band
             ? `<span class="band-pill">${esc(item.price_band)}</span>`
             : `<span class="band-pill band-ask">Ask</span>`;
 
-        // Name + variant + language (non-English graded shown inline with name)
         let nameHtml = `<span class="item-name">${esc(item.name || '\u2014')}</span>`;
         if (item.variant) nameHtml += ` <span class="tag-variant">${esc(item.variant)}</span>`;
         if (cat === 'graded' && item.language && item.language !== 'English') {
             nameHtml += ` <span class="tag-lang">${esc(item.language)}</span>`;
         }
 
-        // Sub-line: set/number or qty
         let subLine;
         if (isSealedOnly || cat === 'sealed') {
             subLine = `<span class="inv-card-qty">Qty: ${item.quantity ?? 1}</span>`;
         } else {
-            const setStr = item.set   ? esc(item.set)    : '\u2014';
+            const setStr = item.set    ? esc(item.set)    : '\u2014';
             const numStr = item.number ? ` &middot; #${esc(item.number)}` : '';
             subLine = `<span class="inv-card-setnum">${setStr}${numStr}</span>`;
         }
 
-        // Bottom-right: grade badge + type tag (all view)
         let tagsHtml = '';
         if (cat !== 'sealed' && !isSealedOnly) {
             tagsHtml += `<span class="inv-card-grade-wrap">${gradeCell(item)}</span>`;
@@ -323,15 +657,32 @@ function renderCards(items) {
             tagsHtml += ` <span class="type-tag type-${cat}">${typeLabels[cat]}</span>`;
         }
 
+        // Left image/link column
+        let imgColHtml = '';
+        if (cat === 'singles') {
+            const thumb = thumbCell(item);
+            const link  = tcgLink(item);
+            imgColHtml = `<div class="inv-card-img-col">${thumb}${link ? `<div class="inv-card-link-row">${link}</div>` : ''}</div>`;
+        } else if (cat === 'graded') {
+            const thumb = thumbCell(item);
+            const link  = certLink(item);
+            imgColHtml = `<div class="inv-card-img-col">${thumb}${link !== '\u2014' ? `<div class="inv-card-link-row">${link}</div>` : ''}</div>`;
+        } else {
+            imgColHtml = `<div class="inv-card-img-col"><div class="thumb-placeholder">–</div></div>`;
+        }
+
         html += `
 <div class="inv-card">
-  <div class="inv-card-top">
-    <div class="inv-card-name-wrap">${nameHtml}</div>
-    <div class="inv-card-band">${bandHtml}</div>
-  </div>
-  <div class="inv-card-bottom">
-    <div class="inv-card-sub">${subLine}</div>
-    ${tagsHtml.trim() ? `<div class="inv-card-tags">${tagsHtml.trim()}</div>` : ''}
+  ${imgColHtml}
+  <div class="inv-card-content">
+    <div class="inv-card-top">
+      <div class="inv-card-name-wrap">${nameHtml}</div>
+      <div class="inv-card-band">${bandHtml}</div>
+    </div>
+    <div class="inv-card-bottom">
+      <div class="inv-card-sub">${subLine}</div>
+      ${tagsHtml.trim() ? `<div class="inv-card-tags">${tagsHtml.trim()}</div>` : ''}
+    </div>
   </div>
 </div>`;
     });
@@ -342,26 +693,39 @@ function renderCards(items) {
 
 // ── Table layout (desktop) ────────────────────────────────────────────────────
 function renderTable(items) {
-    const isSealedOnly = activeTab === 'sealed';
-    const isGradedOnly = activeTab === 'graded';
-    const showAll      = activeTab === 'all';
-    const showSetNum   = !isSealedOnly;
+    const isSealedOnly  = activeTab === 'sealed';
+    const isGradedOnly  = activeTab === 'graded';
+    const showAll       = activeTab === 'all';
+    const showSetNum    = !isSealedOnly;
 
     let html = '<div class="inv-table-scroll"><table class="inv-table"><thead><tr>';
+    // Image col — singles and graded (not sealed)
+    if (!isSealedOnly) html += '<th class="col-img">Image</th>';
     html += '<th class="col-name">Name</th>';
     if (showSetNum) {
         html += '<th class="col-set">Set</th>';
         html += '<th class="col-num">#</th>';
     }
-    if (showAll)       html += '<th class="col-type">Type</th>';
-    if (!isSealedOnly) html += `<th class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">Grade / Cond.</th>`;
-    if (isSealedOnly)  html += '<th class="col-qty">Qty</th>';
+    if (showAll)        html += '<th class="col-type">Type</th>';
+    if (!isSealedOnly)  html += `<th class="${isGradedOnly ? 'col-grade-full' : 'col-grade'}">Grade / Cond.</th>`;
+    if (isSealedOnly)   html += '<th class="col-qty">Qty</th>';
     html += '<th class="col-band">Price Range</th>';
+    // Link col
+    if (!isSealedOnly)  html += '<th class="col-link">Link</th>';
     html += '</tr></thead><tbody>';
 
     items.forEach(item => {
         const cat = item._cat;
         html += '<tr>';
+
+        // Image cell
+        if (!isSealedOnly) {
+            if (cat === 'singles' || cat === 'graded') {
+                html += `<td class="col-img">${thumbCell(item)}</td>`;
+            } else {
+                html += '<td class="col-img"></td>';
+            }
+        }
 
         // Name cell
         html += `<td class="col-name"><span class="item-name">${esc(item.name || '\u2014')}</span>`;
@@ -392,6 +756,18 @@ function renderTable(items) {
             ? `<span class="band-pill">${esc(item.price_band)}</span>`
             : `<span class="band-pill band-ask">Ask</span>`;
         html += `<td class="col-band">${bandHtml}</td>`;
+
+        // Link cell
+        if (!isSealedOnly) {
+            if (cat === 'singles') {
+                const link = tcgLink(item);
+                html += `<td class="col-link">${link || '\u2014'}</td>`;
+            } else if (cat === 'graded') {
+                html += `<td class="col-link">${certLink(item)}</td>`;
+            } else {
+                html += '<td class="col-link">\u2014</td>';
+            }
+        }
 
         html += '</tr>';
     });

@@ -144,8 +144,9 @@ export async function handler(event) {
           set,
           number,
           variant,
-          condition:  (d.grade || 'NM').trim(),
-          price_band: band,
+          condition:    (d.grade || 'NM').trim(),
+          price_band:   band,
+          tcgplayer_url: (d.source_url || '').trim() || null,
         });
       } else if (cls === 'Graded') {
         graded.push({
@@ -157,6 +158,7 @@ export async function handler(event) {
           grading_company: (d.grading_company || '').trim().toUpperCase(),
           grade:           (d.grade || '').trim(),
           price_band:      band,
+          cert_number:     String(d.cert || '').trim() || null,
         });
       } else if (cls === 'Sealed') {
         let qty = 1;
