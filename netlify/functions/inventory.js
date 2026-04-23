@@ -144,6 +144,7 @@ export async function handler(event) {
           set,
           number,
           variant,
+          language:     d.language || 'English',
           condition:    (d.grade || 'NM').trim(),
           price_band:   band,
           tcgplayer_url: (d.source_url || '').trim() || null,
@@ -165,11 +166,13 @@ export async function handler(event) {
         let qty = 1;
         try { qty = parseInt(d.quantity ?? 1, 10); } catch { qty = 1; }
         if (qty <= 0) continue; // sold out
+        const sealedSlug = name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
         sealed.push({
           name,
-          language:   d.language || 'English',
-          quantity:   qty,
-          price_band: band,
+          language:    d.language || 'English',
+          quantity:    qty,
+          price_band:  band,
+          sealed_image: sealedSlug ? `card_images/sealed_${sealedSlug}.jpg` : null,
         });
       }
     }

@@ -20,6 +20,14 @@
             display: block;
             background: #1a1a2e;
         }
+        .card-thumb-sealed {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 5px;
+            display: block;
+            background: #ffffff;
+        }
         .thumb-placeholder {
             width: 72px;
             height: 100px;
@@ -413,6 +421,11 @@ function _tcgProductId(item) {
 
 // Returns an <img> or placeholder div. Placeholder gets data-* attrs for lazy load.
 function thumbCell(item) {
+    // Sealed products use a pre-computed slug image path.
+    if (item.sealed_image) {
+        return `<img class="card-thumb-sealed" src="${esc(item.sealed_image)}" alt="${esc(item.name)}" loading="lazy"
+            onerror="this.parentNode.replaceChild(Object.assign(document.createElement('div'),{className:'thumb-placeholder',textContent:'\u2013'}),this)">`;
+    }
     if (!item.set || !item.number) {
         return `<div class="thumb-placeholder">–</div>`;
     }
@@ -651,7 +664,7 @@ function renderCards(items) {
 
         let nameHtml = `<span class="item-name">${esc(item.name || '\u2014')}</span>`;
         if (item.variant) nameHtml += ` <span class="tag-variant">${esc(item.variant)}</span>`;
-        if (cat === 'graded' && item.language && item.language !== 'English') {
+        if (item.language && item.language !== 'English') {
             nameHtml += ` <span class="tag-lang">${esc(item.language)}</span>`;
         }
 
@@ -683,7 +696,7 @@ function renderCards(items) {
             const link  = certLink(item);
             imgColHtml = `<div class="inv-card-img-col">${thumb}${link !== '\u2014' ? `<div class="inv-card-link-row">${link}</div>` : ''}</div>`;
         } else {
-            imgColHtml = `<div class="inv-card-img-col"><div class="thumb-placeholder">–</div></div>`;
+            imgColHtml = `<div class="inv-card-img-col">${thumbCell(item)}</div>`;
         }
 
         html += `
@@ -714,8 +727,8 @@ function renderTable(items) {
     const showSetNum    = !isSealedOnly;
 
     let html = '<div class="inv-table-scroll"><table class="inv-table"><thead><tr>';
-    // Image col — singles and graded (not sealed)
-    if (!isSealedOnly) html += '<th class="col-img">Image</th>';
+    // Image col — all categories including sealed
+    html += '<th class="col-img">Image</th>';
     html += '<th class="col-name">Name</th>';
     if (showSetNum) {
         html += '<th class="col-set">Set</th>';
@@ -734,18 +747,12 @@ function renderTable(items) {
         html += '<tr>';
 
         // Image cell
-        if (!isSealedOnly) {
-            if (cat === 'singles' || cat === 'graded') {
-                html += `<td class="col-img">${thumbCell(item)}</td>`;
-            } else {
-                html += '<td class="col-img"></td>';
-            }
-        }
+        html += `<td class="col-img">${thumbCell(item)}</td>`;
 
         // Name cell
         html += `<td class="col-name"><span class="item-name">${esc(item.name || '\u2014')}</span>`;
         if (item.variant) html += ` <span class="tag-variant">${esc(item.variant)}</span>`;
-        if (cat === 'graded' && item.language && item.language !== 'English') {
+        if (item.language && item.language !== 'English') {
             html += ` <span class="tag-lang">${esc(item.language)}</span>`;
         }
         html += '</td>';

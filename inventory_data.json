@@ -1,11 +1,12 @@
 {
-  "generated": "Apr 22, 2026 06:36 PM",
+  "generated": "Apr 22, 2026 10:29 PM",
   "singles": [
     {
       "name": "Alolan Ninetales GX",
       "set": "Hidden Fates: Shiny Vault",
       "number": "SV53",
       "variant": "HIF:SV",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/197789/pokemon-hidden-fates-shiny-vault-alolan-ninetales-gx&page=1&Language=English?Condition=Near+Mint"
@@ -15,6 +16,7 @@
       "set": "SV: Black Bolt",
       "number": "096",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642545/pokemon-sv-black-bolt-amoonguss-096-086&page=1&Language=English?Condition=Near+Mint"
@@ -24,6 +26,7 @@
       "set": "SV08: Surging Sparks",
       "number": "211",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/589865/pokemon-sv08-surging-sparks-appletun-211-191?Condition=Near+Mint&Language=English"
@@ -33,6 +36,7 @@
       "set": "SM-P: Sun & Moon Promos",
       "number": "365",
       "variant": "SM-P",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/598442/pokemon-japan-sm-p-sun-and-moon-promos-armored-mewtwo-365-sm-p&Language=all&page=1?Condition=Near+Mint"
@@ -42,6 +46,7 @@
       "set": "Fossil",
       "number": "17",
       "variant": "17",
+      "language": "English",
       "condition": "LP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/44425/pokemon-fossil-articuno-17?page=1&Language=English&Condition=Lightly+Played"
@@ -51,6 +56,7 @@
       "set": "Sandstorm",
       "number": "31",
       "variant": "Uncommon",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/83688/pokemon-sandstorm-azurill&page=1&Language=English&Printing=Reverse+Holofoil&Language=English&Printing=Reverse+Holofoil&page=1&Language=English?Condition=Near+Mint"
@@ -60,6 +66,7 @@
       "set": "XY Promos",
       "number": "XY80",
       "variant": "Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/108610/pokemon-xy-promos-black-kyurem-xy80&page=1&Language=English?Condition=Near+Mint"
@@ -69,6 +76,7 @@
       "set": "SWSH09: Brilliant Stars Trainer Gallery",
       "number": "TG13",
       "variant": "SWSH09:TG",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/264202/pokemon-swsh09-brilliant-stars-trainer-gallery-boltund-v&page=1&Language=English?Condition=Near+Mint"
@@ -78,6 +86,7 @@
       "set": "SV: Venusaur, Charizard & Blastoise Special Deck Set",
       "number": "050",
       "variant": "svG",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/589024/pokemon-japan-sv-venusaur-charizard-and-blastoise-special-deck-set-bulbasaur-050-049&page=1&Language=all&Language=all?Condition=Near+Mint"
@@ -87,6 +96,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "166",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/516997/pokemon-sv-scarlet-and-violet-151-bulbasaur-166-165&page=1&Language=English?Condition=Near+Mint"
@@ -96,6 +106,7 @@
       "set": "cs3bc",
       "number": "167",
       "variant": "Secret Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": null
@@ -105,6 +116,7 @@
       "set": "ME: Ascended Heroes",
       "number": "242",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/676054/pokemon-me-ascended-heroes-carbink-242-217&page=1&Language=English?Condition=Near+Mint"
@@ -114,6 +126,7 @@
       "set": "SWSH08: Fusion Strike",
       "number": "swsh08",
       "variant": "Alternate Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/253138/pokemon-swsh08-fusion-strike-celebi-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -123,6 +136,7 @@
       "set": "Gem 3",
       "number": "",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": null
@@ -132,6 +146,7 @@
       "set": "ME: Mega Evolution Promo",
       "number": "022",
       "variant": "Pokemon Center Exclusive",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/665053/pokemon-me-mega-evolution-promo-charcadet-022-pokemon-center-exclusive&page=1&Language=English?Condition=Near+Mint"
@@ -141,6 +156,7 @@
       "set": "XY Promos",
       "number": "XY121",
       "variant": "Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/117267/pokemon-xy-promos-charizard-ex-xy121&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -150,6 +166,7 @@
       "set": "SV3: Ruler of the Black Flame",
       "number": "134",
       "variant": "SV3",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/567088/pokemon-japan-sv3-ruler-of-the-black-flame-charizard-ex-134-108?page=1&Language=all&Condition=Near+Mint"
@@ -159,6 +176,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "183",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/517017/pokemon-sv-scarlet-and-violet-151-charizard-ex-183-165&page=1&Language=English?Condition=Near+Mint"
@@ -168,6 +186,7 @@
       "set": "XY - Evolutions",
       "number": "12",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/124024/pokemon-xy-evolutions-charizard-ex&page=1&Language=English?Condition=Near+Mint"
@@ -177,6 +196,7 @@
       "set": "SV03: Obsidian Flames",
       "number": "223",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/509980/pokemon-sv03-obsidian-flames-charizard-ex-223-197&page=1&Language=English?Condition=Near+Mint"
@@ -186,6 +206,7 @@
       "set": "SV03: Obsidian Flames",
       "number": "215",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/509963/pokemon-sv03-obsidian-flames-charizard-ex-215-197&page=1&Language=English?Condition=Near+Mint"
@@ -195,6 +216,7 @@
       "set": "SWSH: Sword & Shield Promo Cards",
       "number": "SWSH261",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/285378/pokemon-swsh-sword-and-shield-promo-cards-charizard-vmax-swsh261&page=1&Language=English?Condition=Near+Mint"
@@ -204,6 +226,7 @@
       "set": "S12a: VSTAR Universe",
       "number": "212",
       "variant": "S12a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/571750/pokemon-japan-s12a-vstar-universe-charizard-vstar-212-172&page=1&Language=all?Condition=Near+Mint"
@@ -213,6 +236,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "168",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/502556/pokemon-sv-scarlet-and-violet-151-charmander-168-165&page=1&Language=English?Condition=Near+Mint"
@@ -222,6 +246,7 @@
       "set": "Boundaries Crossed",
       "number": "148",
       "variant": "148 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84250/pokemon-boundaries-crossed-cheren-148-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -231,6 +256,7 @@
       "set": "SV05: Temporal Forces",
       "number": "183",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/542904/pokemon-sv05-temporal-forces-cinccino-183-162&page=1&Language=English?Condition=Near+Mint"
@@ -240,6 +266,7 @@
       "set": "SV: Black Bolt",
       "number": "144",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642598/pokemon-sv-black-bolt-cobalion-144-086&page=1&Language=English?Condition=Near+Mint"
@@ -249,6 +276,7 @@
       "set": "Plasma Storm",
       "number": "135",
       "variant": "Team Plasma",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84390/pokemon-plasma-storm-colress-team-plasma-135-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -258,6 +286,7 @@
       "set": "SV08: Surging Sparks",
       "number": "249",
       "variant": "Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/593856/pokemon-sv08-surging-sparks-counter-gain-249-191&page=1&Language=English?Condition=Near+Mint"
@@ -267,6 +296,7 @@
       "set": "SV: Black Bolt",
       "number": "109",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642562/pokemon-sv-black-bolt-cubchoo-109-086&page=1&Language=English?Condition=Near+Mint"
@@ -276,6 +306,7 @@
       "set": "SV: Scarlet & Violet Promo Cards",
       "number": "204",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/637613/pokemon-sv-scarlet-and-violet-promo-cards-cynthias-garchomp-ex&page=1&Language=English?Condition=Near+Mint"
@@ -285,6 +316,7 @@
       "set": "Neo Destiny",
       "number": "039",
       "variant": "N4",
+      "language": "English",
       "condition": "LP",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84645/pokemon-neo-destiny-dark-quilava&page=1&Language=English&Printing=1st+Edition?Condition=Lightly+Played"
@@ -294,6 +326,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "129",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662150/pokemon-me02-phantasmal-flames-dawn-129-094?page=1&Language=English&Condition=Near+Mint"
@@ -303,6 +336,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "097",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662152/pokemon-me02-phantasmal-flames-dewgong-097-094&page=1&Language=English?Condition=Near+Mint"
@@ -312,6 +346,7 @@
       "set": "Burger King Promos",
       "number": "16",
       "variant": "Promo",
+      "language": "English",
       "condition": "MP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/155604/pokemon-burger-king-promos-dialga-16-106-platinum?page=1&Language=English&Condition=Moderately+Played"
@@ -321,6 +356,7 @@
       "set": "Plasma Blast",
       "number": "99",
       "variant": "Team Plasma",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84809/pokemon-plasma-blast-dialga-ex-team-plasma-99-full-art?page=1&Language=English&Condition=Near+Mint"
@@ -330,6 +366,7 @@
       "set": "Expedition",
       "number": "075",
       "variant": "Uncommon",
+      "language": "English",
       "condition": "MP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84898/pokemon-expedition-dragonair?page=1&Language=English&Printing=Reverse+Holofoil&Condition=Moderately+Played"
@@ -339,6 +376,7 @@
       "set": "Expedition",
       "number": "107",
       "variant": "Common",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/84931/pokemon-expedition-dratini&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Lightly+Played"
@@ -348,6 +386,7 @@
       "set": "SV: Black Bolt",
       "number": "119",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642573/pokemon-sv-black-bolt-duosion-119-086&page=1&Language=English?Condition=Near+Mint"
@@ -357,6 +396,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "swsh07",
       "variant": "Alternate Art Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246754/pokemon-swsh07-evolving-skies-duraludon-vmax-alternate-art-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -366,6 +406,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "167",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610522/pokemon-sv-prismatic-evolutions-eevee-ex-167-131&page=1&Language=English?Condition=Near+Mint"
@@ -375,6 +416,7 @@
       "set": "SV: Scarlet & Violet Promo Cards",
       "number": "174",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/632083/pokemon-sv-scarlet-and-violet-promo-cards-eevee-ex-174&page=1&Language=English?Condition=Near+Mint"
@@ -384,6 +426,7 @@
       "set": "Legendary Treasures: Radiant Collection",
       "number": "23",
       "variant": "Full Art",
+      "language": "English",
       "condition": "MP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/85194/pokemon-legendary-treasures-radiant-collection-emolga-full-art?page=1&Language=English&Condition=Moderately+Played"
@@ -393,6 +436,7 @@
       "set": "League & Championship Cards",
       "number": "27",
       "variant": "League Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/164155/pokemon-league-and-championship-cards-empoleon-fb-27-147-league-promo&page=1&Language=English?Condition=Near+Mint"
@@ -402,6 +446,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "155",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610510/pokemon-sv-prismatic-evolutions-espeon-ex-155-131&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -411,6 +456,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "155",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610510/pokemon-sv-prismatic-evolutions-espeon-ex-155-131&page=1&Language=English?Condition=Near+Mint"
@@ -420,6 +466,7 @@
       "set": "XY - BREAKpoint",
       "number": "117",
       "variant": "Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/111558/pokemon-xy-breakpoint-espeon-ex-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -429,6 +476,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "065",
       "variant": "SWSH07",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246690/pokemon-swsh07-evolving-skies-espeon-vmax?page=1&Language=English&Condition=Near+Mint"
@@ -438,6 +486,7 @@
       "set": "S8b: VMAX Climax",
       "number": "194",
       "variant": "S8b",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/571446/pokemon-japan-s8b-vmax-climax-flaaffy-194-184?page=1&Language=all&Condition=Near+Mint"
@@ -447,6 +496,7 @@
       "set": "Neo Revelation",
       "number": "28",
       "variant": "N3",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/85473/pokemon-neo-revelation-flaaffy?page=1&Language=English&Printing=1st+Edition&Condition=Near+Mint"
@@ -456,6 +506,7 @@
       "set": "SV08: Surging Sparks",
       "number": "210",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/589947/pokemon-sv08-surging-sparks-flapple-210-191&page=1&Language=English?Condition=Near+Mint"
@@ -465,6 +516,7 @@
       "set": "Jungle",
       "number": "3",
       "variant": "3",
+      "language": "English",
       "condition": "HP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/45129/pokemon-jungle-flareon-3?page=1&Language=English&Condition=Heavily+Played"
@@ -474,6 +526,7 @@
       "set": "S6a: Eevee Heroes",
       "number": "073",
       "variant": "S6a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/570535/pokemon-japan-s6a-eevee-heroes-flareon-v-073-069?page=1&Language=all&Condition=Near+Mint"
@@ -483,6 +536,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "018",
       "variant": "SWSH07",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246712/pokemon-swsh07-evolving-skies-flareon-vmax&page=1&Language=English?Condition=Near+Mint"
@@ -492,6 +546,7 @@
       "set": "SV06: Twilight Masquerade",
       "number": "174",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/550218/pokemon-sv06-twilight-masquerade-froslass-174-167&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -501,6 +556,7 @@
       "set": "SWSH11: Lost Origin",
       "number": "184",
       "variant": "Alternate Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/284135/pokemon-swsh11-lost-origin-galarian-perrserker-v-alternate-full-art&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -510,6 +566,7 @@
       "set": "SV01: Scarlet & Violet Base Set",
       "number": "245",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/486623/pokemon-sv01-scarlet-and-violet-base-set-gardevoir-ex-245-198?page=1&Language=English&Condition=Near+Mint"
@@ -519,6 +576,7 @@
       "set": "XY - Steam Siege",
       "number": "111",
       "variant": "Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/121235/pokemon-xy-steam-siege-gardevoir-ex-full-art?page=1&Language=English&Condition=Lightly+Played"
@@ -528,6 +586,7 @@
       "set": "Generations: Radiant Collection",
       "number": "RC30",
       "variant": "Full Art",
+      "language": "English",
       "condition": "MP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/113772/pokemon-generations-radiant-collection-gardevoir-ex-full-art&page=1&Language=English?Condition=Moderately+Played"
@@ -537,6 +596,7 @@
       "set": "SV05: Temporal Forces",
       "number": "177",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/542898/pokemon-sv05-temporal-forces-gastly-177-162&page=1&Language=English?Condition=Near+Mint"
@@ -546,6 +606,7 @@
       "set": "SV03: Obsidian Flames",
       "number": "226",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/509986/pokemon-sv03-obsidian-flames-geeta-226-197&page=1&Language=English?Condition=Near+Mint"
@@ -555,6 +616,7 @@
       "set": "Plasma Freeze",
       "number": "115",
       "variant": "Team Plasma",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/85695/pokemon-plasma-freeze-ghetsis-team-plasma-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -564,6 +626,7 @@
       "set": "Gym Challenge",
       "number": "018",
       "variant": "18",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/85708/pokemon-gym-challenge-giovanni-18&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -573,6 +636,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "041",
       "variant": "SWSH07",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246753/pokemon-swsh07-evolving-skies-glaceon-vmax&page=1&Language=English?Condition=Near+Mint"
@@ -582,6 +646,7 @@
       "set": "SV05: Temporal Forces",
       "number": "204",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/542925/pokemon-sv05-temporal-forces-gouging-fire-ex-204-162?page=1&Language=English&Condition=Near+Mint"
@@ -591,6 +656,7 @@
       "set": "SV01: Scarlet & Violet Base Set",
       "number": "246",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/490290/pokemon-sv01-scarlet-and-violet-base-set-great-tusk-ex-246-198&page=1&Language=English?Condition=Near+Mint"
@@ -600,6 +666,7 @@
       "set": "XY - BREAKpoint",
       "number": "123",
       "variant": "Secret",
+      "language": "English",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/111531/pokemon-xy-breakpoint-gyarados-ex-secret?page=1&Language=English&Condition=Lightly+Played"
@@ -609,6 +676,7 @@
       "set": "XY - BREAKpoint",
       "number": "114",
       "variant": "Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/111530/pokemon-xy-breakpoint-gyarados-ex-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -618,6 +686,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "swsh07",
       "variant": "SWSH07",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246724/pokemon-swsh07-evolving-skies-gyarados-vmax?page=1&Language=English&Condition=Near+Mint"
@@ -627,6 +696,7 @@
       "set": "ME: Mega Evolution Promo",
       "number": "027",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/659232/pokemon-me-mega-evolution-promo-haunter-027&page=1&Language=English?Condition=Near+Mint"
@@ -636,6 +706,7 @@
       "set": "SV06: Twilight Masquerade",
       "number": "177",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/550221/pokemon-sv06-twilight-masquerade-heliolisk-177-167&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -645,6 +716,7 @@
       "set": "SWSH10: Astral Radiance",
       "number": "swsh10",
       "variant": "Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/272449/pokemon-swsh10-astral-radiance-hisuian-decidueye-vstar-secret&page=1&Language=English?Condition=Near+Mint"
@@ -654,6 +726,7 @@
       "set": "Base Set",
       "number": "007",
       "variant": "Holo Rare",
+      "language": "English",
       "condition": "HP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/42415/pokemon-base-set-hitmonchan?page=1&Language=English&Condition=Heavily+Played"
@@ -663,6 +736,7 @@
       "set": "Base Set",
       "number": "007",
       "variant": "Holo Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/42415/pokemon-base-set-hitmonchan&page=1&Language=English?Condition=Near+Mint"
@@ -672,6 +746,7 @@
       "set": "SV09: Journey Together",
       "number": "186",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/623613/pokemon-sv09-journey-together-hops-zacian-ex-186-159&page=1&Language=English?Condition=Near+Mint"
@@ -681,6 +756,7 @@
       "set": "SV10: Destined Rivals",
       "number": "188",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/632988/pokemon-sv10-destined-rivals-hydrapple-188-182&page=1&Language=English?Condition=Near+Mint"
@@ -690,6 +766,7 @@
       "set": "SV08: Surging Sparks",
       "number": "191",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/589967/pokemon-sv08-surging-sparks-hydreigon-ex-240-191&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -699,6 +776,7 @@
       "set": "SWSH08: Fusion Strike",
       "number": "266",
       "variant": "Alternate Art Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/253171/pokemon-swsh08-fusion-strike-inteleon-vmax-alternate-art-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -708,6 +786,7 @@
       "set": "SV09: Journey Together",
       "number": "183",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/623610/pokemon-sv09-journey-together-ionos-bellibolt-ex-183-159&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -717,6 +796,7 @@
       "set": "SV09: Journey Together",
       "number": "188",
       "variant": "Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/623615/pokemon-sv09-journey-together-ionos-bellibolt-ex-188-159&page=1&Language=English?Condition=Near+Mint"
@@ -726,6 +806,7 @@
       "set": "S10P: Space Juggler",
       "number": "077",
       "variant": "S10P",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/569920/pokemon-japan-s10p-space-juggler-irida-077-067?page=1&Language=all&Condition=Near+Mint"
@@ -735,6 +816,7 @@
       "set": "Plasma Blast",
       "number": "101",
       "variant": "101 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/86289/pokemon-plasma-blast-iris-101-full-art?page=1&Language=English&Condition=Lightly+Played"
@@ -744,6 +826,7 @@
       "set": "ME: Ascended Heroes",
       "number": "292",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/676104/pokemon-me-ascended-heroes-iriss-fighting-spirit-292-217&page=1&Language=English?Condition=Near+Mint"
@@ -753,6 +836,7 @@
       "set": "SV05: Temporal Forces",
       "number": "207",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/542928/pokemon-sv05-temporal-forces-iron-boulder-ex-207-162&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -762,6 +846,7 @@
       "set": "SV05: Temporal Forces",
       "number": "213",
       "variant": "Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/542934/pokemon-sv05-temporal-forces-iron-leaves-ex-213-162&page=1&Language=English?Condition=Near+Mint"
@@ -771,6 +856,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "176",
       "variant": "Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610531/pokemon-sv-prismatic-evolutions-iron-leaves-ex&page=1&Language=English?Condition=Near+Mint"
@@ -780,6 +866,7 @@
       "set": "Jungle",
       "number": "4",
       "variant": "4",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/45130/pokemon-jungle-jolteon-4&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Lightly+Played"
@@ -789,6 +876,7 @@
       "set": "XY - Flashfire",
       "number": "103",
       "variant": "103 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/91241/pokemon-xy-flashfire-kangaskhan-ex-103-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -798,6 +886,7 @@
       "set": "XY Promos",
       "number": "XY39",
       "variant": "Prerelease",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/96413/pokemon-xy-promos-kingdra-xy39-prerelease&page=1&Language=English?Condition=Near+Mint"
@@ -807,6 +896,7 @@
       "set": "SV: Black Bolt",
       "number": "165",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642617/pokemon-sv-black-bolt-kyurem-ex-165-086&page=1&Language=English?Condition=Near+Mint"
@@ -816,6 +906,7 @@
       "set": "SWSH11: Lost Origin",
       "number": "swsh11",
       "variant": "Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/284146/pokemon-swsh11-lost-origin-lady-full-art?page=1&Language=English&Condition=Near+Mint"
@@ -825,6 +916,7 @@
       "set": "SM - Ultra Prism",
       "number": "150",
       "variant": "Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/157766/pokemon-sm-ultra-prism-lana-full-art?page=1&Language=English&Condition=Lightly+Played"
@@ -834,6 +926,7 @@
       "set": "Fossil",
       "number": "10",
       "variant": "10",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/44419/pokemon-fossil-lapras-10&page=1&Language=English&Printing=1st+Edition+Holofoil&Language=English&Printing=1st+Edition+Holofoil&page=1&Language=English?Condition=Lightly+Played"
@@ -843,6 +936,7 @@
       "set": "SV04: Paradox Rift",
       "number": "235",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/523916/pokemon-sv04-paradox-rift-larry-235-182&page=1&Language=English?Condition=Near+Mint"
@@ -852,6 +946,7 @@
       "set": "Crown Zenith: Galarian Gallery",
       "number": "GG20",
       "variant": "CRZ:GG",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/478038/pokemon-crown-zenith-galarian-gallery-latias&page=1&Language=English?Condition=Near+Mint"
@@ -861,6 +956,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "144",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610499/pokemon-sv-prismatic-evolutions-leafeon-ex-144-131&page=1&Language=English?Condition=Near+Mint"
@@ -870,6 +966,7 @@
       "set": "SWSH07: Evolving Skies",
       "number": "swsh07",
       "variant": "Alternate Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/246688/pokemon-swsh07-evolving-skies-leafeon-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -879,6 +976,7 @@
       "set": "Gym Heroes",
       "number": "081",
       "variant": "G1",
+      "language": "English",
       "condition": "MP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/86859/pokemon-gym-heroes-lt-surges-pikachu?Condition=Moderately+Played&page=1&Language=English&Printing=Unlimited"
@@ -888,6 +986,7 @@
       "set": "Gold, Silver, to a New World...",
       "number": "",
       "variant": "",
+      "language": "Japanese",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/575819/pokemon-japan-gold-silver-to-a-new-world-lugia?page=1&Language=all&Printing=Holofoil&Condition=Lightly+Played"
@@ -897,6 +996,7 @@
       "set": "XY - Ancient Origins",
       "number": "94",
       "variant": "94 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/101516/pokemon-xy-ancient-origins-lugia-ex-94-full-art?page=1&Language=English&Condition=Lightly+Played"
@@ -906,6 +1006,7 @@
       "set": "XY - Evolutions",
       "number": "13",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/124025/pokemon-xy-evolutions-m-charizard-ex&page=1&Language=English?Condition=Near+Mint"
@@ -915,6 +1016,7 @@
       "set": "XY Promos",
       "number": "XY168",
       "variant": "Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/126563/pokemon-xy-promos-m-garchomp-ex-xy168&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -924,6 +1026,7 @@
       "set": "XY - Phantom Forces",
       "number": "121",
       "variant": "121 Secret Rare",
+      "language": "English",
       "condition": "LP",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/94688/pokemon-xy-phantom-forces-m-gengar-ex-121-secret-rare&page=1&Language=English?Condition=Lightly+Played"
@@ -933,6 +1036,7 @@
       "set": "XY - BREAKthrough",
       "number": "159",
       "variant": "159 Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/107276/pokemon-xy-breakthrough-m-mewtwo-ex-159-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -942,6 +1046,7 @@
       "set": "XY - Ancient Origins",
       "number": "98",
       "variant": "Shiny Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/101520/pokemon-xy-ancient-origins-m-rayquaza-ex-shiny-full-art?page=1&Language=English&Condition=Lightly+Played"
@@ -951,6 +1056,7 @@
       "set": "Fossil",
       "number": "39",
       "variant": "Uncommon",
+      "language": "English",
       "condition": "HP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/44441/pokemon-fossil-magmar?page=1&Language=English&Printing=1st+Edition&Condition=Heavily+Played"
@@ -960,6 +1066,7 @@
       "set": "Base Set 2",
       "number": "2",
       "variant": "BS2",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/42497/pokemon-base-set-2-magneton&page=1&Language=English?Condition=Near+Mint"
@@ -969,6 +1076,7 @@
       "set": "Base Set",
       "number": "009",
       "variant": "Holo Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/42433/pokemon-base-set-magneton&page=1&Language=English?Condition=Near+Mint"
@@ -978,6 +1086,7 @@
       "set": "SWSH12: Silver Tempest Trainer Gallery",
       "number": "swsh12",
       "variant": "SWSH12: TG",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/452020/pokemon-swsh12-silver-tempest-trainer-gallery-malamar&page=1&Language=English?Condition=Near+Mint"
@@ -987,6 +1096,7 @@
       "set": "SM - Guardians Rising",
       "number": "145",
       "variant": "Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/131053/pokemon-sm-guardians-rising-mallow-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -996,6 +1106,7 @@
       "set": "M2a: High Class Pack: MEGA Dream ex",
       "number": "243",
       "variant": "M2a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/665914/pokemon-japan-m2a-high-class-pack-mega-dream-ex-marnies-grimmsnarl-ex&page=1&Language=all&Language=all?Condition=Near+Mint"
@@ -1005,6 +1116,7 @@
       "set": "SM - Unbroken Bonds",
       "number": "199",
       "variant": "199",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/189308/pokemon-sm-unbroken-bonds-marshadow-and-machamp-gx-199-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -1014,6 +1126,7 @@
       "set": "M2: Inferno X",
       "number": "116",
       "variant": "M2",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/655892/pokemon-japan-m2-inferno-x-mega-charizard-x-ex-116-080&page=1&Language=all?Condition=Near+Mint"
@@ -1023,6 +1136,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "130",
       "variant": "Mega Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662185/pokemon-me02-phantasmal-flames-mega-charizard-x-ex-130-094&page=1&Language=English?Condition=Near+Mint"
@@ -1032,6 +1146,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "109",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662183/pokemon-me02-phantasmal-flames-mega-charizard-x-ex-109-094&page=1&Language=English?Condition=Near+Mint"
@@ -1041,6 +1156,7 @@
       "set": "M4: Ninja Spinner",
       "number": "116",
       "variant": "m4",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/683767/pokemon-japan-m4-ninja-spinner-mega-dragalge-ex-116-083&page=1&Language=all?Condition=Near+Mint"
@@ -1050,6 +1166,7 @@
       "set": "ME: Ascended Heroes",
       "number": "274",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/676086/pokemon-me-ascended-heroes-mega-feraligatr-ex-274-217&page=1&Language=English?Condition=Near+Mint"
@@ -1059,6 +1176,7 @@
       "set": "M2a: High Class Pack: MEGA Dream ex",
       "number": "233",
       "variant": "M2a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/665904/pokemon-japan-m2a-high-class-pack-mega-dream-ex-mega-froslass-ex-233-193&page=1&Language=all?Condition=Near+Mint"
@@ -1068,6 +1186,7 @@
       "set": "ME01: Mega Evolution",
       "number": "182",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/654521/pokemon-me01-mega-evolution-mega-kangaskhan-ex-182-132&page=1&Language=English?Condition=Near+Mint"
@@ -1077,6 +1196,7 @@
       "set": "ME01: Mega Evolution",
       "number": "181",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/654520/pokemon-me01-mega-evolution-mega-latias-ex-181-132&page=1&Language=English?Condition=Near+Mint"
@@ -1086,6 +1206,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "128",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662190/pokemon-me02-phantasmal-flames-mega-lopunny-ex-128-094&page=1&Language=English?Condition=Near+Mint"
@@ -1095,6 +1216,7 @@
       "set": "SM11: Miracle Twin",
       "number": "054",
       "variant": "SM11",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/574557/pokemon-japan-sm11-miracle-twin-mega-sableye-and-tyranitar-gx-054-094&page=1&Language=all?Condition=Near+Mint"
@@ -1104,6 +1226,7 @@
       "set": "SWSH08: Fusion Strike",
       "number": "251",
       "variant": "Alternate Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/253147/pokemon-swsh08-fusion-strike-mew-v-alternate-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -1113,6 +1236,7 @@
       "set": "SV: Scarlet & Violet Promo Cards",
       "number": "052",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/518872/pokemon-sv-scarlet-and-violet-promo-cards-mewtwo-052&page=1&Language=English?Condition=Near+Mint"
@@ -1122,6 +1246,7 @@
       "set": "SM Promos",
       "number": "sm191",
       "variant": "",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/197856/pokemon-sm-promos-mewtwo-and-mew-gx-sm191&page=1&Language=English?Condition=Near+Mint"
@@ -1131,6 +1256,7 @@
       "set": "ME: Ascended Heroes",
       "number": "243",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/676055/pokemon-me-ascended-heroes-mightyena-243-217&page=1&Language=English?Condition=Near+Mint"
@@ -1140,6 +1266,7 @@
       "set": "SM - Unified Minds",
       "number": "235",
       "variant": "Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/195296/pokemon-sm-unified-minds-mistys-favor-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -1149,6 +1276,7 @@
       "set": "Jungle",
       "number": "06",
       "variant": "6",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/45132/pokemon-jungle-mr-mime-6&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Near+Mint"
@@ -1158,6 +1286,7 @@
       "set": "SV: Black Bolt",
       "number": "170",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642622/pokemon-sv-black-bolt-ns-plan-170-086&page=1&Language=English?Condition=Near+Mint"
@@ -1167,6 +1296,7 @@
       "set": "XY - Evolutions",
       "number": "45",
       "variant": "Holo Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/124058/pokemon-xy-evolutions-nidoking&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Near+Mint"
@@ -1176,6 +1306,7 @@
       "set": "ME01: Mega Evolution",
       "number": "137",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/654476/pokemon-me01-mega-evolution-ninjask-137-132&page=1&Language=English?Condition=Near+Mint"
@@ -1185,6 +1316,7 @@
       "set": "SV: Shrouded Fable",
       "number": "082",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/560393/pokemon-sv-shrouded-fable-okidogi-ex-082-064&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -1194,6 +1326,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "180",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/517031/pokemon-sv-scarlet-and-violet-151-omanyte-180-165&page=1&Language=English?Condition=Near+Mint"
@@ -1203,6 +1336,7 @@
       "set": "SV: Paldean Fates",
       "number": "225",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/534736/pokemon-sv-paldean-fates-palafin-225-091&page=1&Language=English?Condition=Near+Mint"
@@ -1212,6 +1346,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "me02",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662209/pokemon-me02-phantasmal-flames-paldean-wooper&page=1&Language=English?Condition=Near+Mint"
@@ -1221,6 +1356,7 @@
       "set": "SWSH11: Lost Origin Trainer Gallery",
       "number": "swsh11",
       "variant": "SWSH11: TG",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/284253/pokemon-swsh11-lost-origin-trainer-gallery-parasect?page=1&Language=English&Condition=Near+Mint"
@@ -1230,6 +1366,7 @@
       "set": "SV: Paldean Fates",
       "number": "239",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/535108/pokemon-sv-paldean-fates-penny&page=1&Language=English?Condition=Near+Mint"
@@ -1239,6 +1376,7 @@
       "set": "SV06: Twilight Masquerade",
       "number": "220",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/550264/pokemon-sv06-twilight-masquerade-perrin-220-167&page=1&Language=English?Condition=Near+Mint"
@@ -1248,6 +1386,7 @@
       "set": "Crown Zenith: Galarian Gallery",
       "number": "GG30",
       "variant": "CRZ:GG",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/478058/pokemon-crown-zenith-galarian-gallery-pikachu&page=1&Language=English?Condition=Near+Mint"
@@ -1257,6 +1396,7 @@
       "set": "Crown Zenith",
       "number": "160",
       "variant": "Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/478103/pokemon-crown-zenith-pikachu-secret&page=1&Language=English?Condition=Near+Mint"
@@ -1266,6 +1406,7 @@
       "set": "XY Promos",
       "number": "XY174",
       "variant": "Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/123454/pokemon-xy-promos-pikachu-ex-xy174?page=1&Language=English&Condition=Near+Mint"
@@ -1275,6 +1416,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "179",
       "variant": "Hyper Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610534/pokemon-sv-prismatic-evolutions-pikachu-ex-179-131&page=1&Language=English?Condition=Near+Mint"
@@ -1284,6 +1426,7 @@
       "set": "XY - Flashfire",
       "number": "105",
       "variant": "105 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/91243/pokemon-xy-flashfire-pokemon-center-lady-105-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -1293,6 +1436,7 @@
       "set": "SV04: Paradox Rift",
       "number": "214",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/523895/pokemon-sv04-paradox-rift-porygon-z-214-182&page=1&Language=English?Condition=Near+Mint"
@@ -1302,6 +1446,7 @@
       "set": "Detective Pikachu",
       "number": "7",
       "variant": "Holo Common",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/186010/pokemon-detective-pikachu-psyduck-holo-common&page=1&Language=English?Condition=Near+Mint"
@@ -1311,6 +1456,7 @@
       "set": "SM10a: GG End",
       "number": "064",
       "variant": "SM10a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/574240/pokemon-japan-sm10a-gg-end-raichu-and-alolan-raichu-gx-064-054?page=1&Language=all&Condition=Near+Mint"
@@ -1320,6 +1466,7 @@
       "set": "SWSH05: Battle Styles",
       "number": "169",
       "variant": "Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/234091/pokemon-swsh05-battle-styles-rapid-strike-urshifu-vmax-secret&page=1&Language=English?Condition=Near+Mint"
@@ -1329,6 +1476,7 @@
       "set": "SM Promos",
       "number": "SM247",
       "variant": "Promo",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/253394/pokemon-sm-promos-reshiram-and-charizard-gx-sm247&page=1&Language=English?Condition=Near+Mint"
@@ -1338,6 +1486,7 @@
       "set": "SV: White Flare",
       "number": "166",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642283/pokemon-sv-white-flare-reshiram-ex-166-086&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -1347,6 +1496,7 @@
       "set": "SV: White Flare",
       "number": "173",
       "variant": "Black White Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642289/pokemon-sv-white-flare-reshiram-ex-173-086&page=1&Language=English?Condition=Near+Mint"
@@ -1356,6 +1506,7 @@
       "set": "SV: White Flare",
       "number": "173",
       "variant": "Black White Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642289/pokemon-sv-white-flare-reshiram-ex-173-086&page=1&Language=English?Condition=Near+Mint"
@@ -1365,6 +1516,7 @@
       "set": "Legendary Collection",
       "number": "090",
       "variant": "Common",
+      "language": "English",
       "condition": "LP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/88738/pokemon-legendary-collection-rhyhorn&page=1&Language=English&Printing=Reverse+Holofoil?Condition=Lightly+Played"
@@ -1374,6 +1526,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "162",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610517/pokemon-sv-prismatic-evolutions-roaring-moon-ex&page=1&Language=English?Condition=Near+Mint"
@@ -1383,6 +1536,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "126",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662222/pokemon-me02-phantasmal-flames-rotom-ex-126-094?page=1&Language=English&Condition=Near+Mint"
@@ -1392,6 +1546,7 @@
       "set": "SV09: Journey Together",
       "number": "181",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/623608/pokemon-sv09-journey-together-ruffian-181-159?page=1&Language=English&Condition=Near+Mint"
@@ -1401,6 +1556,7 @@
       "set": "SV09: Journey Together",
       "number": "187",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/623614/pokemon-sv09-journey-together-salamence-ex-187-159&page=1&Language=English?Condition=Near+Mint"
@@ -1410,6 +1566,7 @@
       "set": "SWSH12: Silver Tempest",
       "number": "196",
       "variant": "Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/451986/pokemon-swsh12-silver-tempest-serperior-vstar-secret&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -1419,6 +1576,7 @@
       "set": "SWSH10: Astral Radiance Trainer Gallery",
       "number": "TG18",
       "variant": "SWSH10:TG",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/272489/pokemon-swsh10-astral-radiance-trainer-gallery-shadow-rider-calyrex-vmax&page=1&Language=English?Condition=Near+Mint"
@@ -1428,6 +1586,7 @@
       "set": "SWSH06: Chilling Reign",
       "number": "swsh06",
       "variant": "Alternate Art Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/241740/pokemon-swsh06-chilling-reign-shadow-rider-calyrex-vmax-alternate-art-secret&page=1&Language=English?Condition=Near+Mint"
@@ -1437,6 +1596,7 @@
       "set": "Alternate Art Promos",
       "number": "108",
       "variant": "Alternate Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/148350/pokemon-alternate-art-promos-shaymin-ex-77a-108&page=1&Language=English?Condition=Near+Mint"
@@ -1446,6 +1606,7 @@
       "set": "ME01: Mega Evolution",
       "number": "144",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/654483/pokemon-me01-mega-evolution-shedinja-144-132&page=1&Language=English?Condition=Near+Mint"
@@ -1455,6 +1616,7 @@
       "set": "SV: Black Bolt",
       "number": "102",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642555/pokemon-sv-black-bolt-simipour-102-086&page=1&Language=English?Condition=Near+Mint"
@@ -1464,6 +1626,7 @@
       "set": "Boundaries Crossed",
       "number": "149",
       "variant": "149 Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/89287/pokemon-boundaries-crossed-skyla-149-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -1473,6 +1636,7 @@
       "set": "Neo Genesis",
       "number": "014",
       "variant": "N1",
+      "language": "English",
       "condition": "MP",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/89311/pokemon-neo-genesis-slowking?page=1&Language=English&Printing=Unlimited+Holofoil&Condition=Moderately+Played"
@@ -1482,6 +1646,7 @@
       "set": "Jungle",
       "number": "11",
       "variant": "11",
+      "language": "English",
       "condition": "LP",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/45122/pokemon-jungle-snorlax-11&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Lightly+Played"
@@ -1491,6 +1656,7 @@
       "set": "SM - Celestial Storm",
       "number": "102",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/170927/pokemon-sm-celestial-storm-stakataka-gx&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -1500,6 +1666,7 @@
       "set": "SM11b: Dream League",
       "number": "061",
       "variant": "SM11b",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/574939/pokemon-japan-sm11b-dream-league-stoutland-061-049?page=1&Language=all&Condition=Near+Mint"
@@ -1509,6 +1676,7 @@
       "set": "SM - Lost Thunder",
       "number": "200",
       "variant": "Full Art",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/178868/pokemon-sm-lost-thunder-suicune-gx-full-art&page=1&Language=English?Condition=Near+Mint"
@@ -1518,6 +1686,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "178",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/517036/pokemon-sv-scarlet-and-violet-151-tangela-178-165&page=1&Language=English?Condition=Near+Mint"
@@ -1527,6 +1696,7 @@
       "set": "SV10: Destined Rivals",
       "number": "238",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/633038/pokemon-sv10-destined-rivals-team-rockets-giovanni-238-182&page=1&Language=English&Language=English?Condition=Near+Mint"
@@ -1536,6 +1706,7 @@
       "set": "SV10: Destined Rivals",
       "number": "216",
       "variant": "Ultra Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/633016/pokemon-sv10-destined-rivals-team-rockets-nidoking-ex-216-182&page=1&Language=English?Condition=Near+Mint"
@@ -1545,6 +1716,7 @@
       "set": "SM Base Set",
       "number": "149",
       "variant": "Full Art",
+      "language": "English",
       "condition": "LP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/127021/pokemon-sm-base-set-team-skull-grunt-full-art&page=1&Language=English?Condition=Lightly+Played"
@@ -1554,6 +1726,7 @@
       "set": "M2a: High Class Pack: MEGA Dream ex",
       "number": "216",
       "variant": "M2a",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/665887/pokemon-japan-m2a-high-class-pack-mega-dream-ex-ultra-ball&page=1&Language=all&Language=all?Condition=Near+Mint"
@@ -1563,6 +1736,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "059",
       "variant": "Master Ball Pattern",
+      "language": "English",
       "condition": "MP",
       "price_band": "$50–$100",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610679/pokemon-sv-prismatic-evolutions-umbreon-master-ball-pattern&page=1&Language=English&Language=English?Condition=Moderately+Played"
@@ -1572,6 +1746,7 @@
       "set": "Neo Discovery",
       "number": "13",
       "variant": "13",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/90137/pokemon-neo-discovery-umbreon-13&page=1&Language=English&Printing=Unlimited+Holofoil?Condition=Near+Mint"
@@ -1581,6 +1756,7 @@
       "set": "SWSH12: Silver Tempest",
       "number": "199",
       "variant": "Secret",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/451989/pokemon-swsh12-silver-tempest-unown-vstar-secret&page=1&Language=English?Condition=Near+Mint"
@@ -1590,6 +1766,7 @@
       "set": "S12: Paradigm Trigger",
       "number": "116",
       "variant": "S12",
+      "language": "Japanese",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/570174/pokemon-japan-s12-paradigm-trigger-unown-vstar-116-098?page=1&Language=all&Condition=Near+Mint"
@@ -1599,6 +1776,7 @@
       "set": "SV: Prismatic Evolutions",
       "number": "149",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/610504/pokemon-sv-prismatic-evolutions-vaporeon-ex-149-131&page=1&Language=English?Condition=Near+Mint"
@@ -1608,6 +1786,7 @@
       "set": "Celebrations: Classic Collection",
       "number": "15",
       "variant": "Classic Collection",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/250321/pokemon-celebrations-classic-collection-venusaur&page=1&Language=English?Condition=Near+Mint"
@@ -1617,6 +1796,7 @@
       "set": "SV: White Flare",
       "number": "165",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$20–$50",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642282/pokemon-sv-white-flare-whimsicott-ex-165-086&Language=English&page=1?Condition=Near+Mint"
@@ -1626,6 +1806,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "105",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662240/pokemon-me02-phantasmal-flames-wigglytuff-105-094&page=1&Language=English?Condition=Near+Mint"
@@ -1635,6 +1816,7 @@
       "set": "ME02: Phantasmal Flames",
       "number": "105",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/662240/pokemon-me02-phantasmal-flames-wigglytuff-105-094&page=1&Language=English?Condition=Near+Mint"
@@ -1644,6 +1826,7 @@
       "set": "SM - Guardians Rising",
       "number": "151",
       "variant": "Secret",
+      "language": "English",
       "condition": "LP",
       "price_band": "Under $10",
       "tcgplayer_url": "https://www.tcgplayer.com/product/130940/pokemon-sm-guardians-rising-wishiwashi-gx-secret&page=1&Language=English&Language=English?Condition=Lightly+Played"
@@ -1653,6 +1836,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "202",
       "variant": "Special Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$100–$250",
       "tcgplayer_url": "https://www.tcgplayer.com/product/517048/pokemon-sv-scarlet-and-violet-151-zapdos-ex-202-165&page=1&Language=English?Condition=Near+Mint"
@@ -1662,6 +1846,7 @@
       "set": "SV: Black Bolt",
       "number": "172",
       "variant": "Black White Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$250+",
       "tcgplayer_url": "https://www.tcgplayer.com/product/642623/pokemon-sv-black-bolt-zekrom-ex-172-086&page=1&Language=English?Condition=Near+Mint"
@@ -1671,6 +1856,7 @@
       "set": "SV07: Stellar Crown",
       "number": "151",
       "variant": "Illustration Rare",
+      "language": "English",
       "condition": "NM",
       "price_band": "$10–$20",
       "tcgplayer_url": "https://www.tcgplayer.com/product/567434/pokemon-sv07-stellar-crown-zeraora-151-142&page=1&Language=English?Condition=Near+Mint"
@@ -3471,73 +3657,85 @@
       "name": "151 First Partner Display Box",
       "language": "Chinese",
       "quantity": 7,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_151_first_partner_display_box.jpg"
     },
     {
       "name": "151 Gathering Coin Sets S-CH",
       "language": "Chinese",
       "quantity": 6,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_151_gathering_coin_sets_s_ch.jpg"
     },
     {
       "name": "Charizard Keychain Blind Box",
       "language": "Chinese",
       "quantity": 9,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_charizard_keychain_blind_box.jpg"
     },
     {
       "name": "Dark Crystal Blaze Booster Pack",
       "language": "Chinese",
       "quantity": 7,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_dark_crystal_blaze_booster_pack.jpg"
     },
     {
       "name": "Eevee Keychain Blind Box",
       "language": "Chinese",
       "quantity": 7,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_eevee_keychain_blind_box.jpg"
     },
     {
       "name": "Eeveelution Binder \"Jolteon\"",
       "language": "English",
       "quantity": 1,
-      "price_band": "Under $50"
+      "price_band": "Under $50",
+      "sealed_image": "card_images/sealed_eeveelution_binder_jolteon.jpg"
     },
     {
       "name": "Gem Pack Vol. 2 Booster Box",
       "language": "Chinese",
       "quantity": 50,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_gem_pack_vol_2_booster_box.jpg"
     },
     {
       "name": "Gem Pack Vol. 3 Booster Box",
       "language": "Chinese",
       "quantity": 40,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_gem_pack_vol_3_booster_box.jpg"
     },
     {
       "name": "Gem Pack Vol. 4 Booster Box",
       "language": "Chinese",
       "quantity": 20,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_gem_pack_vol_4_booster_box.jpg"
     },
     {
       "name": "SV: Fearless Terastal \"Arcanine\" Slim Booster Box",
       "language": "Chinese",
       "quantity": 7,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_sv_fearless_terastal_arcanine_slim_booster_box.jpg"
     },
     {
       "name": "SWSH: Primordial Arts A \"Venusaur\" Jumbo Booster Box",
       "language": "Chinese",
       "quantity": 7,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_swsh_primordial_arts_a_venusaur_jumbo_booster_box.jpg"
     },
     {
       "name": "SWSH: Primordial Arts B \"Blastoise\" Jumbo Booster Box",
       "language": "Chinese",
       "quantity": 5,
-      "price_band": "$50–$150"
+      "price_band": "$50–$150",
+      "sealed_image": "card_images/sealed_swsh_primordial_arts_b_blastoise_jumbo_booster_box.jpg"
     }
   ]
 }
