@@ -195,9 +195,11 @@ export async function handler(event) {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
-        // CDN caches for 5 min; browsers cache for 60 s.
-        // stale-while-revalidate lets CDN serve stale while revalidating in background.
-        'Cache-Control': 'public, s-maxage=300, max-age=60, stale-while-revalidate=60',
+        // Live-show friendly: short CDN cache so sold items disappear from
+        // the public site within seconds of a transaction completing on the
+        // app side. stale-while-revalidate keeps things snappy by serving
+        // the previous payload while a fresh one is fetched in the background.
+        'Cache-Control': 'public, s-maxage=20, max-age=10, stale-while-revalidate=30',
       },
       body: JSON.stringify(payload),
     };
